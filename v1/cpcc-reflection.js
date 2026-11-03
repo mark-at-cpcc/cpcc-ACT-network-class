@@ -1,6 +1,6 @@
 /* ==========================================================================
-   CPCC COURSE DESIGN — cpcc-reflection.js
-   Companion to cpcc-course-design.css. Plain JavaScript, no libraries.
+   CPCC COURSE DESIGN — https://mark-at-cpcc.github.io/cpcc-course-design/v1/cpcc-reflection.js
+   Companion to https://mark-at-cpcc.github.io/cpcc-course-design/v1/cpcc-course-design.css. Plain JavaScript, no libraries.
 
    The Kolb reflection page: live word counts, a print-to-PDF button, and a
    print-only copy of the responses that is filled in at the moment of
@@ -30,7 +30,7 @@
    The print-only view (div.print-only) is generated automatically from the
    prompt-stage and prompt-text of each block, so the printed PDF always
    matches the page. The .print-only / body.page--print-summary rules in
-   cpcc-course-design.css do the rest.
+   https://mark-at-cpcc.github.io/cpcc-course-design/v1/cpcc-course-design.css do the rest.
    ========================================================================== */
 (function () {
     'use strict';
