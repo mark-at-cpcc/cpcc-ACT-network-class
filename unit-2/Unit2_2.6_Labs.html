@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Unit 2 &mdash; 2.6 Classroom/Home Labs | CompTIA Network+</title>
+    <link rel="stylesheet" href="_design/cpcc-course-design.css">
+    <link rel="stylesheet" href="_design/cpcc-engine.css">
+    <script src="_design/cpcc-course-design.js" defer></script>
+
+</head>
+<body>
+    <div class="course-container">
+<header class="module-header">
+    <div class="module-label">Unit 2 &middot; Devices, TCP/IP, and IP Addressing &middot; Section 2.6</div>
+    <h1 class="module-title">Classroom/Home Labs</h1>
+    <p class="module-subtitle">CompTIA Network+ - Domains 1.0, 3.0</p>
+</header>
+        <nav class="toc" id="tocNav">
+            <div class="toc-header">Table of Contents</div>
+            <div class="toc-item">2.1 &mdash; Unit Overview and Schedule</div>
+            <div class="toc-item">2.2 &mdash; Unit Pre-Assessment</div>
+            <div class="toc-item">2.3 &mdash; Content Review</div>
+            <div class="toc-item">2.4 &mdash; Reading Assignment</div>
+            <div class="toc-item">2.5 &mdash; Video Assignment</div>
+            <div class="toc-item current" id="tocCurrent">2.6 &mdash; Classroom/Home Labs</div>
+            <div class="toc-item">2.7 &mdash; Practice Question Set</div>
+            <div class="toc-item">2.8 &mdash; Online Labs: NETLAB</div>
+            <div class="toc-item">2.9 &mdash; Reflection Activity</div>
+            <div class="toc-item">2.10 &mdash; Unit Test</div>
+            <div class="toc-item">2.11 &mdash; Unit 2 Tickets</div>
+            <div class="toc-item">2.A &mdash; Ports and Protocols Flash Set</div>
+            <div class="toc-item"><a href="../index.html" data-contents-link>&larr; All Course Contents</a></div>
+        </nav>
+        <div class="content-area">
+            <p class="text-muted">Three classroom labs, optional and run as time permits, and one take-home lab, expected. None of these are graded; the NETLAB labs in Section 2.8 are.</p>
+            <div class="lab-section"><div class="lab-header"><div class="lab-icon">1</div><div><h3 class="lab-title">Lab 2.6.1 &mdash; Device Line-Up</h3><p class="lab-time">Estimated Time: 30 minutes &middot; Classroom &middot; Objective 1.2</p></div></div><p>The lab&rsquo;s hardware on the bench &mdash; a NIC, a switch, a router, an access point, a firewall appliance, and photographs of what the room does not have. Identify each, name the OSI layer it works at, and say what it reads and what it decides.</p><h4>You Will Need</h4><ul class="checklist"><li>The bench hardware and the instructor&rsquo;s photo cards (load balancer, proxy, WLC, NAS)</li></ul><h4>Steps</h4><ol class="lab-steps"><li><strong>Identify</strong> each device from its ports and labels before reading any model number.</li><li><strong>Place</strong> it on the OSI layer strip taped to the bench.</li><li><strong>Say the two questions</strong> for each one &mdash; what it reads, what it decides &mdash; to a partner, who checks you against the table in Section 2.3.</li><li><strong>Pick the device</strong> for three scenarios the instructor reads out (&ldquo;route between five VLANs in one building,&rdquo; &ldquo;spread web traffic across three servers,&rdquo; &ldquo;block an application by name&rdquo;).</li></ol><h4>What to Record</h4><p>The devices you placed on the wrong layer. There is usually one, and it is usually the firewall.</p></div>
+            <div class="lab-section"><div class="lab-header"><div class="lab-icon">2</div><div><h3 class="lab-title">Lab 2.6.2 &mdash; Port Relay</h3><p class="lab-time">Estimated Time: 30 minutes &middot; Classroom &middot; Objective 1.4</p></div></div><p>A timed team relay. Twenty-five protocol cards on one table, port-number cards on another; teams run them into pairs, then sort the pairs into TCP, UDP, and secure.</p><h4>You Will Need</h4><ul class="checklist"><li>The printed card packet (instructor provides)</li></ul><h4>Steps</h4><ol class="lab-steps"><li><strong>Round one, five minutes:</strong> match every protocol to its port.</li><li><strong>Round two, three minutes:</strong> sort the matched pairs by transport &mdash; TCP, UDP, or both.</li><li><strong>Round three, two minutes:</strong> pull out every secure protocol and lay its insecure twin beside it (SSH/Telnet, HTTPS/HTTP, LDAPS/LDAP, SFTP/FTP).</li><li><strong>Score</strong> against the Section 2.3 table; the losing team explains the ones they missed.</li></ol><h4>What to Record</h4><p>Your personal misses. Those go on the index card you started in Section 2.4.</p></div>
+            <div class="lab-section"><div class="lab-header"><div class="lab-icon">3</div><div><h3 class="lab-title">Lab 2.6.3 &mdash; Watch DHCP Happen</h3><p class="lab-time">Estimated Time: 45 minutes &middot; Classroom &middot; Objective 3.4</p></div></div><p>Capture a DHCP lease on a lab PC with Wireshark and read the four messages &mdash; Discover, Offer, Request, Acknowledge &mdash; and the options inside them.</p><h4>You Will Need</h4><ul class="checklist"><li>A lab PC with Wireshark installed, on the lab network (the instructor confirms the capture is authorized)</li></ul><h4>Steps</h4><ol class="lab-steps"><li><strong>Start a capture</strong> on the wired interface with the display filter <code>dhcp</code> (older versions: <code>bootp</code>).</li><li><strong>Release and renew:</strong> <code>ipconfig /release</code> then <code>ipconfig /renew</code>.</li><li><strong>Find the four packets.</strong> Note the source and destination addresses of each &mdash; which are broadcast, and why.</li><li><strong>Open the Offer</strong> and read the options: the subnet mask, the router (option 3), the DNS servers (option 6), the lease time (option 51), and the server identifier.</li><li><strong>Compare</strong> with <code>ipconfig /all</code>. Every number on the screen came from one of those options.</li></ol><h4>What to Record</h4><p>The lease time and the DHCP server&rsquo;s address. On the unit test, the question &ldquo;which message is a broadcast?&rdquo; is answered by what you saw in step 3.</p></div>
+            <div class="lab-section"><div class="lab-header"><div class="lab-icon">H</div><div><h3 class="lab-title">Lab 2.6.4 &mdash; Take-Home: Where Does Your Name Go?</h3><p class="lab-time">Estimated Time: 1 hour &middot; At home &middot; Objectives 3.4, 5.5</p></div></div><p>Use the command line on your own machine to see how a name becomes an address, and to compare the answers two different resolvers give. It continues the map you drew in Unit 1 &mdash; now with the services filled in.</p><div class="callout callout-danger"><div class="callout-title">Your Own Equipment Only</div><div class="callout-content"><p>Run this lab only on the network you own or are explicitly authorized to use. These commands are read-only, but the rule is the same for every lab.</p></div></div><h4>Steps</h4><ol class="lab-steps"><li><strong>Find your resolver.</strong> <code>ipconfig /all</code> (Windows) or <code>scutil --dns</code> / <code>resolvectl status</code> (macOS, Linux). Record the DNS server address and say where it came from (your DHCP lease, almost certainly).</li><li><strong>Resolve three names</strong> with <code>nslookup</code>: your college&rsquo;s site, a large public site, and a name you expect to fail. Record the answer, the record type (A or AAAA), and whether the answer was authoritative.</li><li><strong>Ask a different resolver:</strong> <code>nslookup &lt;name&gt; 1.1.1.1</code> and <code>nslookup &lt;name&gt; 8.8.8.8</code>. Do the answers differ? Note the TTL if your tool shows it.</li><li><strong>Look up a mail record:</strong> <code>nslookup -type=MX &lt;your college&rsquo;s domain&gt;</code>. Record the MX hosts and their priorities.</li><li><strong>Check time:</strong> <code>w32tm /query /status</code> (Windows) or <code>sntp</code> / <code>timedatectl</code> (macOS, Linux). Record the time source and the stratum if shown.</li></ol><h4>What to Record</h4><p>Write it up as a ticket: device, what you ran, what you found, and the one answer that surprised you. Add the DNS server and time source to the logical diagram from Unit 1.</p></div>
+            <div class="activity-section"><div class="activity-header"><div class="activity-icon">T</div><div><h3 class="activity-title">Ticket of the Day</h3><p class="activity-subtitle">One ticket per class meeting, worked on your own</p></div></div><p>This unit&rsquo;s three tickets live in <strong>Section 2.11 Tickets</strong>: <strong>Everyone Got 169.254</strong> (Tuesday), <strong>The Internet Is Down, Except It Isn&rsquo;t</strong> (Wednesday), and <strong>The Scanner Stopped Emailing</strong> (Thursday). Each takes about twenty minutes.</p></div>
+            <h3>What These Labs Give You</h3><p>Objective 1.4 is recall, and recall is built by retrieval under pressure &mdash; which is what the relay is. Objective 3.4 is &ldquo;given a scenario, implement,&rdquo; and the only way to recognize a DHCP failure on the exam is to have watched a DHCP success in a capture. The take-home lab turns <code>nslookup</code> into a tool you reach for, which Unit 6 will assume.</p>
+        </div>
+        <footer class="module-footer">
+            <p class="footer-text">CompTIA Network+ Training &nbsp;|&nbsp; &copy; 2026 Charlotte Academy of Technology Services &nbsp;|&nbsp; All Rights Reserved - Mark E Turner</p>
+        </footer>
+    </div>
+</body>
+</html>
