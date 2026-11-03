@@ -2,15 +2,15 @@
    CPCC COURSE DESIGN — cpcc-engine.css
    The ONLY stylesheet in this package that is not extracted from the
    production pages. It styles five elements that the shared scripts
-   generate and that had no class in cpcc-course-design.css:
+   generate and that had no class in https://mark-at-cpcc.github.io/cpcc-course-design/v1/cpcc-course-design.css:
 
      .cpcc-quiz-area      wrapper the quiz engine renders questions into
      .confidence-row/.confidence-btn   the Confident / Guessed self-check
      .quiz-explain        optional explanation shown under a graded question
      .ticket-feedback     the Correct / Incorrect flag under a ticket question
 
-   Every value is a token from cpcc-course-design.css, so re-theming the
-   palette re-themes these too. Load it after cpcc-course-design.css.
+   Every value is a token from https://mark-at-cpcc.github.io/cpcc-course-design/v1/cpcc-course-design.css, so re-theming the
+   palette re-themes these too. Load it after https://mark-at-cpcc.github.io/cpcc-course-design/v1/cpcc-course-design.css.
    ========================================================================== */
 
 .cpcc-quiz-area { margin-top: var(--space-md); }
