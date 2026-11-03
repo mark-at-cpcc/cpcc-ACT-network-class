@@ -7,10 +7,10 @@
    build_cpcc_css.py whenever the course styles change.
 
    HOW TO USE
-     <link rel="stylesheet" href="cpcc-course-design.css">
-     <script src="cpcc-course-design.js" defer></script>
+     <link rel="stylesheet" href="https://mark-at-cpcc.github.io/cpcc-course-design/v1/cpcc-course-design.css">
+     <script src="https://mark-at-cpcc.github.io/cpcc-course-design/v1/cpcc-course-design.js" defer></script>
    Every component is shown, with its markup, in
-   cpcc-course-design-reference.html.
+   https://mark-at-cpcc.github.io/cpcc-course-design/v1/cpcc-course-design-reference.html.
 
    FONTS
      System fonts only. No web fonts are downloaded, so pages render the
