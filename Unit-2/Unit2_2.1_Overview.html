@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Unit 2 &mdash; 2.1 Unit Overview and Schedule | CompTIA Network+</title>
+    <link rel="stylesheet" href="_design/cpcc-course-design.css">
+    <link rel="stylesheet" href="_design/cpcc-engine.css">
+    <script src="_design/cpcc-course-design.js" defer></script>
+
+</head>
+<body>
+    <div class="course-container">
+<header class="module-header">
+    <div class="module-label">Unit 2 &middot; Devices, TCP/IP, and IP Addressing &middot; Section 2.1</div>
+    <h1 class="module-title">Unit Overview and Schedule</h1>
+    <p class="module-subtitle">CompTIA Network+ - Domains 1.0, 3.0</p>
+</header>
+        <nav class="toc" id="tocNav">
+            <div class="toc-header">Table of Contents</div>
+            <div class="toc-item current" id="tocCurrent">2.1 &mdash; Unit Overview and Schedule</div>
+            <div class="toc-item">2.2 &mdash; Unit Pre-Assessment</div>
+            <div class="toc-item">2.3 &mdash; Content Review</div>
+            <div class="toc-item">2.4 &mdash; Reading Assignment</div>
+            <div class="toc-item">2.5 &mdash; Video Assignment</div>
+            <div class="toc-item">2.6 &mdash; Classroom/Home Labs</div>
+            <div class="toc-item">2.7 &mdash; Practice Question Set</div>
+            <div class="toc-item">2.8 &mdash; Online Labs: NETLAB</div>
+            <div class="toc-item">2.9 &mdash; Reflection Activity</div>
+            <div class="toc-item">2.10 &mdash; Unit Test</div>
+            <div class="toc-item">2.11 &mdash; Unit 2 Tickets</div>
+            <div class="toc-item">2.A &mdash; Ports and Protocols Flash Set</div>
+        </nav>
+        <div class="content-area">
+            <p class="text-muted"><p class="text-muted">Last unit was the wire and the model. This unit is the traffic on the wire: the devices that move it, the protocols and ports that name it, and the addresses &mdash; IPv4 and IPv6 &mdash; that get it from here to there. By Thursday a line of <code>ipconfig</code> output will read like a sentence.</p></p>
+            <div class="objectives-box">
+                <h3>Learning Objectives</h3>
+                <p>After completing this unit, you will be able to:</p>
+                <ol>
+                    <li><strong>Compare</strong> the functions of hubs, switches, routers, firewalls, IDS/IPS, access points, load balancers, proxies, and the other networking appliances and services in objective 1.2</li>
+                    <li><strong>Explain</strong> the TCP/IP model and map its layers to the OSI model</li>
+                    <li><strong>Match</strong> the common ports, protocols, and services &mdash; and state which use TCP, which use UDP, and which are secure &mdash; for objective 1.4</li>
+                    <li><strong>Convert</strong> between binary, decimal, and hexadecimal and read an IPv4 address, its class, and its private or public range</li>
+                    <li><strong>Describe</strong> IPv4 address types (unicast, broadcast, multicast) and IPv6 addressing, shortening, address types, and SLAAC</li>
+                    <li><strong>Implement</strong> and verify DHCP (scopes, leases, reservations, relay), DNS (record types, resolvers, zones), and NTP as network services</li>
+                    <li><strong>Identify</strong> a DHCP, DNS, or time-service failure from host symptoms and command output</li>
+                </ol>
+            </div>
+            <div class="tech-box">
+                <div class="callout-title">Technical Overview</div>
+                <div class="callout-content"><p>Unit 2 addresses CompTIA Network+ (N10-009) objectives 1.2 (networking appliances, applications, and functions), 1.4 (common ports, protocols, services, and traffic types), the IPv4 addressing half of 1.7 (binary conversion, classes, public and private ranges, APIPA, loopback, address types), the IPv6 portion of 1.8 (addressing, shortening, address types, SLAAC, dual stack, tunneling, NAT64), and 3.4 (implementing DHCP, DNS, and time services). Instruction covers the function and OSI layer of each network device and service, the TCP/IP (DoD) model, TCP versus UDP, the objective 1.4 port table, ICMP, GRE and IPsec, unicast, multicast, anycast and broadcast traffic, IPv4 and IPv6 addressing, DHCP scopes, leases, reservations, options and relay, DNS zones, record types and resolution, and NTP, PTP and NTS.</p></div>
+            </div>
+            <div class="plain-box">
+                <div class="callout-title">In Plain Terms</div>
+                <div class="callout-content"><p>Every device on a network has an address, every service listens on a port, and three services &mdash; DHCP, DNS, and time &mdash; make the whole thing usable without a human typing numbers. When a user calls to say &ldquo;the internet is down,&rdquo; the technician asks the machine: what address did you get, from whom, and can you resolve a name? If the answer is 169.254.something, DHCP never answered. If the address is fine but names do not resolve, it is DNS. This unit teaches you to read those answers and to run the services that give them.</p></div>
+            </div>
+            <h2>Why We Start Here</h2>
+            <p>Unit 1 gave you the layers; this unit fills the ones the exam asks about most &mdash; Layer 3 and Layer 4 &mdash; and the devices that live there. Objective 1.4 alone is pure recall that the exam tests directly, and it is the vocabulary every later ticket uses. IPv4 addressing comes before subnetting on purpose: Unit 3 will ask you to <em>compute</em> with addresses, and you cannot do that until reading one is automatic.</p><p>DHCP, DNS, and NTP (objective 3.4) sit here rather than later because they are the three services a technician checks on nearly every call, and because the NETLAB pod lets you configure them this week on real equipment.</p>
+            <h2>Your Week at a Glance</h2>
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>Day</th><th>Time</th><th>Focus</th><th>What You'll Do</th></tr></thead>
+                    <tbody>
+                        <tr><td><strong>Tuesday</strong></td><td>10:00 AM &ndash; 1:00 PM</td><td>Experience</td><td>Ticket of the Day. Then the devices: what a switch, router, firewall, access point, load balancer, and proxy each do, and which layer each lives at. A packet-capture walk through DHCP &mdash; Discover, Offer, Request, Acknowledge &mdash; on the pod. Optional lab, time permitting: Device Line-Up.</td></tr>
+                        <tr><td><strong>Wednesday</strong></td><td>11:00 AM &ndash; 2:00 PM</td><td>Experience &rarr; Concepts</td><td>Ticket of the Day. TCP/IP and the ports: the DoD model against OSI, TCP versus UDP, and the port numbers the exam asks for by heart. Binary to decimal and back. Optional lab, time permitting: Port Relay.</td></tr>
+                        <tr><td><strong>Thursday</strong></td><td>10:00 AM &ndash; 1:00 PM</td><td>Application</td><td>Ticket of the Day. IPv4 addressing &mdash; classes, private ranges, APIPA, broadcast and multicast &mdash; then IPv6: why, how it is written, address types, and SLAAC. DNS records and NTP. Optional lab, time permitting: Watch DHCP Happen. Unit exit check.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="key-concept">
+                <h4>Every Class Starts With a Ticket</h4>
+                <p>Each class opens with a short trouble ticket &mdash; the kind a technician works every day. You spend about fifteen minutes working it. It is ungraded, and it is the most job-like thing we do. The three tickets for this unit are in Section 2.11.</p>
+            </div>
+            <h2>Work Outside of Class</h2>
+            <p>Budget <strong>20 – 21 hours</strong> this unit outside our meetings.</p>
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>Component</th><th>Time</th><th>Section</th></tr></thead>
+                    <tbody>
+                        <tr><td>Sybex Study Guide reading</td><td>10.1 hrs</td><td>2.4</td></tr>
+                        <tr><td>Professor Messer videos (2 hr 55 min runtime)</td><td>2.9 – 3.6 hrs</td><td>2.5</td></tr>
+                        <tr><td>Take-home lab (ungraded)</td><td>1.0 &ndash; 1.5 hrs</td><td>2.6</td></tr>
+                        <tr><td>NETLAB online labs (3 labs)</td><td>2.25 &ndash; 3.75 hrs</td><td>2.8</td></tr>
+                        <tr><td>Practice questions, acronym drill, and unit test</td><td>2.5 hrs</td><td>2.7, 2.10, 1.A</td></tr>
+                        <tr><td>Reflection journal</td><td>1 hr</td><td>2.9</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="callout callout-warning">
+                <div class="callout-title">Be Honest With Yourself Now</div>
+                <div class="callout-content"><p>Adding our nine hours of class time, this unit runs about 28&ndash;29 hours. If something in your life makes that unworkable this week, come talk to me at the end of Tuesday&rsquo;s class rather than later.</p></div>
+            </div>
+            <div class="callout callout-info">
+                <div class="callout-title">Where to Find Due Dates</div>
+                <div class="callout-content"><p>Every date and deadline for this course lives in one place: the <strong>Course Schedule</strong> in the Start Here module. Unit pages tell you what to do; the Course Schedule tells you when it is due.</p></div>
+            </div>
+            <div class="callout callout-info">
+                <div class="callout-title">When Assessments Open</div>
+                <div class="callout-content"><p>This unit&rsquo;s pre-assessment, practice set, unit test, and lab quizzes open <strong>Tuesday at 8:00 AM</strong> and stay available through the unit&rsquo;s due date on the Course Schedule. Do the pre-assessment first, on your own, before the reading and videos.</p></div>
+            </div>
+            <h2>Exam Objectives Covered</h2>
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>Objective</th><th>Title</th><th>Exam Weight of Parent Domain</th></tr></thead>
+                    <tbody>
+                        <tr><td><strong>1.2</strong></td><td>Compare and contrast networking appliances, applications, and functions.</td><td>Domain 1.0 Networking Concepts &mdash; 23%</td></tr>
+                        <tr><td><strong>1.4</strong></td><td>Explain common networking ports, protocols, services, and traffic types.</td><td>Domain 1.0 Networking Concepts &mdash; 23%</td></tr>
+                        <tr><td><strong>1.7</strong></td><td>Given a scenario, use appropriate IPv4 network addressing.</td><td>Domain 1.0 Networking Concepts &mdash; 23%</td></tr>
+                        <tr><td><strong>1.8</strong></td><td>Summarize evolving use cases for modern network environments.</td><td>Domain 1.0 Networking Concepts &mdash; 23%</td></tr>
+                        <tr><td><strong>3.4</strong></td><td>Given a scenario, implement IPv4 and IPv6 network services.</td><td>Domain 3.0 Network Operations &mdash; 19%</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="key-concept">
+                <h4>CompTIA Network+ Passes at 720</h4>
+                <p>The exam is scored on a 100&ndash;900 scale and passes at <strong>720</strong>. Because the scale starts at 100 rather than zero, 720 works out to about <strong>78% of raw points</strong>. That is a high bar: a student who treats 70% on a practice set as &ldquo;good enough&rdquo; fails the real exam. This course&rsquo;s mastery gate of 800 exists so that your exam day has a cushion.</p>
+            </div>
+            <div class="summary-box">
+                <h3>Unit 2 Checklist</h3>
+                <ul>
+                    <li>Complete the Section 2.2 Pre-Assessment on your own, before the reading</li>
+                    <li>Read the assigned Sybex Study Guide chapters listed in Section 2.4</li>
+                    <li>Watch the 16 videos in Section 2.5</li>
+                    <li>Complete the take-home lab in Section 2.6</li>
+                    <li>Work the Section 2.7 practice set until you score a perfect set</li>
+                    <li>Complete Lab 02, Lab 03, Lab 08 in NETLAB &mdash; reserve your time early in the week</li>
+                    <li>Submit your Section 2.9 reflection</li>
+                    <li>Take the Section 2.10 Unit Test</li>
+                    <li>Work the three tickets in Section 2.11, one per class day</li>
+                </ul>
+            </div>
+        </div>
+        <footer class="module-footer">
+            <p class="footer-text">CompTIA Network+ Training &nbsp;|&nbsp; &copy; 2026 Charlotte Academy of Technology Services &nbsp;|&nbsp; All Rights Reserved - Mark E Turner</p>
+        </footer>
+    </div>
+</body>
+</html>

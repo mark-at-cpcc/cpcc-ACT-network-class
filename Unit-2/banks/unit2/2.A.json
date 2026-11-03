@@ -1,0 +1,482 @@
+[
+ {
+  "q": "Which port does SSH use?",
+  "opts": [
+   "22",
+   "23",
+   "21",
+   "25",
+   "443"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does Telnet use?",
+  "opts": [
+   "22",
+   "23",
+   "25",
+   "80",
+   "110"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does HTTP use?",
+  "opts": [
+   "443",
+   "8080",
+   "80",
+   "88",
+   "21"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does HTTPS use?",
+  "opts": [
+   "80",
+   "22",
+   "8443",
+   "443",
+   "445"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does FTP use for control?",
+  "opts": [
+   "21",
+   "20",
+   "22",
+   "69",
+   "23"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does FTP use for data?",
+  "opts": [
+   "21",
+   "20",
+   "22",
+   "69",
+   "23"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does SFTP use?",
+  "opts": [
+   "21",
+   "69",
+   "22",
+   "990",
+   "443"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does TFTP use?",
+  "opts": [
+   "21",
+   "22",
+   "67",
+   "69",
+   "68"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does SMTP use for server-to-server transfer?",
+  "opts": [
+   "25",
+   "587",
+   "110",
+   "143",
+   "993"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does SMTP use with TLS for client submission?",
+  "opts": [
+   "25",
+   "587",
+   "465",
+   "143",
+   "993"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does IMAP use?",
+  "opts": [
+   "110",
+   "25",
+   "143",
+   "993",
+   "587"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does IMAP over TLS use?",
+  "opts": [
+   "143",
+   "110",
+   "995",
+   "993",
+   "465"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does POP3 use?",
+  "opts": [
+   "110",
+   "143",
+   "25",
+   "995",
+   "993"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does DNS use?",
+  "opts": [
+   "67",
+   "53",
+   "69",
+   "123",
+   "161"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does a DHCP server use?",
+  "opts": [
+   "68",
+   "53",
+   "67",
+   "69",
+   "123"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does a DHCP client use?",
+  "opts": [
+   "67",
+   "53",
+   "69",
+   "68",
+   "123"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does NTP use?",
+  "opts": [
+   "123",
+   "161",
+   "514",
+   "389",
+   "443"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does SNMP use for polling (agent)?",
+  "opts": [
+   "162",
+   "161",
+   "514",
+   "123",
+   "389"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does SNMP use for traps (manager)?",
+  "opts": [
+   "161",
+   "514",
+   "162",
+   "123",
+   "636"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does Syslog use?",
+  "opts": [
+   "161",
+   "162",
+   "123",
+   "514",
+   "389"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does LDAP use?",
+  "opts": [
+   "389",
+   "636",
+   "443",
+   "445",
+   "3389"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does LDAPS use?",
+  "opts": [
+   "389",
+   "636",
+   "443",
+   "445",
+   "3389"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does SMB use?",
+  "opts": [
+   "139",
+   "389",
+   "445",
+   "3389",
+   "1433"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does RDP use?",
+  "opts": [
+   "445",
+   "1433",
+   "5060",
+   "3389",
+   "389"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does SQL Server use?",
+  "opts": [
+   "1433",
+   "3306",
+   "5432",
+   "1521",
+   "3389"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does SIP use without TLS?",
+  "opts": [
+   "5061",
+   "5060",
+   "3389",
+   "1433",
+   "514"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does SIP use with TLS?",
+  "opts": [
+   "5060",
+   "443",
+   "5061",
+   "3389",
+   "636"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which transport does DNS use for standard lookups?",
+  "opts": [
+   "TCP",
+   "ICMP",
+   "GRE",
+   "UDP",
+   "ESP"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which transport does DHCP use?",
+  "opts": [
+   "UDP",
+   "TCP",
+   "ICMP",
+   "ARP",
+   "GRE"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which transport does SNMP use?",
+  "opts": [
+   "TCP",
+   "UDP",
+   "ICMP",
+   "ESP",
+   "AH"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which transport does TFTP use?",
+  "opts": [
+   "TCP",
+   "GRE",
+   "UDP",
+   "ESP",
+   "ICMP"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which transport does NTP use?",
+  "opts": [
+   "TCP",
+   "GRE",
+   "ICMP",
+   "UDP",
+   "AH"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which transport does HTTPS use?",
+  "opts": [
+   "TCP",
+   "UDP",
+   "ICMP",
+   "GRE",
+   "ESP"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which transport does RDP use?",
+  "opts": [
+   "UDP",
+   "TCP",
+   "ICMP",
+   "GRE",
+   "AH"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which transport does Syslog traditionally use?",
+  "opts": [
+   "TCP",
+   "ICMP",
+   "UDP",
+   "GRE",
+   "ESP"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which of these protocols is NOT encrypted?",
+  "opts": [
+   "SSH",
+   "HTTPS",
+   "LDAPS",
+   "Telnet",
+   "SFTP"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which protocol is the encrypted replacement for Telnet?",
+  "opts": [
+   "SSH",
+   "TFTP",
+   "SNMP",
+   "SMTP",
+   "RDP"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which protocol is the encrypted replacement for HTTP?",
+  "opts": [
+   "SSH",
+   "HTTPS",
+   "SFTP",
+   "LDAPS",
+   "SMTPS"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which protocol is the encrypted replacement for LDAP?",
+  "opts": [
+   "SSH",
+   "HTTPS",
+   "LDAPS",
+   "SFTP",
+   "TLS"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which protocol is the encrypted replacement for FTP?",
+  "opts": [
+   "TFTP",
+   "HTTP",
+   "Telnet",
+   "SFTP",
+   "SNMP"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ }
+]
