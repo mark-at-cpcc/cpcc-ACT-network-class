@@ -1,6 +1,6 @@
 /* ==========================================================================
-   CPCC COURSE DESIGN — cpcc-tickets.js
-   Companion to cpcc-course-design.css and cpcc-course-design.js.
+   CPCC COURSE DESIGN — https://mark-at-cpcc.github.io/cpcc-course-design/v1/cpcc-tickets.js
+   Companion to https://mark-at-cpcc.github.io/cpcc-course-design/v1/cpcc-course-design.css and https://mark-at-cpcc.github.io/cpcc-course-design/v1/cpcc-course-design.js.
    Plain JavaScript, no libraries.
 
    The Tickets page (Section N.11): three ticket cards, each with exhibits,
