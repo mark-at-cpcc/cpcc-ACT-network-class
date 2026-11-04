@@ -1,0 +1,602 @@
+[
+ {
+  "q": "Which port number does FTP use?",
+  "opts": [
+   "21",
+   "20",
+   "22",
+   "23",
+   "69"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does SSH use?",
+  "opts": [
+   "23",
+   "22",
+   "21",
+   "443",
+   "3389"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does Telnet use?",
+  "opts": [
+   "22",
+   "21",
+   "23",
+   "25",
+   "3389"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does SMTP use?",
+  "opts": [
+   "587",
+   "110",
+   "143",
+   "25",
+   "465"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does DNS use?",
+  "opts": [
+   "67",
+   "69",
+   "123",
+   "161",
+   "53"
+  ],
+  "correct": 4,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does DHCP use?",
+  "opts": [
+   "67",
+   "68",
+   "53",
+   "69",
+   "123"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does TFTP use?",
+  "opts": [
+   "21",
+   "69",
+   "20",
+   "67",
+   "161"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does HTTP use?",
+  "opts": [
+   "443",
+   "8080",
+   "80",
+   "88",
+   "23"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does POP3 use?",
+  "opts": [
+   "143",
+   "995",
+   "25",
+   "110",
+   "993"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does NTP use?",
+  "opts": [
+   "161",
+   "53",
+   "514",
+   "69",
+   "123"
+  ],
+  "correct": 4,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does IMAP use?",
+  "opts": [
+   "143",
+   "110",
+   "993",
+   "25",
+   "389"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does SNMP use?",
+  "opts": [
+   "162",
+   "161",
+   "514",
+   "123",
+   "389"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does LDAP use?",
+  "opts": [
+   "636",
+   "443",
+   "389",
+   "445",
+   "3389"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does HTTPS use?",
+  "opts": [
+   "80",
+   "8443",
+   "22",
+   "443",
+   "636"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does SMB use?",
+  "opts": [
+   "139",
+   "389",
+   "3389",
+   "1433",
+   "445"
+  ],
+  "correct": 4,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does Syslog use?",
+  "opts": [
+   "514",
+   "161",
+   "162",
+   "123",
+   "445"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does LDAPS use?",
+  "opts": [
+   "389",
+   "636",
+   "443",
+   "993",
+   "445"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does SQL Server use?",
+  "opts": [
+   "3306",
+   "1521",
+   "1433",
+   "3389",
+   "5432"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does RDP use?",
+  "opts": [
+   "445",
+   "1433",
+   "5060",
+   "3389",
+   "22"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number does SIP use?",
+  "opts": [
+   "5061",
+   "3389",
+   "1433",
+   "443",
+   "5060"
+  ],
+  "correct": 4,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow FTP (File Transfer Protocol (control)). Which port must be opened?",
+  "opts": [
+   "21",
+   "20",
+   "22",
+   "23",
+   "69"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow SSH (Secure Shell). Which port must be opened?",
+  "opts": [
+   "23",
+   "22",
+   "21",
+   "443",
+   "3389"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow Telnet (Telnet). Which port must be opened?",
+  "opts": [
+   "22",
+   "21",
+   "23",
+   "25",
+   "3389"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow SMTP (Simple Mail Transfer Protocol). Which port must be opened?",
+  "opts": [
+   "587",
+   "110",
+   "143",
+   "25",
+   "465"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow DNS (Domain Name System). Which port must be opened?",
+  "opts": [
+   "67",
+   "69",
+   "123",
+   "161",
+   "53"
+  ],
+  "correct": 4,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow DHCP (Dynamic Host Configuration Protocol (server)). Which port must be opened?",
+  "opts": [
+   "67",
+   "68",
+   "53",
+   "69",
+   "123"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow TFTP (Trivial File Transfer Protocol). Which port must be opened?",
+  "opts": [
+   "21",
+   "69",
+   "20",
+   "67",
+   "161"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow HTTP (Hypertext Transfer Protocol). Which port must be opened?",
+  "opts": [
+   "443",
+   "8080",
+   "80",
+   "88",
+   "23"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow POP3 (Post Office Protocol version 3). Which port must be opened?",
+  "opts": [
+   "143",
+   "995",
+   "25",
+   "110",
+   "993"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow NTP (Network Time Protocol). Which port must be opened?",
+  "opts": [
+   "161",
+   "53",
+   "514",
+   "69",
+   "123"
+  ],
+  "correct": 4,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow IMAP (Internet Message Access Protocol). Which port must be opened?",
+  "opts": [
+   "143",
+   "110",
+   "993",
+   "25",
+   "389"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow SNMP (Simple Network Management Protocol (agent polling)). Which port must be opened?",
+  "opts": [
+   "162",
+   "161",
+   "514",
+   "123",
+   "389"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow LDAP (Lightweight Directory Access Protocol). Which port must be opened?",
+  "opts": [
+   "636",
+   "443",
+   "389",
+   "445",
+   "3389"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow HTTPS (Hypertext Transfer Protocol Secure). Which port must be opened?",
+  "opts": [
+   "80",
+   "8443",
+   "22",
+   "443",
+   "636"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow SMB (Server Message Block). Which port must be opened?",
+  "opts": [
+   "139",
+   "389",
+   "3389",
+   "1433",
+   "445"
+  ],
+  "correct": 4,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow Syslog (Syslog). Which port must be opened?",
+  "opts": [
+   "514",
+   "161",
+   "162",
+   "123",
+   "445"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow LDAPS (LDAP over TLS). Which port must be opened?",
+  "opts": [
+   "389",
+   "636",
+   "443",
+   "993",
+   "445"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow SQL Server (Microsoft SQL Server). Which port must be opened?",
+  "opts": [
+   "3306",
+   "1521",
+   "1433",
+   "3389",
+   "5432"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow RDP (Remote Desktop Protocol). Which port must be opened?",
+  "opts": [
+   "445",
+   "1433",
+   "5060",
+   "3389",
+   "22"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "A firewall rule must allow SIP (Session Initiation Protocol). Which port must be opened?",
+  "opts": [
+   "5061",
+   "3389",
+   "1433",
+   "443",
+   "5060"
+  ],
+  "correct": 4,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number is assigned to File Transfer Protocol (control) (FTP)?",
+  "opts": [
+   "21",
+   "20",
+   "22",
+   "23",
+   "69"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number is assigned to Secure Shell (SSH)?",
+  "opts": [
+   "23",
+   "22",
+   "21",
+   "443",
+   "3389"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number is assigned to Telnet (Telnet)?",
+  "opts": [
+   "22",
+   "21",
+   "23",
+   "25",
+   "3389"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number is assigned to Simple Mail Transfer Protocol (SMTP)?",
+  "opts": [
+   "587",
+   "110",
+   "143",
+   "25",
+   "465"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number is assigned to Domain Name System (DNS)?",
+  "opts": [
+   "67",
+   "69",
+   "123",
+   "161",
+   "53"
+  ],
+  "correct": 4,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number is assigned to Dynamic Host Configuration Protocol (server) (DHCP)?",
+  "opts": [
+   "67",
+   "68",
+   "53",
+   "69",
+   "123"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number is assigned to Trivial File Transfer Protocol (TFTP)?",
+  "opts": [
+   "21",
+   "69",
+   "20",
+   "67",
+   "161"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number is assigned to Hypertext Transfer Protocol (HTTP)?",
+  "opts": [
+   "443",
+   "8080",
+   "80",
+   "88",
+   "23"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number is assigned to Post Office Protocol version 3 (POP3)?",
+  "opts": [
+   "143",
+   "995",
+   "25",
+   "110",
+   "993"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port number is assigned to Network Time Protocol (NTP)?",
+  "opts": [
+   "161",
+   "53",
+   "514",
+   "69",
+   "123"
+  ],
+  "correct": 4,
+  "obj": "1.4"
+ }
+]

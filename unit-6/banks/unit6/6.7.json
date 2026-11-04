@@ -1,0 +1,200 @@
+[
+ {
+  "q": "What is the first step of CompTIA's troubleshooting methodology?",
+  "opts": [
+   "Identify the problem",
+   "Establish a theory of probable cause",
+   "Test the theory",
+   "Document findings"
+  ],
+  "correct": 0,
+  "obj": "5.1"
+ },
+ {
+  "q": "Which is part of identifying the problem?",
+  "opts": [
+   "Implement the solution",
+   "Determine if anything has changed",
+   "Verify functionality",
+   "Escalate"
+  ],
+  "correct": 1,
+  "obj": "5.1"
+ },
+ {
+  "q": "Which approach starts at the physical layer and works up?",
+  "opts": [
+   "Top-down",
+   "Divide and conquer",
+   "Bottom-up",
+   "Spot-the-difference"
+  ],
+  "correct": 2,
+  "obj": "5.1"
+ },
+ {
+  "q": "Which interface counter indicates frames smaller than 64 bytes?",
+  "opts": [
+   "Giants",
+   "CRC",
+   "Drops",
+   "Runts"
+  ],
+  "correct": 3,
+  "obj": "5.2"
+ },
+ {
+  "q": "A fiber link stays down after being re-patched. Which is a common cause?",
+  "opts": [
+   "TX and RX are transposed",
+   "The VLAN is wrong",
+   "The DNS server is down",
+   "The DHCP scope is full"
+  ],
+  "correct": 0,
+  "obj": "5.2"
+ },
+ {
+  "q": "Which describes signal bleeding between adjacent pairs?",
+  "opts": [
+   "Attenuation",
+   "Crosstalk",
+   "EMI only",
+   "Reflection"
+  ],
+  "correct": 1,
+  "obj": "5.2"
+ },
+ {
+  "q": "A workstation has a 169.254.x.x address. What is the most likely cause?",
+  "opts": [
+   "The DNS server is down",
+   "The default gateway is wrong",
+   "The DHCP server cannot be reached",
+   "The ARP cache is full"
+  ],
+  "correct": 2,
+  "obj": "5.3"
+ },
+ {
+  "q": "New devices stop getting addresses late in the day, but existing ones work. What is likely?",
+  "opts": [
+   "A routing loop",
+   "A DNS failure",
+   "A duplex mismatch",
+   "DHCP address pool exhaustion"
+  ],
+  "correct": 3,
+  "obj": "5.3"
+ },
+ {
+  "q": "A host on the correct subnet cannot reach anything on its switch, while its neighbor can. What should be checked first?",
+  "opts": [
+   "The VLAN assigned to its port",
+   "The DNS server",
+   "The routing table",
+   "The NTP source"
+  ],
+  "correct": 0,
+  "obj": "5.3"
+ },
+ {
+  "q": "A host has the right IP but a /28 mask on a /24 network. What is the symptom?",
+  "opts": [
+   "Nothing changes",
+   "Some local hosts are treated as remote and are unreachable",
+   "DNS fails",
+   "The NIC shuts down"
+  ],
+  "correct": 1,
+  "obj": "5.3"
+ },
+ {
+  "q": "Which helps voice traffic during congestion?",
+  "opts": [
+   "Larger DHCP scope",
+   "Disabling STP",
+   "QoS prioritization",
+   "Longer cables"
+  ],
+  "correct": 2,
+  "obj": "5.4"
+ },
+ {
+  "q": "Two nearby APs on channel 6 cause slow Wi-Fi. What is the problem?",
+  "opts": [
+   "Attenuation in copper",
+   "Jitter on the WAN",
+   "A DNS issue",
+   "Co-channel interference"
+  ],
+  "correct": 3,
+  "obj": "5.4"
+ },
+ {
+  "q": "Which tool finds which hop along the path is failing?",
+  "opts": [
+   "traceroute / tracert",
+   "ping",
+   "nslookup",
+   "arp"
+  ],
+  "correct": 0,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which command lists listening ports and active connections?",
+  "opts": [
+   "ipconfig",
+   "netstat",
+   "nslookup",
+   "tracert"
+  ],
+  "correct": 1,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which tool confirms a cable meets its rated category performance?",
+  "opts": [
+   "Cable tester (wire map)",
+   "Toner",
+   "Cable certifier",
+   "Multimeter"
+  ],
+  "correct": 2,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which tool captures and decodes packets on the wire?",
+  "opts": [
+   "Port scanner",
+   "Speed tester",
+   "Toner",
+   "Protocol analyzer"
+  ],
+  "correct": 3,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which command shows a router's routing table?",
+  "opts": [
+   "show ip route",
+   "show mac-address-table",
+   "show interfaces trunk",
+   "show power inline"
+  ],
+  "correct": 0,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which Linux command captures packets at the command line?",
+  "opts": [
+   "netstat",
+   "tcpdump",
+   "dig",
+   "ip route"
+  ],
+  "correct": 1,
+  "obj": "5.5"
+ }
+]

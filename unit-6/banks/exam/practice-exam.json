@@ -1,0 +1,3014 @@
+[
+ {
+  "q": "Which of the following best describes a LAN?",
+  "opts": [
+   "A network confined to a single building or site under one organization's control",
+   "A network that spans multiple cities",
+   "A network of one person's devices within a few meters",
+   "A network owned by a service provider"
+  ],
+  "correct": 0,
+  "obj": "1.6"
+ },
+ {
+  "q": "At which OSI layer do switches make forwarding decisions based on MAC addresses?",
+  "opts": [
+   "Layer 1",
+   "Layer 2",
+   "Layer 3",
+   "Layer 4"
+  ],
+  "correct": 1,
+  "obj": "1.1"
+ },
+ {
+  "q": "Which connector is used to terminate a copper Ethernet cable?",
+  "opts": [
+   "F-type",
+   "LC",
+   "RJ45",
+   "BNC"
+  ],
+  "correct": 2,
+  "obj": "1.5"
+ },
+ {
+  "q": "In which topology is every device connected to a central device?",
+  "opts": [
+   "Bus",
+   "Ring",
+   "Mesh",
+   "Star"
+  ],
+  "correct": 3,
+  "obj": "1.6"
+ },
+ {
+  "q": "Which type of fiber is used for runs of several kilometers between buildings?",
+  "opts": [
+   "Single-mode fiber",
+   "Multimode fiber",
+   "Twinaxial",
+   "Cat 6a"
+  ],
+  "correct": 0,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which OSI layer is responsible for logical addressing and routing between networks?",
+  "opts": [
+   "Data Link",
+   "Network",
+   "Transport",
+   "Session"
+  ],
+  "correct": 1,
+  "obj": "1.1"
+ },
+ {
+  "q": "What is the maximum distance for a 1000BASE-T run over Cat 5e cable?",
+  "opts": [
+   "55 m",
+   "300 m",
+   "100 m",
+   "10 km"
+  ],
+  "correct": 2,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which transceiver form factor supports 10 Gbps?",
+  "opts": [
+   "GBIC",
+   "SFP",
+   "QSFP28",
+   "SFP+"
+  ],
+  "correct": 3,
+  "obj": "1.5"
+ },
+ {
+  "q": "What is the unit of data at the Data Link layer called?",
+  "opts": [
+   "Frame",
+   "Packet",
+   "Segment",
+   "Bit"
+  ],
+  "correct": 0,
+  "obj": "1.1"
+ },
+ {
+  "q": "Which data center architecture connects every leaf switch to every spine switch?",
+  "opts": [
+   "Three-tier",
+   "Spine and leaf",
+   "Collapsed core",
+   "Bus"
+  ],
+  "correct": 1,
+  "obj": "1.6"
+ },
+ {
+  "q": "Which device forwards frames based on MAC addresses?",
+  "opts": [
+   "Hub",
+   "Switch",
+   "Router",
+   "Firewall"
+  ],
+  "correct": 1,
+  "obj": "1.2"
+ },
+ {
+  "q": "Which device connects two different networks and forwards packets by IP address?",
+  "opts": [
+   "Switch",
+   "Access point",
+   "Router",
+   "Hub"
+  ],
+  "correct": 2,
+  "obj": "1.2"
+ },
+ {
+  "q": "Which port does HTTPS use?",
+  "opts": [
+   "80",
+   "22",
+   "25",
+   "443"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which protocol is used to assign IP addresses automatically?",
+  "opts": [
+   "DHCP",
+   "DNS",
+   "NTP",
+   "SNMP"
+  ],
+  "correct": 0,
+  "obj": "3.4"
+ },
+ {
+  "q": "Which service translates a name like www.example.com into an IP address?",
+  "opts": [
+   "DHCP",
+   "DNS",
+   "ARP",
+   "SMTP"
+  ],
+  "correct": 1,
+  "obj": "3.4"
+ },
+ {
+  "q": "Which of the following is a private IPv4 address?",
+  "opts": [
+   "8.8.8.8",
+   "172.32.1.1",
+   "192.168.1.10",
+   "200.1.1.1"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "A workstation shows the address 169.254.10.3. What does this indicate?",
+  "opts": [
+   "It has a static address",
+   "It is on the internet",
+   "It is a router",
+   "It failed to obtain a DHCP lease"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which transport protocol provides reliable, ordered delivery with acknowledgments?",
+  "opts": [
+   "TCP",
+   "UDP",
+   "ICMP",
+   "ARP"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does SSH use?",
+  "opts": [
+   "23",
+   "22",
+   "21",
+   "25"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "What is the decimal value of the binary octet 11000000?",
+  "opts": [
+   "128",
+   "224",
+   "192",
+   "240"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "How many bits are in an IPv6 address?",
+  "opts": [
+   "32",
+   "48",
+   "64",
+   "128"
+  ],
+  "correct": 3,
+  "obj": "1.8"
+ },
+ {
+  "q": "Which IPv6 address type begins with fe80 and is never routed?",
+  "opts": [
+   "Link-local",
+   "Global unicast",
+   "Multicast",
+   "Unique local"
+  ],
+  "correct": 0,
+  "obj": "1.8"
+ },
+ {
+  "q": "Which DNS record maps a name to an IPv4 address?",
+  "opts": [
+   "MX",
+   "A",
+   "AAAA",
+   "CNAME"
+  ],
+  "correct": 1,
+  "obj": "3.4"
+ },
+ {
+  "q": "Which protocol synchronizes clocks across a network?",
+  "opts": [
+   "SNMP",
+   "DNS",
+   "NTP",
+   "DHCP"
+  ],
+  "correct": 2,
+  "obj": "3.4"
+ },
+ {
+  "q": "Which device inspects traffic and blocks attacks inline?",
+  "opts": [
+   "IDS",
+   "Proxy",
+   "Load balancer",
+   "IPS"
+  ],
+  "correct": 3,
+  "obj": "1.2"
+ },
+ {
+  "q": "Which protocol uses port 3389?",
+  "opts": [
+   "RDP",
+   "SMB",
+   "LDAP",
+   "SIP"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>172.22.153.185/23</code>?",
+  "opts": [
+   "172.22.153.255",
+   "172.22.153.254",
+   "172.22.154.0",
+   "172.22.152.0"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>192.168.7.99/28</code>?",
+  "opts": [
+   "192.168.7.111",
+   "192.168.7.110",
+   "192.168.7.109",
+   "192.168.7.112"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>10.0.6.66/29</code>. What is its network address?",
+  "opts": [
+   "10.0.6.56",
+   "10.0.6.72",
+   "10.0.6.64",
+   "10.0.6.71"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which notation is equivalent to the mask 255.255.255.0?",
+  "opts": [
+   "/16",
+   "/8",
+   "/32",
+   "/24"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "A router has routes to 10.0.0.0/8 learned by OSPF and to 10.1.5.0/24 configured statically. Which route is used for a packet to 10.1.5.9?",
+  "opts": [
+   "The /24, because the longest prefix match wins",
+   "The /8, because OSPF is dynamic",
+   "Both, load-balanced",
+   "Neither; the packet uses the default route"
+  ],
+  "correct": 0,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which route matches any destination not more specifically listed?",
+  "opts": [
+   "255.255.255.255/32",
+   "0.0.0.0/0",
+   "127.0.0.0/8",
+   "169.254.0.0/16"
+  ],
+  "correct": 1,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which NAT type maps many private hosts to one public address using port numbers?",
+  "opts": [
+   "Static NAT",
+   "Dynamic NAT",
+   "PAT",
+   "NAT64"
+  ],
+  "correct": 2,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which IEEE standard tags frames on a trunk link?",
+  "opts": [
+   "802.1X",
+   "802.3af",
+   "802.11ac",
+   "802.1Q"
+  ],
+  "correct": 3,
+  "obj": "2.2"
+ },
+ {
+  "q": "What problem does Spanning Tree Protocol prevent?",
+  "opts": [
+   "Switching loops and broadcast storms",
+   "IP address conflicts",
+   "DNS failures",
+   "Duplex mismatches"
+  ],
+  "correct": 0,
+  "obj": "2.2"
+ },
+ {
+  "q": "What is required for hosts in VLAN 10 to communicate with hosts in VLAN 20?",
+  "opts": [
+   "A crossover cable",
+   "A Layer 3 device routing between the VLANs",
+   "Spanning tree",
+   "A hub"
+  ],
+  "correct": 1,
+  "obj": "2.2"
+ },
+ {
+  "q": "Which non-overlapping channels are used in the 2.4 GHz band in the US?",
+  "opts": [
+   "1, 6, 11",
+   "1, 5, 9",
+   "2, 7, 12",
+   "1, 4, 8, 11"
+  ],
+  "correct": 0,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which is the current wireless security standard?",
+  "opts": [
+   "WPA2-TKIP",
+   "WPA3",
+   "WEP",
+   "WPA"
+  ],
+  "correct": 1,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which band does Wi-Fi 6E add?",
+  "opts": [
+   "60 GHz",
+   "900 MHz",
+   "6 GHz",
+   "3.6 GHz"
+  ],
+  "correct": 2,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which VPN type joins two office networks through their gateways?",
+  "opts": [
+   "Client-to-site",
+   "Clientless",
+   "Split tunnel",
+   "Site-to-site"
+  ],
+  "correct": 3,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which tunnel mode sends only corporate traffic through the VPN?",
+  "opts": [
+   "Split tunnel",
+   "Full tunnel",
+   "Clientless",
+   "Site-to-site"
+  ],
+  "correct": 0,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which management method works even when the device has no network configuration?",
+  "opts": [
+   "SSH",
+   "Console port",
+   "Web GUI",
+   "API"
+  ],
+  "correct": 1,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which port does an SNMP agent listen on?",
+  "opts": [
+   "UDP 162",
+   "TCP 161",
+   "UDP 161",
+   "UDP 514"
+  ],
+  "correct": 2,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which port does syslog use by default?",
+  "opts": [
+   "UDP 161",
+   "TCP 22",
+   "UDP 123",
+   "UDP 514"
+  ],
+  "correct": 3,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which tool records full packet contents for analysis?",
+  "opts": [
+   "Protocol analyzer / packet capture",
+   "NetFlow collector",
+   "SNMP manager",
+   "Syslog server"
+  ],
+  "correct": 0,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which diagram shows subnets, VLANs, and routing rather than cable runs?",
+  "opts": [
+   "Physical diagram",
+   "Logical diagram",
+   "Rack diagram",
+   "Floor plan"
+  ],
+  "correct": 1,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which process requests, reviews, schedules, and documents changes, with a rollback plan?",
+  "opts": [
+   "Asset inventory",
+   "Onboarding",
+   "Change management",
+   "Patch management"
+  ],
+  "correct": 2,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which agreement defines guaranteed uptime and response times?",
+  "opts": [
+   "NDA",
+   "MOU",
+   "AUP",
+   "SLA"
+  ],
+  "correct": 3,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which value states how long a service can be down?",
+  "opts": [
+   "RTO",
+   "RPO",
+   "MTBF",
+   "MTTR"
+  ],
+  "correct": 0,
+  "obj": "3.3"
+ },
+ {
+  "q": "Which site is running with current data and fails over in minutes?",
+  "opts": [
+   "Warm site",
+   "Hot site",
+   "Cold site",
+   "Cloud backup only"
+  ],
+  "correct": 1,
+  "obj": "3.3"
+ },
+ {
+  "q": "What is one rack unit?",
+  "opts": [
+   "1 inch",
+   "2 inches",
+   "1.75 inches",
+   "19 inches"
+  ],
+  "correct": 2,
+  "obj": "2.4"
+ },
+ {
+  "q": "Which device bridges a short power outage and conditions power?",
+  "opts": [
+   "Generator",
+   "PDU",
+   "Surge strip",
+   "UPS"
+  ],
+  "correct": 3,
+  "obj": "2.4"
+ },
+ {
+  "q": "Which cloud model gives you a complete application managed by the provider?",
+  "opts": [
+   "SaaS",
+   "PaaS",
+   "IaaS",
+   "On-premises"
+  ],
+  "correct": 0,
+  "obj": "1.3"
+ },
+ {
+  "q": "What is a VPC?",
+  "opts": [
+   "A VPN client",
+   "An isolated private network inside a public cloud",
+   "A virtual phone system",
+   "A physical colocation cage"
+  ],
+  "correct": 1,
+  "obj": "1.3"
+ },
+ {
+  "q": "Which separates the control plane from the data plane?",
+  "opts": [
+   "STP",
+   "NAT",
+   "SDN",
+   "VRRP"
+  ],
+  "correct": 2,
+  "obj": "1.8"
+ },
+ {
+  "q": "Which security model verifies every request regardless of network location?",
+  "opts": [
+   "Defense in depth",
+   "Implicit trust",
+   "Perimeter security",
+   "Zero trust"
+  ],
+  "correct": 3,
+  "obj": "1.8"
+ },
+ {
+  "q": "Which element of CIA does a DDoS attack primarily target?",
+  "opts": [
+   "Availability",
+   "Confidentiality",
+   "Integrity",
+   "Authentication"
+  ],
+  "correct": 0,
+  "obj": "4.1"
+ },
+ {
+  "q": "Which AAA component records what a user did?",
+  "opts": [
+   "Authorization",
+   "Accounting",
+   "Authentication",
+   "Auditing"
+  ],
+  "correct": 1,
+  "obj": "4.1"
+ },
+ {
+  "q": "Which decoy system attracts attackers to study them?",
+  "opts": [
+   "Jump box",
+   "Bastion host",
+   "Honeypot",
+   "Proxy"
+  ],
+  "correct": 2,
+  "obj": "4.1"
+ },
+ {
+  "q": "Which regulation governs payment card data?",
+  "opts": [
+   "GDPR",
+   "HIPAA",
+   "SOX",
+   "PCI DSS"
+  ],
+  "correct": 3,
+  "obj": "4.1"
+ },
+ {
+  "q": "Which attack floods a switch's MAC table so it forwards like a hub?",
+  "opts": [
+   "MAC flooding",
+   "ARP poisoning",
+   "VLAN hopping",
+   "DNS poisoning"
+  ],
+  "correct": 0,
+  "obj": "4.2"
+ },
+ {
+  "q": "Which attack follows an employee through a secure door?",
+  "opts": [
+   "Shoulder surfing",
+   "Tailgating",
+   "Phishing",
+   "Vishing"
+  ],
+  "correct": 1,
+  "obj": "4.2"
+ },
+ {
+  "q": "Which switch feature limits the number of MAC addresses per port?",
+  "opts": [
+   "Port mirroring",
+   "LACP",
+   "Port security",
+   "STP"
+  ],
+  "correct": 2,
+  "obj": "4.3"
+ },
+ {
+  "q": "Which feature validates ARP replies against known bindings?",
+  "opts": [
+   "STP",
+   "QoS",
+   "VRRP",
+   "Dynamic ARP inspection"
+  ],
+  "correct": 3,
+  "obj": "4.3"
+ },
+ {
+  "q": "Which framework authenticates devices at the switch port before granting access?",
+  "opts": [
+   "802.1X",
+   "802.1Q",
+   "802.3af",
+   "802.11ax"
+  ],
+  "correct": 0,
+  "obj": "4.3"
+ },
+ {
+  "q": "Which hardening step should be done first on every new device?",
+  "opts": [
+   "Enable Telnet",
+   "Change default credentials",
+   "Open all ports",
+   "Disable logging"
+  ],
+  "correct": 1,
+  "obj": "4.3"
+ },
+ {
+  "q": "Which defense blocks web traffic by category or URL?",
+  "opts": [
+   "Port security",
+   "NAC",
+   "Content filtering",
+   "STP"
+  ],
+  "correct": 2,
+  "obj": "4.3"
+ },
+ {
+  "q": "Which checks a device's patch level and antivirus before admission?",
+  "opts": [
+   "Port mirroring",
+   "DHCP relay",
+   "IPAM",
+   "NAC posture assessment"
+  ],
+  "correct": 3,
+  "obj": "4.3"
+ },
+ {
+  "q": "What is the first step of CompTIA's troubleshooting methodology?",
+  "opts": [
+   "Identify the problem",
+   "Establish a theory of probable cause",
+   "Test the theory",
+   "Document findings"
+  ],
+  "correct": 0,
+  "obj": "5.1"
+ },
+ {
+  "q": "What should a technician do if a theory is disproved?",
+  "opts": [
+   "Implement the fix anyway",
+   "Establish a new theory or escalate",
+   "Document and close the ticket",
+   "Reboot every device"
+  ],
+  "correct": 1,
+  "obj": "5.1"
+ },
+ {
+  "q": "A link shows climbing CRC errors. What is the most likely cause?",
+  "opts": [
+   "A DNS failure",
+   "A wrong default gateway",
+   "A damaged cable or interference",
+   "DHCP exhaustion"
+  ],
+  "correct": 2,
+  "obj": "5.2"
+ },
+ {
+  "q": "Late collisions on a switch port usually indicate what?",
+  "opts": [
+   "A VLAN mismatch",
+   "An ACL error",
+   "DNS misconfiguration",
+   "A duplex mismatch"
+  ],
+  "correct": 3,
+  "obj": "5.2"
+ },
+ {
+  "q": "A new access point powers on and off repeatedly. What should be checked?",
+  "opts": [
+   "The switch's PoE budget and the AP's power class",
+   "The SSID",
+   "The DNS records",
+   "The routing table"
+  ],
+  "correct": 0,
+  "obj": "5.2"
+ },
+ {
+  "q": "A workstation has a 169.254.x.x address. What is the most likely cause?",
+  "opts": [
+   "The DNS server is down",
+   "The DHCP server cannot be reached",
+   "The default gateway is wrong",
+   "The ARP cache is full"
+  ],
+  "correct": 1,
+  "obj": "5.3"
+ },
+ {
+  "q": "Users can ping servers by IP but not by name. What is the problem?",
+  "opts": [
+   "DHCP",
+   "Routing",
+   "DNS",
+   "STP"
+  ],
+  "correct": 2,
+  "obj": "5.3"
+ },
+ {
+  "q": "New devices stop getting addresses late in the day, but existing ones work. What is likely?",
+  "opts": [
+   "A routing loop",
+   "A DNS failure",
+   "A duplex mismatch",
+   "DHCP address pool exhaustion"
+  ],
+  "correct": 3,
+  "obj": "5.3"
+ },
+ {
+  "q": "A host on the correct subnet cannot reach anything on its switch, while its neighbor can. What should be checked first?",
+  "opts": [
+   "The VLAN assigned to its port",
+   "The DNS server",
+   "The routing table",
+   "The NTP source"
+  ],
+  "correct": 0,
+  "obj": "5.3"
+ },
+ {
+  "q": "Which describes variation in packet delay that degrades voice calls?",
+  "opts": [
+   "Latency",
+   "Jitter",
+   "Attenuation",
+   "Bandwidth"
+  ],
+  "correct": 1,
+  "obj": "5.4"
+ },
+ {
+  "q": "Users in one area drop Wi-Fi when walking between rooms. What is the likely issue?",
+  "opts": [
+   "DNS failure",
+   "DHCP exhaustion",
+   "Roaming / coverage gaps between APs",
+   "Duplex mismatch"
+  ],
+  "correct": 2,
+  "obj": "5.4"
+ },
+ {
+  "q": "Two nearby APs on channel 6 cause slow Wi-Fi. What is the problem?",
+  "opts": [
+   "Attenuation in copper",
+   "Jitter on the WAN",
+   "A DNS issue",
+   "Co-channel interference"
+  ],
+  "correct": 3,
+  "obj": "5.4"
+ },
+ {
+  "q": "Which tool finds which hop along the path is failing?",
+  "opts": [
+   "traceroute / tracert",
+   "ping",
+   "nslookup",
+   "arp"
+  ],
+  "correct": 0,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which command shows IP-to-MAC mappings on a host?",
+  "opts": [
+   "netstat -r",
+   "arp -a",
+   "ipconfig /renew",
+   "ping -t"
+  ],
+  "correct": 1,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which tool captures and decodes packets on the wire?",
+  "opts": [
+   "Port scanner",
+   "Speed tester",
+   "Protocol analyzer",
+   "Toner"
+  ],
+  "correct": 2,
+  "obj": "5.5"
+ },
+ {
+  "q": "A company's two office buildings share a parking lot and are joined by a fiber run. Which network type best describes the combined network?",
+  "opts": [
+   "LAN",
+   "CAN",
+   "MAN",
+   "WAN"
+  ],
+  "correct": 1,
+  "obj": "1.6",
+  "explain": "A campus area network joins the LANs of adjacent buildings under one organization."
+ },
+ {
+  "q": "Which OSI layer adds a trailer to the protocol data unit?",
+  "opts": [
+   "Network",
+   "Transport",
+   "Data Link",
+   "Physical"
+  ],
+  "correct": 2,
+  "obj": "1.1",
+  "explain": "The Data Link layer adds both a header and the frame check sequence trailer."
+ },
+ {
+  "q": "A technician needs to connect two switches in the same rack with the least expensive 10 Gbps link. Which media should be used?",
+  "opts": [
+   "Single-mode fiber",
+   "Cat 5e",
+   "Multimode fiber",
+   "Twinaxial direct attach"
+  ],
+  "correct": 3,
+  "obj": "1.5",
+  "explain": "DAC twinax assemblies with SFP+ ends are the cheapest short-run 10G link."
+ },
+ {
+  "q": "Which topology requires the most cabling?",
+  "opts": [
+   "Full mesh",
+   "Star",
+   "Bus",
+   "Ring"
+  ],
+  "correct": 0,
+  "obj": "1.6"
+ },
+ {
+  "q": "Which of the following is a Layer 4 protocol data unit?",
+  "opts": [
+   "Frame",
+   "Segment",
+   "Packet",
+   "Bit"
+  ],
+  "correct": 1,
+  "obj": "1.1"
+ },
+ {
+  "q": "A 10GBASE-T link over Cat 6 cable keeps negotiating down to 1 Gbps. The run is 80 m. What is the most likely cause?",
+  "opts": [
+   "Wrong transceiver",
+   "The run exceeds Cat 6's 10 Gbps distance limit",
+   "A duplex mismatch",
+   "The cable is T568A on one end"
+  ],
+  "correct": 2,
+  "obj": "1.5",
+  "explain": "Cat 6 supports 10GBASE-T only to 55 m; Cat 6a reaches 100 m."
+ },
+ {
+  "q": "Which connector is most commonly found on an SFP+ fiber transceiver?",
+  "opts": [
+   "ST",
+   "SC",
+   "MPO",
+   "LC"
+  ],
+  "correct": 3,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which device separates broadcast domains?",
+  "opts": [
+   "Router",
+   "Switch",
+   "Hub",
+   "Repeater"
+  ],
+  "correct": 0,
+  "obj": "1.1",
+  "explain": "Switches separate collision domains; only a Layer 3 device bounds a broadcast domain."
+ },
+ {
+  "q": "A network diagram shows an access point serving twelve laptops. Which topology is this?",
+  "opts": [
+   "Point-to-point",
+   "Point-to-multipoint",
+   "Ring",
+   "Bus"
+  ],
+  "correct": 1,
+  "obj": "1.6"
+ },
+ {
+  "q": "Which fiber connector polish is angled and color-coded green?",
+  "opts": [
+   "UPC",
+   "ST",
+   "APC",
+   "SC"
+  ],
+  "correct": 2,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which OSI layer is responsible for encryption and data formatting?",
+  "opts": [
+   "Session",
+   "Application",
+   "Transport",
+   "Presentation"
+  ],
+  "correct": 3,
+  "obj": "1.1"
+ },
+ {
+  "q": "Which statement about full-duplex Ethernet is true?",
+  "opts": [
+   "Devices transmit and receive simultaneously with no collisions",
+   "CSMA/CD arbitrates access to the medium",
+   "Only one device may transmit at a time",
+   "It is used only on hubs"
+  ],
+  "correct": 0,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which pins are swapped between the T568A and T568B pinouts?",
+  "opts": [
+   "1-2 with 7-8",
+   "1-2 with 3-6",
+   "4-5 with 7-8",
+   "3-6 with 4-5"
+  ],
+  "correct": 1,
+  "obj": "1.5",
+  "explain": "The green and orange pairs (pins 1-2 and 3-6) trade places."
+ },
+ {
+  "q": "Which design optimizes east-west traffic between servers in a data center?",
+  "opts": [
+   "Three-tier",
+   "Collapsed core",
+   "Spine and leaf",
+   "Hub and spoke"
+  ],
+  "correct": 2,
+  "obj": "1.6"
+ },
+ {
+  "q": "Which cable connects a laptop's serial port to a switch's console port?",
+  "opts": [
+   "Crossover",
+   "Straight-through",
+   "Twinaxial",
+   "Rollover"
+  ],
+  "correct": 3,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which of the following is the point where the service provider's responsibility ends?",
+  "opts": [
+   "Demarcation point",
+   "Patch panel",
+   "IDF",
+   "Access layer"
+  ],
+  "correct": 0,
+  "obj": "1.6"
+ },
+ {
+  "q": "Which OSI layer uses port numbers to identify services?",
+  "opts": [
+   "Network",
+   "Transport",
+   "Session",
+   "Data Link"
+  ],
+  "correct": 1,
+  "obj": "1.1"
+ },
+ {
+  "q": "What is the maximum segment length for 10GBASE-SR over OM4 multimode fiber?",
+  "opts": [
+   "100 m",
+   "55 m",
+   "400 m",
+   "10 km"
+  ],
+  "correct": 2,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which transceiver form factor supports 100 Gbps?",
+  "opts": [
+   "SFP",
+   "SFP+",
+   "QSFP+",
+   "QSFP28"
+  ],
+  "correct": 3,
+  "obj": "1.5"
+ },
+ {
+  "q": "A hub with eight connected hosts forms how many collision domains?",
+  "opts": [
+   "One",
+   "Two",
+   "Four",
+   "Eight"
+  ],
+  "correct": 0,
+  "obj": "1.1",
+  "explain": "A hub repeats every bit to every port; the whole hub is one collision domain."
+ },
+ {
+  "q": "Which media is immune to electromagnetic interference?",
+  "opts": [
+   "UTP",
+   "Fiber optic",
+   "Coaxial",
+   "STP"
+  ],
+  "correct": 1,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which of the following describes a peer-to-peer network?",
+  "opts": [
+   "A dedicated server provides all services",
+   "Clients authenticate to a central directory",
+   "Each host both shares and consumes resources with no central server",
+   "A router connects every host"
+  ],
+  "correct": 2,
+  "obj": "1.6"
+ },
+ {
+  "q": "Which OSI layer establishes, maintains, and terminates dialogs between applications?",
+  "opts": [
+   "Transport",
+   "Presentation",
+   "Application",
+   "Session"
+  ],
+  "correct": 3,
+  "obj": "1.1"
+ },
+ {
+  "q": "Which coaxial cable connector is threaded?",
+  "opts": [
+   "F-type",
+   "BNC",
+   "RJ11",
+   "ST"
+  ],
+  "correct": 0,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which three-tier layer is where hosts connect to the network?",
+  "opts": [
+   "Core",
+   "Access",
+   "Distribution",
+   "Spine"
+  ],
+  "correct": 1,
+  "obj": "1.6"
+ },
+ {
+  "q": "What is the first 24 bits of a MAC address called?",
+  "opts": [
+   "FCS",
+   "Preamble",
+   "OUI",
+   "EUI"
+  ],
+  "correct": 2,
+  "obj": "1.5",
+  "explain": "The organizationally unique identifier identifies the manufacturer."
+ },
+ {
+  "q": "A switch with eight connected hosts in one VLAN forms how many broadcast domains?",
+  "opts": [
+   "Eight",
+   "Four",
+   "Two",
+   "One"
+  ],
+  "correct": 3,
+  "obj": "1.1"
+ },
+ {
+  "q": "Which cable category is the minimum for 10GBASE-T at 100 m?",
+  "opts": [
+   "Cat 6a",
+   "Cat 5e",
+   "Cat 6",
+   "Cat 5"
+  ],
+  "correct": 0,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which traffic flow describes a client on the LAN reaching a web server on the internet?",
+  "opts": [
+   "East-west",
+   "North-south",
+   "Spine to leaf",
+   "Peer-to-peer"
+  ],
+  "correct": 1,
+  "obj": "1.6"
+ },
+ {
+  "q": "Which OSI layer converts frames into bits on the medium?",
+  "opts": [
+   "Data Link",
+   "Network",
+   "Physical",
+   "Transport"
+  ],
+  "correct": 2,
+  "obj": "1.1"
+ },
+ {
+  "q": "Which device converts a copper Ethernet link to fiber without a pluggable port?",
+  "opts": [
+   "Transceiver",
+   "Patch panel",
+   "Punchdown block",
+   "Media converter"
+  ],
+  "correct": 3,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which fiber core size indicates single-mode fiber?",
+  "opts": [
+   "9 microns",
+   "50 microns",
+   "62.5 microns",
+   "125 microns"
+  ],
+  "correct": 0,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which of the following lists the OSI layers from top to bottom?",
+  "opts": [
+   "Application, Session, Presentation, Transport, Network, Data Link, Physical",
+   "Application, Presentation, Session, Transport, Network, Data Link, Physical",
+   "Physical, Data Link, Network, Transport, Session, Presentation, Application",
+   "Application, Presentation, Transport, Session, Network, Data Link, Physical"
+  ],
+  "correct": 1,
+  "obj": "1.1"
+ },
+ {
+  "q": "Which topology continues to operate when any single link fails?",
+  "opts": [
+   "Bus",
+   "Star",
+   "Full mesh",
+   "Point-to-point"
+  ],
+  "correct": 2,
+  "obj": "1.6"
+ },
+ {
+  "q": "Which cable connects a PC's NIC to a switch port?",
+  "opts": [
+   "Rollover",
+   "Crossover",
+   "Console",
+   "Straight-through"
+  ],
+  "correct": 3,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which term describes a dedicated network used only for block storage traffic?",
+  "opts": [
+   "SAN",
+   "PAN",
+   "MAN",
+   "WLAN"
+  ],
+  "correct": 0,
+  "obj": "1.6"
+ },
+ {
+  "q": "What does the frame check sequence allow the receiver to do?",
+  "opts": [
+   "Reassemble fragments",
+   "Detect a corrupted frame",
+   "Find the destination port",
+   "Encrypt the payload"
+  ],
+  "correct": 1,
+  "obj": "1.1"
+ },
+ {
+  "q": "Which 802.3 standard runs 1 Gbps over multimode fiber?",
+  "opts": [
+   "1000BASE-T",
+   "1000BASE-LX",
+   "1000BASE-SX",
+   "10GBASE-LR"
+  ],
+  "correct": 2,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which wiring-closet component terminates horizontal cable runs so patch cables can connect them to a switch?",
+  "opts": [
+   "Demarc",
+   "Smartjack",
+   "CSU/DSU",
+   "Patch panel"
+  ],
+  "correct": 3,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which of the following is an example of a MAN?",
+  "opts": [
+   "A hospital's network spanning several sites across one city",
+   "A home Wi-Fi network",
+   "A user's phone and smartwatch",
+   "A link between data centers in two countries"
+  ],
+  "correct": 0,
+  "obj": "1.6"
+ },
+ {
+  "q": "Which OSI layer is responsible for path selection between networks?",
+  "opts": [
+   "Layer 2",
+   "Layer 3",
+   "Layer 4",
+   "Layer 5"
+  ],
+  "correct": 1,
+  "obj": "1.1"
+ },
+ {
+  "q": "A cable tester shows pins 3 and 6 terminated on different pairs, though continuity passes. What is this fault?",
+  "opts": [
+   "Open",
+   "Short",
+   "Split pair",
+   "Reversed pair"
+  ],
+  "correct": 2,
+  "obj": "1.5",
+  "explain": "A split pair passes continuity but loses the noise-cancelling twist and fails at speed."
+ },
+ {
+  "q": "Which is the correct order of encapsulation as data moves down the stack on the sending host?",
+  "opts": [
+   "Bits, frame, packet, segment",
+   "Packet, segment, frame, bits",
+   "Frame, packet, segment, bits",
+   "Segment, packet, frame, bits"
+  ],
+  "correct": 3,
+  "obj": "1.1"
+ },
+ {
+  "q": "Which multi-fiber connector is used for 40GBASE-SR4?",
+  "opts": [
+   "MPO",
+   "LC",
+   "SC",
+   "ST"
+  ],
+  "correct": 0,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which network type is formed by a smartphone, a smartwatch, and wireless earbuds?",
+  "opts": [
+   "LAN",
+   "PAN",
+   "CAN",
+   "WLAN"
+  ],
+  "correct": 1,
+  "obj": "1.6"
+ },
+ {
+  "q": "Which access method does half-duplex Ethernet use to share a collision domain?",
+  "opts": [
+   "Token passing",
+   "Polling",
+   "CSMA/CD",
+   "CSMA/CA"
+  ],
+  "correct": 2,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which of the following is a baseband transmission?",
+  "opts": [
+   "Cable television",
+   "DSL",
+   "FM radio",
+   "Ethernet"
+  ],
+  "correct": 3,
+  "obj": "1.5"
+ },
+ {
+  "q": "Which device operates only at Layer 1 of the OSI model?",
+  "opts": [
+   "Hub",
+   "Switch",
+   "Router",
+   "Firewall"
+  ],
+  "correct": 0,
+  "obj": "1.1"
+ },
+ {
+  "q": "Which architecture merges the core and distribution layers at a small site?",
+  "opts": [
+   "Spine and leaf",
+   "Collapsed core",
+   "Three-tier",
+   "Full mesh"
+  ],
+  "correct": 1,
+  "obj": "1.6"
+ },
+ {
+  "q": "What is the maximum payload of a standard Ethernet frame?",
+  "opts": [
+   "64 bytes",
+   "1518 bytes",
+   "1500 bytes",
+   "9000 bytes"
+  ],
+  "correct": 2,
+  "obj": "1.5"
+ },
+ {
+  "q": "A company wants to spread incoming web requests across four identical servers. Which device should be deployed?",
+  "opts": [
+   "Load balancer",
+   "Proxy server",
+   "Layer 3 switch",
+   "IDS"
+  ],
+  "correct": 0,
+  "obj": "1.2"
+ },
+ {
+  "q": "Which device makes web requests on behalf of internal clients and can cache and filter content?",
+  "opts": [
+   "Load balancer",
+   "Forward proxy",
+   "Firewall",
+   "Router"
+  ],
+  "correct": 1,
+  "obj": "1.2"
+ },
+ {
+  "q": "A security team wants to be alerted to suspicious traffic but must not risk blocking legitimate traffic. Which device fits?",
+  "opts": [
+   "IPS",
+   "NGFW",
+   "IDS",
+   "Proxy"
+  ],
+  "correct": 2,
+  "obj": "1.2"
+ },
+ {
+  "q": "Which device can inspect traffic at the application layer and apply rules by application and user?",
+  "opts": [
+   "Hub",
+   "Layer 2 switch",
+   "Load balancer",
+   "Next-generation firewall"
+  ],
+  "correct": 3,
+  "obj": "1.2"
+ },
+ {
+  "q": "Which device manages configuration and roaming for many access points centrally?",
+  "opts": [
+   "Wireless LAN controller",
+   "Router",
+   "Proxy",
+   "Media converter"
+  ],
+  "correct": 0,
+  "obj": "1.2"
+ },
+ {
+  "q": "Which function in objective 1.2 limits how many router hops a packet may take?",
+  "opts": [
+   "QoS",
+   "TTL",
+   "VPN",
+   "NAT"
+  ],
+  "correct": 1,
+  "obj": "1.2"
+ },
+ {
+  "q": "Which service stores files and serves them to clients over the LAN at the file level?",
+  "opts": [
+   "SAN",
+   "CDN",
+   "NAS",
+   "Proxy"
+  ],
+  "correct": 2,
+  "obj": "1.2"
+ },
+ {
+  "q": "Which appliance caches web content at locations close to end users?",
+  "opts": [
+   "Load balancer",
+   "NAS",
+   "Firewall",
+   "Content delivery network"
+  ],
+  "correct": 3,
+  "obj": "1.2"
+ },
+ {
+  "q": "Which layer of the TCP/IP model corresponds to OSI Layers 5, 6, and 7?",
+  "opts": [
+   "Process/Application",
+   "Host-to-Host",
+   "Internet",
+   "Network Access"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which is the correct order of the TCP three-way handshake?",
+  "opts": [
+   "SYN-ACK, SYN, ACK",
+   "SYN, SYN-ACK, ACK",
+   "ACK, SYN, SYN-ACK",
+   "SYN, ACK, SYN-ACK"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which traffic type sends a packet to the nearest of several hosts sharing one address?",
+  "opts": [
+   "Unicast",
+   "Multicast",
+   "Anycast",
+   "Broadcast"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which traffic type exists in IPv4 but not in IPv6?",
+  "opts": [
+   "Unicast",
+   "Multicast",
+   "Anycast",
+   "Broadcast"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which IPsec component provides encryption of the payload?",
+  "opts": [
+   "ESP",
+   "AH",
+   "IKE",
+   "GRE"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which protocol carries ping and traceroute messages?",
+  "opts": [
+   "ARP",
+   "ICMP",
+   "IGMP",
+   "SNMP"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "An auditor requires that all remote device administration be encrypted. Which protocol replaces Telnet?",
+  "opts": [
+   "TFTP",
+   "FTP",
+   "SSH",
+   "SNMP"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port must be open for a client to retrieve mail with IMAP over TLS?",
+  "opts": [
+   "25",
+   "110",
+   "587",
+   "993"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which protocol and port does a DHCP server listen on?",
+  "opts": [
+   "UDP 67",
+   "UDP 68",
+   "TCP 67",
+   "TCP 53"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which protocol transfers router firmware with no authentication and no encryption?",
+  "opts": [
+   "SFTP",
+   "TFTP",
+   "SCP",
+   "HTTPS"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port is used for Syslog?",
+  "opts": [
+   "161",
+   "123",
+   "514",
+   "389"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does SNMP use to receive traps?",
+  "opts": [
+   "161",
+   "514",
+   "123",
+   "162"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does LDAPS use?",
+  "opts": [
+   "636",
+   "389",
+   "443",
+   "445"
+  ],
+  "correct": 0,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which port does SMB use?",
+  "opts": [
+   "139",
+   "445",
+   "3389",
+   "1433"
+  ],
+  "correct": 1,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which protocol uses port 5060?",
+  "opts": [
+   "RDP",
+   "SMB",
+   "SIP",
+   "SQL Server"
+  ],
+  "correct": 2,
+  "obj": "1.4"
+ },
+ {
+  "q": "Which transport does DNS use for a standard name lookup?",
+  "opts": [
+   "TCP 53",
+   "TCP 389",
+   "UDP 161",
+   "UDP 53"
+  ],
+  "correct": 3,
+  "obj": "1.4"
+ },
+ {
+  "q": "What is the decimal value of 10101000?",
+  "opts": [
+   "168",
+   "172",
+   "160",
+   "184"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the binary value of 224?",
+  "opts": [
+   "11100001",
+   "11100000",
+   "11000000",
+   "11110000"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which class does the address 150.20.4.7 belong to?",
+  "opts": [
+   "A",
+   "C",
+   "B",
+   "D"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which address range is reserved for loopback?",
+  "opts": [
+   "169.254.0.0/16",
+   "10.0.0.0/8",
+   "224.0.0.0/4",
+   "127.0.0.0/8"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which of the following is NOT an RFC 1918 private range?",
+  "opts": [
+   "172.32.0.0/16",
+   "10.0.0.0/8",
+   "172.16.0.0/12",
+   "192.168.0.0/16"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which address is a multicast address?",
+  "opts": [
+   "192.168.5.255",
+   "239.1.1.1",
+   "169.254.1.1",
+   "127.0.0.1"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which MAC address is the Layer 2 broadcast address?",
+  "opts": [
+   "00-00-00-00-00-00",
+   "01-00-5E-00-00-01",
+   "FF-FF-FF-FF-FF-FF",
+   "FE-80-00-00-00-00"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the default subnet mask for a Class A address?",
+  "opts": [
+   "255.255.255.0",
+   "255.255.0.0",
+   "255.255.255.255",
+   "255.0.0.0"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which is the correctly shortened form of 2001:0db8:0000:0000:0000:0000:0000:0001?",
+  "opts": [
+   "2001:db8::1",
+   "2001:db8:0::0:1",
+   "2001:db8::0000:1",
+   "2001:0db8::1::"
+  ],
+  "correct": 0,
+  "obj": "1.8"
+ },
+ {
+  "q": "Which IPv6 prefix identifies global unicast addresses?",
+  "opts": [
+   "fe80::/10",
+   "2000::/3",
+   "fc00::/7",
+   "ff00::/8"
+  ],
+  "correct": 1,
+  "obj": "1.8"
+ },
+ {
+  "q": "Which IPv6 address type is the equivalent of RFC 1918 private addressing?",
+  "opts": [
+   "Link-local",
+   "Global unicast",
+   "Unique local",
+   "Multicast"
+  ],
+  "correct": 2,
+  "obj": "1.8"
+ },
+ {
+  "q": "What is the IPv6 loopback address?",
+  "opts": [
+   "::",
+   "fe80::1",
+   "ff02::1",
+   "::1"
+  ],
+  "correct": 3,
+  "obj": "1.8"
+ },
+ {
+  "q": "Which mechanism lets an IPv6 host configure its own address from a router advertisement?",
+  "opts": [
+   "SLAAC",
+   "DHCPv6",
+   "NAT64",
+   "Dual stack"
+  ],
+  "correct": 0,
+  "obj": "1.8"
+ },
+ {
+  "q": "Which migration method translates between IPv6 and IPv4 addresses?",
+  "opts": [
+   "6to4 tunneling",
+   "NAT64",
+   "Dual stack",
+   "SLAAC"
+  ],
+  "correct": 1,
+  "obj": "1.8"
+ },
+ {
+  "q": "Which migration method runs IPv4 and IPv6 at the same time on the same interfaces?",
+  "opts": [
+   "Tunneling",
+   "NAT64",
+   "Dual stack",
+   "Anycast"
+  ],
+  "correct": 2,
+  "obj": "1.8"
+ },
+ {
+  "q": "How many hexadecimal groups are in a full IPv6 address?",
+  "opts": [
+   "4",
+   "6",
+   "16",
+   "8"
+  ],
+  "correct": 3,
+  "obj": "1.8"
+ },
+ {
+  "q": "Which DHCP message does the client broadcast first?",
+  "opts": [
+   "Discover",
+   "Offer",
+   "Request",
+   "Acknowledge"
+  ],
+  "correct": 0,
+  "obj": "3.4"
+ },
+ {
+  "q": "A printer must always receive the same address from DHCP. Which feature accomplishes this?",
+  "opts": [
+   "Exclusion",
+   "Reservation",
+   "Scope",
+   "Lease"
+  ],
+  "correct": 1,
+  "obj": "3.4"
+ },
+ {
+  "q": "A router must forward DHCP broadcasts to a server on another subnet. Which feature is configured?",
+  "opts": [
+   "Scope option",
+   "Exclusion",
+   "DHCP relay (IP helper)",
+   "Reservation"
+  ],
+  "correct": 2,
+  "obj": "3.4"
+ },
+ {
+  "q": "Which DHCP option delivers the default gateway to clients?",
+  "opts": [
+   "Option 6",
+   "Option 51",
+   "Option 1",
+   "Option 3"
+  ],
+  "correct": 3,
+  "obj": "3.4"
+ },
+ {
+  "q": "Which DNS record maps a name to an IPv6 address?",
+  "opts": [
+   "AAAA",
+   "A",
+   "PTR",
+   "CNAME"
+  ],
+  "correct": 0,
+  "obj": "3.4"
+ },
+ {
+  "q": "Which DNS record identifies the mail servers for a domain?",
+  "opts": [
+   "NS",
+   "MX",
+   "SOA",
+   "TXT"
+  ],
+  "correct": 1,
+  "obj": "3.4"
+ },
+ {
+  "q": "Which DNS record resolves an IP address back to a name?",
+  "opts": [
+   "A",
+   "CNAME",
+   "PTR",
+   "AAAA"
+  ],
+  "correct": 2,
+  "obj": "3.4"
+ },
+ {
+  "q": "Which DNS record creates an alias from one name to another?",
+  "opts": [
+   "MX",
+   "NS",
+   "TXT",
+   "CNAME"
+  ],
+  "correct": 3,
+  "obj": "3.4"
+ },
+ {
+  "q": "Which DNS server type does the lookup work on behalf of clients, querying other servers as needed?",
+  "opts": [
+   "Recursive",
+   "Authoritative",
+   "Root",
+   "Forwarder only"
+  ],
+  "correct": 0,
+  "obj": "3.4"
+ },
+ {
+  "q": "Which NTP stratum is the reference clock itself?",
+  "opts": [
+   "Stratum 1",
+   "Stratum 0",
+   "Stratum 2",
+   "Stratum 16"
+  ],
+  "correct": 1,
+  "obj": "3.4"
+ },
+ {
+  "q": "What is the first usable host address in the subnet containing <code>172.17.204.101/28</code>?",
+  "opts": [
+   "172.17.204.97",
+   "172.17.204.96",
+   "172.17.204.98",
+   "172.17.204.80"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "A subnet must support 500 hosts and waste as few addresses as possible. Which prefix should be used?",
+  "opts": [
+   "/22",
+   "/23",
+   "/24",
+   "/25"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the first usable host address in the subnet containing <code>192.168.40.160/27</code>?",
+  "opts": [
+   "192.168.40.160",
+   "192.168.40.162",
+   "192.168.40.161",
+   "192.168.40.128"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>192.168.13.86/23</code>?",
+  "opts": [
+   "192.168.13.254",
+   "192.168.14.0",
+   "192.168.12.0",
+   "192.168.13.255"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>172.29.136.219/27</code>. What is its network address?",
+  "opts": [
+   "172.29.136.192",
+   "172.29.136.160",
+   "172.29.136.224",
+   "172.29.136.223"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which subnet mask is equivalent to <code>/29</code>?",
+  "opts": [
+   "255.255.255.240",
+   "255.255.255.248",
+   "255.255.255.252",
+   "255.255.255.254"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the first usable host address in the subnet containing <code>172.30.109.150/27</code>?",
+  "opts": [
+   "172.30.109.128",
+   "172.30.109.130",
+   "172.30.109.129",
+   "172.30.109.96"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>172.18.64.200/19</code>?",
+  "opts": [
+   "172.18.95.254",
+   "172.18.96.0",
+   "172.18.64.0",
+   "172.18.95.255"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>172.20.130.5/20</code>?",
+  "opts": [
+   "172.20.143.254",
+   "172.20.143.255",
+   "172.20.143.253",
+   "172.20.144.0"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>192.168.134.14/21</code>?",
+  "opts": [
+   "192.168.135.254",
+   "192.168.135.255",
+   "192.168.136.0",
+   "192.168.128.0"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>172.24.211.48/20</code>?",
+  "opts": [
+   "172.24.223.255",
+   "172.24.223.253",
+   "172.24.223.254",
+   "172.24.224.0"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>10.61.53.6/28</code>?",
+  "opts": [
+   "10.61.53.15",
+   "10.61.53.13",
+   "10.61.53.16",
+   "10.61.53.14"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the first usable host address in the subnet containing <code>10.1.1.129/26</code>?",
+  "opts": [
+   "10.1.1.129",
+   "10.1.1.128",
+   "10.1.1.130",
+   "10.1.1.64"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>10.250.3.190/26</code>?",
+  "opts": [
+   "10.250.3.191",
+   "10.250.3.190",
+   "10.250.3.189",
+   "10.250.3.192"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>10.145.11.200/22</code>?",
+  "opts": [
+   "10.145.11.254",
+   "10.145.12.0",
+   "10.145.11.255",
+   "10.145.8.0"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "A subnet must support 60 hosts and waste as few addresses as possible. Which prefix should be used?",
+  "opts": [
+   "/25",
+   "/27",
+   "/28",
+   "/26"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>172.20.130.5/20</code>?",
+  "opts": [
+   "172.20.143.255",
+   "172.20.143.254",
+   "172.20.144.0",
+   "172.20.128.0"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>172.26.191.2/21</code>?",
+  "opts": [
+   "172.26.191.254",
+   "172.26.191.255",
+   "172.26.192.0",
+   "172.26.184.0"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the first usable host address in the subnet containing <code>10.227.62.117/20</code>?",
+  "opts": [
+   "10.227.48.0",
+   "10.227.48.2",
+   "10.227.48.1",
+   "10.227.32.0"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the first usable host address in the subnet containing <code>172.17.154.202/22</code>?",
+  "opts": [
+   "172.17.152.0",
+   "172.17.152.2",
+   "172.17.148.0",
+   "172.17.152.1"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>192.168.198.248/25</code>. What is its network address?",
+  "opts": [
+   "192.168.198.128",
+   "192.168.198.0",
+   "192.168.199.0",
+   "192.168.198.255"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>10.138.123.244/28</code>?",
+  "opts": [
+   "10.138.123.254",
+   "10.138.123.255",
+   "10.138.124.0",
+   "10.138.123.240"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the first usable host address in the subnet containing <code>192.168.59.146/23</code>?",
+  "opts": [
+   "192.168.58.0",
+   "192.168.58.2",
+   "192.168.58.1",
+   "192.168.56.0"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the first usable host address in the subnet containing <code>192.168.100.130/25</code>?",
+  "opts": [
+   "192.168.100.128",
+   "192.168.100.130",
+   "192.168.100.0",
+   "192.168.100.129"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>192.168.252.70/20</code>. What is its network address?",
+  "opts": [
+   "192.168.240.0",
+   "192.168.224.0",
+   "192.169.0.0",
+   "192.168.255.255"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>172.22.153.185/23</code>. What is its network address?",
+  "opts": [
+   "172.22.150.0",
+   "172.22.152.0",
+   "172.22.154.0",
+   "172.22.153.255"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "How many usable host addresses does a /26 subnet provide?",
+  "opts": [
+   "64",
+   "126",
+   "62",
+   "31"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>10.163.127.246/23</code>?",
+  "opts": [
+   "10.163.127.255",
+   "10.163.127.253",
+   "10.163.128.0",
+   "10.163.127.254"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the first usable host address in the subnet containing <code>172.16.9.33/27</code>?",
+  "opts": [
+   "172.16.9.33",
+   "172.16.9.32",
+   "172.16.9.34",
+   "172.16.9.0"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>192.168.1.77/26</code>. What is its network address?",
+  "opts": [
+   "192.168.1.0",
+   "192.168.1.64",
+   "192.168.1.128",
+   "192.168.1.127"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the administrative distance of a static route by default?",
+  "opts": [
+   "0",
+   "90",
+   "110",
+   "1"
+  ],
+  "correct": 3,
+  "obj": "2.1"
+ },
+ {
+  "q": "What is the administrative distance of OSPF?",
+  "opts": [
+   "110",
+   "90",
+   "120",
+   "20"
+  ],
+  "correct": 0,
+  "obj": "2.1"
+ },
+ {
+  "q": "What is the administrative distance of RIP?",
+  "opts": [
+   "110",
+   "120",
+   "90",
+   "1"
+  ],
+  "correct": 1,
+  "obj": "2.1"
+ },
+ {
+  "q": "What is the administrative distance of eBGP?",
+  "opts": [
+   "200",
+   "110",
+   "20",
+   "90"
+  ],
+  "correct": 2,
+  "obj": "2.1"
+ },
+ {
+  "q": "What is the administrative distance of internal EIGRP?",
+  "opts": [
+   "110",
+   "120",
+   "170",
+   "90"
+  ],
+  "correct": 3,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which metric does RIP use?",
+  "opts": [
+   "Cost based on bandwidth",
+   "Hop count",
+   "Delay and bandwidth",
+   "Path attributes"
+  ],
+  "correct": 1,
+  "obj": "2.1"
+ },
+ {
+  "q": "What is the maximum hop count for a reachable RIP route?",
+  "opts": [
+   "16",
+   "255",
+   "15",
+   "30"
+  ],
+  "correct": 2,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which routing protocol is link-state?",
+  "opts": [
+   "RIP",
+   "BGP",
+   "EIGRP",
+   "OSPF"
+  ],
+  "correct": 3,
+  "obj": "2.1"
+ },
+ {
+  "q": "On an 802.1Q trunk, which VLAN's frames cross untagged?",
+  "opts": [
+   "The voice VLAN",
+   "The native VLAN",
+   "The management VLAN",
+   "VLAN 4095"
+  ],
+  "correct": 1,
+  "obj": "2.2"
+ },
+ {
+  "q": "A switch port carries traffic for a single VLAN to an end device. What kind of port is it?",
+  "opts": [
+   "Trunk port",
+   "Mirror port",
+   "Access port",
+   "Uplink aggregation port"
+  ],
+  "correct": 2,
+  "obj": "2.2"
+ },
+ {
+  "q": "What is a switch virtual interface (SVI)?",
+  "opts": [
+   "A virtual Layer 3 interface for a VLAN on a switch",
+   "A physical port in trunk mode",
+   "A mirrored port",
+   "A wireless interface"
+  ],
+  "correct": 0,
+  "obj": "2.2"
+ },
+ {
+  "q": "Which STP port state forwards frames?",
+  "opts": [
+   "Blocking",
+   "Listening",
+   "Forwarding",
+   "Learning"
+  ],
+  "correct": 2,
+  "obj": "2.2"
+ },
+ {
+  "q": "Which standard is Rapid Spanning Tree?",
+  "opts": [
+   "802.1D",
+   "802.1Q",
+   "802.3ad",
+   "802.1w"
+  ],
+  "correct": 3,
+  "obj": "2.2"
+ },
+ {
+  "q": "How is the STP root bridge elected?",
+  "opts": [
+   "Lowest bridge ID",
+   "Highest MAC address",
+   "Most ports",
+   "Fastest uplink"
+  ],
+  "correct": 0,
+  "obj": "2.2"
+ },
+ {
+  "q": "Which protocol bundles several physical links into one logical link?",
+  "opts": [
+   "STP",
+   "LACP",
+   "VTP",
+   "CDP"
+  ],
+  "correct": 1,
+  "obj": "2.2"
+ },
+ {
+  "q": "What is the maximum theoretical rate of 802.11g?",
+  "opts": [
+   "11 Mbps",
+   "600 Mbps",
+   "54 Mbps",
+   "1.3 Gbps"
+  ],
+  "correct": 2,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which identifies a specific access point radio?",
+  "opts": [
+   "SSID",
+   "ESSID",
+   "VLAN ID",
+   "BSSID"
+  ],
+  "correct": 3,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which antenna is best for a long point-to-point link between buildings?",
+  "opts": [
+   "Directional (Yagi or parabolic)",
+   "Omnidirectional",
+   "Dipole",
+   "Internal laptop antenna"
+  ],
+  "correct": 0,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which feature presents a web page that guests must accept before getting access?",
+  "opts": [
+   "MAC filtering",
+   "Geofencing",
+   "Captive portal",
+   "Band steering"
+  ],
+  "correct": 2,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which feature restricts wireless access based on device location?",
+  "opts": [
+   "Captive portal",
+   "SSID hiding",
+   "DFS",
+   "Geofencing"
+  ],
+  "correct": 3,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which wireless topology lets APs relay traffic to each other without cabling each one?",
+  "opts": [
+   "Mesh",
+   "Ad hoc",
+   "Point-to-point",
+   "Bus"
+  ],
+  "correct": 0,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which describes out-of-band management?",
+  "opts": [
+   "Management over the production network",
+   "Management through a web browser",
+   "Management through SNMP traps",
+   "A separate management path that works when the production network is down"
+  ],
+  "correct": 3,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which remote access protocol presents a full graphical desktop on TCP 3389?",
+  "opts": [
+   "RDP",
+   "SSH",
+   "VNC",
+   "SFTP"
+  ],
+  "correct": 0,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which SNMP version adds authentication and encryption?",
+  "opts": [
+   "SNMPv1",
+   "SNMPv2c",
+   "SNMPv3",
+   "SNMPv2"
+  ],
+  "correct": 2,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which syslog severity level is Emergency?",
+  "opts": [
+   "0",
+   "7",
+   "3",
+   "5"
+  ],
+  "correct": 0,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which system aggregates and correlates logs from many sources to detect incidents?",
+  "opts": [
+   "NMS",
+   "SIEM",
+   "IPAM",
+   "DHCP"
+  ],
+  "correct": 1,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which metric measures the time a packet takes to reach its destination?",
+  "opts": [
+   "Jitter",
+   "Packet loss",
+   "Latency",
+   "Utilization"
+  ],
+  "correct": 2,
+  "obj": "3.2"
+ },
+ {
+  "q": "What should happen to storage before a device is decommissioned?",
+  "opts": [
+   "It should be labeled",
+   "It should be sanitized",
+   "It should be cloned to the new device",
+   "Nothing"
+  ],
+  "correct": 1,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which agreement prevents a contractor from disclosing confidential information?",
+  "opts": [
+   "SLA",
+   "MOU",
+   "NDA",
+   "BYOD policy"
+  ],
+  "correct": 2,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which policy governs personal devices on the corporate network?",
+  "opts": [
+   "AUP",
+   "SLA",
+   "Onboarding policy",
+   "BYOD policy"
+  ],
+  "correct": 3,
+  "obj": "3.1"
+ },
+ {
+  "q": "Why are configuration backups taken before a change?",
+  "opts": [
+   "To restore the device if the change fails",
+   "To speed up the change",
+   "To satisfy SNMP",
+   "To update the MIB"
+  ],
+  "correct": 0,
+  "obj": "3.1"
+ },
+ {
+  "q": "A conference room has weak Wi-Fi though an AP is mounted in the hallway outside. What is the best fix?",
+  "opts": [
+   "Raise the hallway AP to maximum power",
+   "Add or relocate an AP inside the room and plan its channel",
+   "Switch to WEP",
+   "Hide the SSID"
+  ],
+  "correct": 1,
+  "obj": "2.3"
+ },
+ {
+  "q": "An NMS shows a switch's CPU at 95% only during nightly backups. What does comparison to the baseline tell you?",
+  "opts": [
+   "The switch is failing",
+   "SNMP is misconfigured",
+   "The spike is a known pattern tied to the backup window",
+   "The MIB is corrupt"
+  ],
+  "correct": 2,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which measures average time to repair?",
+  "opts": [
+   "MTBF",
+   "MTTR",
+   "RPO",
+   "TTL"
+  ],
+  "correct": 1,
+  "obj": "3.3"
+ },
+ {
+  "q": "Which design has all members carrying load at once?",
+  "opts": [
+   "Active-passive",
+   "Cold standby",
+   "Active-active",
+   "Single point"
+  ],
+  "correct": 2,
+  "obj": "3.3"
+ },
+ {
+  "q": "Which backup copies only changes since the last backup of any kind?",
+  "opts": [
+   "Differential",
+   "Full",
+   "Mirror",
+   "Incremental"
+  ],
+  "correct": 3,
+  "obj": "3.3"
+ },
+ {
+  "q": "Which supplies power during a multi-hour outage?",
+  "opts": [
+   "UPS",
+   "Generator",
+   "PDU",
+   "Battery in each server"
+  ],
+  "correct": 1,
+  "obj": "2.4"
+ },
+ {
+  "q": "Why must equipment intake and exhaust match the hot-aisle/cold-aisle layout?",
+  "opts": [
+   "To reduce cable length",
+   "To balance PoE",
+   "To keep hot exhaust from being drawn into intakes",
+   "To meet the SLA"
+  ],
+  "correct": 2,
+  "obj": "2.4"
+ },
+ {
+  "q": "In which model do you manage the operating system and everything above it?",
+  "opts": [
+   "SaaS",
+   "PaaS",
+   "FaaS",
+   "IaaS"
+  ],
+  "correct": 3,
+  "obj": "1.3"
+ },
+ {
+  "q": "Which filters traffic at the cloud instance level?",
+  "opts": [
+   "Network security group",
+   "Network ACL",
+   "Internet gateway",
+   "Direct connect"
+  ],
+  "correct": 0,
+  "obj": "1.3"
+ },
+ {
+  "q": "Which describes resources growing and shrinking automatically with demand?",
+  "opts": [
+   "Multitenancy",
+   "Elasticity",
+   "Redundancy",
+   "Latency"
+  ],
+  "correct": 1,
+  "obj": "1.3"
+ },
+ {
+  "q": "Which combines a password with a code from a phone app?",
+  "opts": [
+   "Single sign-on",
+   "Multifactor authentication",
+   "Least privilege",
+   "RBAC"
+  ],
+  "correct": 1,
+  "obj": "4.1"
+ },
+ {
+  "q": "Which issues and vouches for digital certificates?",
+  "opts": [
+   "RADIUS server",
+   "Domain controller",
+   "Certificate authority",
+   "Proxy"
+  ],
+  "correct": 2,
+  "obj": "4.1"
+ },
+ {
+  "q": "Which attack uses double-tagged frames to reach another VLAN?",
+  "opts": [
+   "VLAN hopping",
+   "MAC flooding",
+   "Evil twin",
+   "Smurf"
+  ],
+  "correct": 0,
+  "obj": "4.2"
+ },
+ {
+  "q": "Which overwhelms a target with traffic from many compromised hosts?",
+  "opts": [
+   "DoS",
+   "DDoS",
+   "On-path",
+   "Replay"
+  ],
+  "correct": 1,
+  "obj": "4.2"
+ },
+ {
+  "q": "Which malware encrypts files and demands payment?",
+  "opts": [
+   "Worm",
+   "Trojan",
+   "Ransomware",
+   "Rootkit"
+  ],
+  "correct": 2,
+  "obj": "4.2"
+ },
+ {
+  "q": "Which switch feature blocks unauthorized DHCP servers?",
+  "opts": [
+   "Port mirroring",
+   "PoE",
+   "LACP",
+   "DHCP snooping"
+  ],
+  "correct": 3,
+  "obj": "4.3"
+ },
+ {
+  "q": "Which network zone holds public-facing servers between the internet and the internal network?",
+  "opts": [
+   "Screened subnet (DMZ)",
+   "Native VLAN",
+   "Management VLAN",
+   "Guest VLAN"
+  ],
+  "correct": 0,
+  "obj": "4.3"
+ },
+ {
+  "q": "Which physical control prevents tailgating?",
+  "opts": [
+   "Cable lock",
+   "Privacy screen",
+   "Access control vestibule",
+   "Badge printer"
+  ],
+  "correct": 2,
+  "obj": "4.3"
+ },
+ {
+  "q": "Which is part of identifying the problem?",
+  "opts": [
+   "Implement the solution",
+   "Determine if anything has changed",
+   "Verify functionality",
+   "Escalate"
+  ],
+  "correct": 1,
+  "obj": "5.1"
+ },
+ {
+  "q": "Which approach starts at the physical layer and works up?",
+  "opts": [
+   "Top-down",
+   "Divide and conquer",
+   "Bottom-up",
+   "Spot-the-difference"
+  ],
+  "correct": 2,
+  "obj": "5.1"
+ },
+ {
+  "q": "Which interface counter indicates frames smaller than 64 bytes?",
+  "opts": [
+   "Giants",
+   "CRC",
+   "Drops",
+   "Runts"
+  ],
+  "correct": 3,
+  "obj": "5.2"
+ },
+ {
+  "q": "A fiber link stays down after being re-patched. Which is a common cause?",
+  "opts": [
+   "TX and RX are transposed",
+   "The VLAN is wrong",
+   "The DNS server is down",
+   "The DHCP scope is full"
+  ],
+  "correct": 0,
+  "obj": "5.2"
+ },
+ {
+  "q": "Which describes signal bleeding between adjacent pairs?",
+  "opts": [
+   "Attenuation",
+   "Crosstalk",
+   "EMI only",
+   "Reflection"
+  ],
+  "correct": 1,
+  "obj": "5.2"
+ },
+ {
+  "q": "A host has the right IP but a /28 mask on a /24 network. What is the symptom?",
+  "opts": [
+   "Nothing changes",
+   "Some local hosts are treated as remote and are unreachable",
+   "DNS fails",
+   "The NIC shuts down"
+  ],
+  "correct": 1,
+  "obj": "5.3"
+ },
+ {
+  "q": "Which helps voice traffic during congestion?",
+  "opts": [
+   "Larger DHCP scope",
+   "Disabling STP",
+   "QoS prioritization",
+   "Longer cables"
+  ],
+  "correct": 2,
+  "obj": "5.4"
+ },
+ {
+  "q": "Which command lists listening ports and active connections?",
+  "opts": [
+   "ipconfig",
+   "netstat",
+   "nslookup",
+   "tracert"
+  ],
+  "correct": 1,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which tool confirms a cable meets its rated category performance?",
+  "opts": [
+   "Cable tester (wire map)",
+   "Toner",
+   "Cable certifier",
+   "Multimeter"
+  ],
+  "correct": 2,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which command shows a router's routing table?",
+  "opts": [
+   "show ip route",
+   "show mac-address-table",
+   "show interfaces trunk",
+   "show power inline"
+  ],
+  "correct": 0,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which Linux command captures packets at the command line?",
+  "opts": [
+   "netstat",
+   "tcpdump",
+   "dig",
+   "ip route"
+  ],
+  "correct": 1,
+  "obj": "5.5"
+ }
+]

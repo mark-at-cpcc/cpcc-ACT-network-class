@@ -1,0 +1,167 @@
+[
+ {
+  "q": "What is the first step of CompTIA's troubleshooting methodology?",
+  "opts": [
+   "Identify the problem",
+   "Establish a theory of probable cause",
+   "Test the theory",
+   "Document findings"
+  ],
+  "correct": 0,
+  "obj": "5.1"
+ },
+ {
+  "q": "What should a technician do if a theory is disproved?",
+  "opts": [
+   "Implement the fix anyway",
+   "Establish a new theory or escalate",
+   "Document and close the ticket",
+   "Reboot every device"
+  ],
+  "correct": 1,
+  "obj": "5.1"
+ },
+ {
+  "q": "A link shows climbing CRC errors. What is the most likely cause?",
+  "opts": [
+   "A DNS failure",
+   "A wrong default gateway",
+   "A damaged cable or interference",
+   "DHCP exhaustion"
+  ],
+  "correct": 2,
+  "obj": "5.2"
+ },
+ {
+  "q": "Late collisions on a switch port usually indicate what?",
+  "opts": [
+   "A VLAN mismatch",
+   "An ACL error",
+   "DNS misconfiguration",
+   "A duplex mismatch"
+  ],
+  "correct": 3,
+  "obj": "5.2"
+ },
+ {
+  "q": "A new access point powers on and off repeatedly. What should be checked?",
+  "opts": [
+   "The switch's PoE budget and the AP's power class",
+   "The SSID",
+   "The DNS records",
+   "The routing table"
+  ],
+  "correct": 0,
+  "obj": "5.2"
+ },
+ {
+  "q": "A workstation has a 169.254.x.x address. What is the most likely cause?",
+  "opts": [
+   "The DNS server is down",
+   "The DHCP server cannot be reached",
+   "The default gateway is wrong",
+   "The ARP cache is full"
+  ],
+  "correct": 1,
+  "obj": "5.3"
+ },
+ {
+  "q": "Users can ping servers by IP but not by name. What is the problem?",
+  "opts": [
+   "DHCP",
+   "Routing",
+   "DNS",
+   "STP"
+  ],
+  "correct": 2,
+  "obj": "5.3"
+ },
+ {
+  "q": "New devices stop getting addresses late in the day, but existing ones work. What is likely?",
+  "opts": [
+   "A routing loop",
+   "A DNS failure",
+   "A duplex mismatch",
+   "DHCP address pool exhaustion"
+  ],
+  "correct": 3,
+  "obj": "5.3"
+ },
+ {
+  "q": "A host on the correct subnet cannot reach anything on its switch, while its neighbor can. What should be checked first?",
+  "opts": [
+   "The VLAN assigned to its port",
+   "The DNS server",
+   "The routing table",
+   "The NTP source"
+  ],
+  "correct": 0,
+  "obj": "5.3"
+ },
+ {
+  "q": "Which describes variation in packet delay that degrades voice calls?",
+  "opts": [
+   "Latency",
+   "Jitter",
+   "Attenuation",
+   "Bandwidth"
+  ],
+  "correct": 1,
+  "obj": "5.4"
+ },
+ {
+  "q": "Users in one area drop Wi-Fi when walking between rooms. What is the likely issue?",
+  "opts": [
+   "DNS failure",
+   "DHCP exhaustion",
+   "Roaming / coverage gaps between APs",
+   "Duplex mismatch"
+  ],
+  "correct": 2,
+  "obj": "5.4"
+ },
+ {
+  "q": "Two nearby APs on channel 6 cause slow Wi-Fi. What is the problem?",
+  "opts": [
+   "Attenuation in copper",
+   "Jitter on the WAN",
+   "A DNS issue",
+   "Co-channel interference"
+  ],
+  "correct": 3,
+  "obj": "5.4"
+ },
+ {
+  "q": "Which tool finds which hop along the path is failing?",
+  "opts": [
+   "traceroute / tracert",
+   "ping",
+   "nslookup",
+   "arp"
+  ],
+  "correct": 0,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which command shows IP-to-MAC mappings on a host?",
+  "opts": [
+   "netstat -r",
+   "arp -a",
+   "ipconfig /renew",
+   "ping -t"
+  ],
+  "correct": 1,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which tool captures and decodes packets on the wire?",
+  "opts": [
+   "Port scanner",
+   "Speed tester",
+   "Protocol analyzer",
+   "Toner"
+  ],
+  "correct": 2,
+  "obj": "5.5"
+ }
+]

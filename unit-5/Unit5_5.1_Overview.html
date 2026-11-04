@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Unit 5 &mdash; 5.1 Unit Overview and Schedule | CompTIA Network+</title>
+    <link rel="stylesheet" href="_design/cpcc-course-design.css">
+    <link rel="stylesheet" href="_design/cpcc-engine.css">
+    <script src="_design/cpcc-course-design.js" defer></script>
+
+</head>
+<body>
+    <div class="course-container">
+<header class="module-header">
+    <div class="module-label">Unit 5 &middot; Resilience, Cloud, and Network Security &middot; Section 5.1</div>
+    <h1 class="module-title">Unit Overview and Schedule</h1>
+    <p class="module-subtitle">CompTIA Network+ - Domains 1.0, 2.0, 3.0, 4.0</p>
+</header>
+        <nav class="toc" id="tocNav">
+            <div class="toc-header">Unit 5 Index</div>
+            <div class="toc-item current" id="tocCurrent">5.1 &mdash; Unit Overview and Schedule</div>
+            <div class="toc-item"><a href="Unit5_5.2_Pre-Assessment.html">5.2 &mdash; Unit Pre-Assessment</a></div>
+            <div class="toc-item"><a href="Unit5_5.3_Content-Review.html">5.3 &mdash; Content Review</a></div>
+            <div class="toc-item"><a href="Unit5_5.4_Reading-Assignment.html">5.4 &mdash; Reading Assignment</a></div>
+            <div class="toc-item"><a href="Unit5_5.5_Video-Assignment.html">5.5 &mdash; Video Assignment</a></div>
+            <div class="toc-item"><a href="Unit5_5.6_Labs.html">5.6 &mdash; Classroom/Home Labs</a></div>
+            <div class="toc-item"><a href="Unit5_5.7_Practice-Questions.html">5.7 &mdash; Practice Question Set</a></div>
+            <div class="toc-item"><a href="Unit5_5.8_NETLAB-Labs.html">5.8 &mdash; Online Labs: NETLAB</a></div>
+            <div class="toc-item"><a href="Unit5_5.9_Reflection.html">5.9 &mdash; Reflection Activity</a></div>
+            <div class="toc-item"><a href="Unit5_5.10_Unit-Test.html">5.10 &mdash; Unit Test</a></div>
+            <div class="toc-item"><a href="Unit5_5.11_Ticket-Exercises.html">5.11 &mdash; Unit 5 Ticket Exercises</a></div>
+            <div class="toc-item"><a href="Unit5_5.A_Practice-Exam.html">5.A &mdash; Practice Exam</a></div>
+            <div class="toc-item"><a href="../index.html" data-contents-link>Return to Index</a></div>
+        </nav>
+        <div class="content-area">
+            <p class="text-muted"><p class="text-muted">Seven objectives and twenty-five videos &mdash; the widest unit in the course. It answers three questions a network must survive: what happens when something fails, where does the network end now that half of it lives in the cloud, and who is trying to break it. The first full-length practice exam opens this unit.</p></p>
+            <div class="objectives-box">
+                <h3>Learning Objectives</h3>
+                <p>After completing this unit, you will be able to:</p>
+                <ol>
+                    <li><strong>Judge</strong> an availability design &mdash; load balancing, multipathing, NIC teaming, redundant hardware, active/active versus active/passive &mdash; against stated RTO and RPO</li>
+                    <li><strong>Explain</strong> disaster recovery sites, backups, and testing, and the physical-installation factors of power, environment, and racks</li>
+                    <li><strong>Summarize</strong> cloud service and deployment models and connectivity options, and the modern use cases of SDN, SD-WAN, VXLAN, zero trust, SASE/SSE, and infrastructure as code</li>
+                    <li><strong>Explain</strong> the CIA triad, encryption, certificates and PKI, AAA, IAM, physical security, deception, segmentation, and compliance</li>
+                    <li><strong>Classify</strong> an attack from its symptoms &mdash; DoS and DDoS, VLAN hopping, MAC flooding, ARP and DNS poisoning, rogue devices, spoofing, social engineering, malware</li>
+                    <li><strong>Apply</strong> the defense that stops it &mdash; device hardening, ACLs, content filtering, segmentation, 802.1X, NAC, port security, MAC filtering, screened subnets</li>
+                </ol>
+            </div>
+            <div class="tech-box">
+                <div class="callout-title">Technical Overview</div>
+                <div class="callout-content"><p>Unit 5 addresses objectives 3.3 (disaster recovery: RPO, RTO, MTTR, MTBF; cold, warm, and hot sites; active-active and active-passive; tabletop exercises and validation tests), 2.4 (physical installations: IDF/MDF, rack size, port-side exhaust and intake, cabling, lockable racks, power &mdash; UPS, PDU, generator, capacity, voltage &mdash; and environment &mdash; humidity, fire suppression, temperature), 1.3 (cloud: NFV, VPC, network security groups and lists, cloud gateways, VPN and direct connect, deployment and service models, scalability, elasticity, multitenancy), the remainder of 1.8 (SDN, SD-WAN, VXLAN, zero trust, SASE/SSE, infrastructure as code), 4.1 (security concepts), 4.2 (attacks), and 4.3 (defenses).</p></div>
+            </div>
+            <div class="plain-box">
+                <div class="callout-title">In Plain Terms</div>
+                <div class="callout-content"><p>Everything fails eventually &mdash; a power supply, a building, a cloud region &mdash; and resilience is deciding in advance how long you can be down and how much data you can lose. Security is the same discipline aimed at people instead of accidents. A technician who can say &ldquo;this outage is within our four-hour RTO&rdquo; or &ldquo;those duplicate gateway replies are ARP poisoning&rdquo; is the one trusted with the important systems.</p></div>
+            </div>
+            <h2>Why We Start Here</h2>
+            <p>Security comes before troubleshooting because you cannot troubleshoot a rogue DHCP server or a poisoned ARP cache until you can recognize one. Resilience and cloud sit beside security because they are the same question &mdash; what happens when something goes wrong &mdash; asked about hardware, providers, and attackers. Unit 6 assumes all three.</p>
+            <h2>Your Week at a Glance</h2>
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>Day</th><th>Time</th><th>Focus</th><th>What You'll Do</th></tr></thead>
+                    <tbody>
+                        <tr><td><strong>Tuesday</strong></td><td>10:00 AM &ndash; 1:00 PM</td><td>Experience</td><td>Subnet Warm-Up, then Ticket of the Day. Resilience: load balancing, NIC teaming, redundant hardware, FHRP, active/active and active/passive, DR sites, RTO and RPO, backups, power and environment. Optional lab, time permitting: DR Tabletop.</td></tr>
+                        <tr><td><strong>Wednesday</strong></td><td>11:00 AM &ndash; 2:00 PM</td><td>Experience &rarr; Concepts</td><td>Subnet Warm-Up, then Ticket of the Day. The cloud and modern networks: service and deployment models, VPC and connectivity, SDN, SD-WAN, VXLAN, zero trust, SASE/SSE, infrastructure as code. Security concepts: CIA, encryption, certificates, AAA. Optional lab, time permitting: Rule Order.</td></tr>
+                        <tr><td><strong>Thursday</strong></td><td>10:00 AM &ndash; 1:00 PM</td><td>Application</td><td>Subnet Warm-Up, then Ticket of the Day. Attacks and defenses: DoS, VLAN hopping, MAC flooding, ARP and DNS poisoning, rogue services, social engineering, malware &mdash; and hardening, segmentation, 802.1X, NAC, port security. Optional lab, time permitting: Name That Attack. The first full-length practice exam opens. Unit exit check.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="key-concept">
+                <h4>Every Class Starts With a Ticket</h4>
+                <p>Each class opens with a short trouble ticket &mdash; the kind a technician works every day. You spend about fifteen minutes working it. It is ungraded, and it is the most job-like thing we do. The three tickets for this unit are in Section 5.11.</p>
+            </div>
+            <h2>Work Outside of Class</h2>
+            <p>Budget <strong>22 – 23 hours</strong> this unit outside our meetings.</p>
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>Component</th><th>Time</th><th>Section</th></tr></thead>
+                    <tbody>
+                        <tr><td>Sybex Study Guide reading</td><td>11.1 hrs</td><td>5.4</td></tr>
+                        <tr><td>Professor Messer videos (3 hr 16 min runtime)</td><td>3.3 – 4.1 hrs</td><td>5.5</td></tr>
+                        <tr><td>Take-home lab (ungraded)</td><td>1.0 &ndash; 1.5 hrs</td><td>5.6</td></tr>
+                        <tr><td>NETLAB online labs (3 labs)</td><td>2.25 &ndash; 3.75 hrs</td><td>5.8</td></tr>
+                        <tr><td>Practice questions, acronym drill, and unit test</td><td>2.5 hrs</td><td>5.7, 5.10, 1.A</td></tr>
+                        <tr><td>Reflection journal</td><td>1 hr</td><td>5.9</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="callout callout-warning">
+                <div class="callout-title">Be Honest With Yourself Now</div>
+                <div class="callout-content"><p>Adding our nine hours of class time, this unit runs about 28&ndash;29 hours. If something in your life makes that unworkable this week, come talk to me at the end of Tuesday&rsquo;s class rather than later.</p></div>
+            </div>
+            <div class="callout callout-info">
+                <div class="callout-title">Where to Find Due Dates</div>
+                <div class="callout-content"><p>Every date and deadline for this course lives in one place: the <strong>Course Schedule</strong> in the Start Here module. Unit pages tell you what to do; the Course Schedule tells you when it is due.</p></div>
+            </div>
+            <div class="callout callout-info">
+                <div class="callout-title">When Assessments Open</div>
+                <div class="callout-content"><p>This unit&rsquo;s pre-assessment, practice set, unit test, and lab quizzes open <strong>Tuesday at 8:00 AM</strong> and stay available through the unit&rsquo;s due date on the Course Schedule. Do the pre-assessment first, on your own, before the reading and videos.</p></div>
+            </div>
+            <h2>Exam Objectives Covered</h2>
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>Objective</th><th>Title</th><th>Exam Weight of Parent Domain</th></tr></thead>
+                    <tbody>
+                        <tr><td><strong>1.3</strong></td><td>Summarize cloud concepts and connectivity options.</td><td>Domain 1.0 Networking Concepts &mdash; 23%</td></tr>
+                        <tr><td><strong>1.8</strong></td><td>Summarize evolving use cases for modern network environments.</td><td>Domain 1.0 Networking Concepts &mdash; 23%</td></tr>
+                        <tr><td><strong>2.4</strong></td><td>Explain important factors of physical installations.</td><td>Domain 2.0 Network Implementation &mdash; 20%</td></tr>
+                        <tr><td><strong>3.3</strong></td><td>Explain disaster recovery (DR) concepts.</td><td>Domain 3.0 Network Operations &mdash; 19%</td></tr>
+                        <tr><td><strong>4.1</strong></td><td>Explain the importance of basic network security concepts.</td><td>Domain 4.0 Network Security &mdash; 14%</td></tr>
+                        <tr><td><strong>4.2</strong></td><td>Summarize various types of attacks and their impact to the network.</td><td>Domain 4.0 Network Security &mdash; 14%</td></tr>
+                        <tr><td><strong>4.3</strong></td><td>Given a scenario, apply network security features, defense techniques, and solutions.</td><td>Domain 4.0 Network Security &mdash; 14%</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="key-concept">
+                <h4>CompTIA Network+ Passes at 720</h4>
+                <p>The exam is scored on a 100&ndash;900 scale and passes at <strong>720</strong>. Because the scale starts at 100 rather than zero, 720 works out to about <strong>78% of raw points</strong>. That is a high bar: a student who treats 70% on a practice set as &ldquo;good enough&rdquo; fails the real exam. This course&rsquo;s mastery gate of 800 exists so that your exam day has a cushion.</p>
+            </div>
+            <div class="summary-box">
+                <h3>Unit 5 Checklist</h3>
+                <ul>
+                    <li>Complete the Section 5.2 Pre-Assessment on your own, before the reading</li>
+                    <li>Read the assigned Sybex Study Guide chapters listed in Section 5.4</li>
+                    <li>Watch the 25 videos in Section 5.5</li>
+                    <li>Complete the take-home lab in Section 5.6</li>
+                    <li>Work the Section 5.7 practice set until you score a perfect set</li>
+                    <li>Complete Lab 05, Lab 09, Lab 13 in NETLAB &mdash; reserve your time early in the week</li>
+                    <li>Submit your Section 5.9 reflection</li>
+                    <li>Take the Section 5.10 Unit Test</li>
+                    <li>Work the three tickets in Section 5.11, one per class day</li>
+                </ul>
+            </div>
+        </div>
+        <footer class="module-footer">
+            <p class="footer-text">CompTIA Network+ Training &nbsp;|&nbsp; &copy; 2026 Charlotte Academy of Technology Services &nbsp;|&nbsp; All Rights Reserved - Mark E Turner</p>
+        </footer>
+    </div>
+</body>
+</html>

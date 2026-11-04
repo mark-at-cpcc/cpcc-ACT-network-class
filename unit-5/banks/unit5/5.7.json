@@ -1,0 +1,255 @@
+[
+ {
+  "q": "Which value states how long a service can be down?",
+  "opts": [
+   "RTO",
+   "RPO",
+   "MTBF",
+   "MTTR"
+  ],
+  "correct": 0,
+  "obj": "3.3"
+ },
+ {
+  "q": "Which measures average time to repair?",
+  "opts": [
+   "MTBF",
+   "MTTR",
+   "RPO",
+   "TTL"
+  ],
+  "correct": 1,
+  "obj": "3.3"
+ },
+ {
+  "q": "Which design has all members carrying load at once?",
+  "opts": [
+   "Active-passive",
+   "Cold standby",
+   "Active-active",
+   "Single point"
+  ],
+  "correct": 2,
+  "obj": "3.3"
+ },
+ {
+  "q": "Which backup copies only changes since the last backup of any kind?",
+  "opts": [
+   "Differential",
+   "Full",
+   "Mirror",
+   "Incremental"
+  ],
+  "correct": 3,
+  "obj": "3.3"
+ },
+ {
+  "q": "What is one rack unit?",
+  "opts": [
+   "1.75 inches",
+   "1 inch",
+   "2 inches",
+   "19 inches"
+  ],
+  "correct": 0,
+  "obj": "2.4"
+ },
+ {
+  "q": "Which supplies power during a multi-hour outage?",
+  "opts": [
+   "UPS",
+   "Generator",
+   "PDU",
+   "Battery in each server"
+  ],
+  "correct": 1,
+  "obj": "2.4"
+ },
+ {
+  "q": "Why must equipment intake and exhaust match the hot-aisle/cold-aisle layout?",
+  "opts": [
+   "To reduce cable length",
+   "To balance PoE",
+   "To keep hot exhaust from being drawn into intakes",
+   "To meet the SLA"
+  ],
+  "correct": 2,
+  "obj": "2.4"
+ },
+ {
+  "q": "In which model do you manage the operating system and everything above it?",
+  "opts": [
+   "SaaS",
+   "PaaS",
+   "FaaS",
+   "IaaS"
+  ],
+  "correct": 3,
+  "obj": "1.3"
+ },
+ {
+  "q": "Which filters traffic at the cloud instance level?",
+  "opts": [
+   "Network security group",
+   "Network ACL",
+   "Internet gateway",
+   "Direct connect"
+  ],
+  "correct": 0,
+  "obj": "1.3"
+ },
+ {
+  "q": "Which describes resources growing and shrinking automatically with demand?",
+  "opts": [
+   "Multitenancy",
+   "Elasticity",
+   "Redundancy",
+   "Latency"
+  ],
+  "correct": 1,
+  "obj": "1.3"
+ },
+ {
+  "q": "Which separates the control plane from the data plane?",
+  "opts": [
+   "STP",
+   "NAT",
+   "SDN",
+   "VRRP"
+  ],
+  "correct": 2,
+  "obj": "1.8"
+ },
+ {
+  "q": "Which security model verifies every request regardless of network location?",
+  "opts": [
+   "Defense in depth",
+   "Implicit trust",
+   "Perimeter security",
+   "Zero trust"
+  ],
+  "correct": 3,
+  "obj": "1.8"
+ },
+ {
+  "q": "Which element of CIA does a DDoS attack primarily target?",
+  "opts": [
+   "Availability",
+   "Confidentiality",
+   "Integrity",
+   "Authentication"
+  ],
+  "correct": 0,
+  "obj": "4.1"
+ },
+ {
+  "q": "Which combines a password with a code from a phone app?",
+  "opts": [
+   "Single sign-on",
+   "Multifactor authentication",
+   "Least privilege",
+   "RBAC"
+  ],
+  "correct": 1,
+  "obj": "4.1"
+ },
+ {
+  "q": "Which issues and vouches for digital certificates?",
+  "opts": [
+   "RADIUS server",
+   "Domain controller",
+   "Certificate authority",
+   "Proxy"
+  ],
+  "correct": 2,
+  "obj": "4.1"
+ },
+ {
+  "q": "Which regulation governs payment card data?",
+  "opts": [
+   "GDPR",
+   "HIPAA",
+   "SOX",
+   "PCI DSS"
+  ],
+  "correct": 3,
+  "obj": "4.1"
+ },
+ {
+  "q": "Which attack uses double-tagged frames to reach another VLAN?",
+  "opts": [
+   "VLAN hopping",
+   "MAC flooding",
+   "Evil twin",
+   "Smurf"
+  ],
+  "correct": 0,
+  "obj": "4.2"
+ },
+ {
+  "q": "Which overwhelms a target with traffic from many compromised hosts?",
+  "opts": [
+   "DoS",
+   "DDoS",
+   "On-path",
+   "Replay"
+  ],
+  "correct": 1,
+  "obj": "4.2"
+ },
+ {
+  "q": "Which malware encrypts files and demands payment?",
+  "opts": [
+   "Worm",
+   "Trojan",
+   "Ransomware",
+   "Rootkit"
+  ],
+  "correct": 2,
+  "obj": "4.2"
+ },
+ {
+  "q": "Which switch feature blocks unauthorized DHCP servers?",
+  "opts": [
+   "Port mirroring",
+   "PoE",
+   "LACP",
+   "DHCP snooping"
+  ],
+  "correct": 3,
+  "obj": "4.3"
+ },
+ {
+  "q": "Which network zone holds public-facing servers between the internet and the internal network?",
+  "opts": [
+   "Screened subnet (DMZ)",
+   "Native VLAN",
+   "Management VLAN",
+   "Guest VLAN"
+  ],
+  "correct": 0,
+  "obj": "4.3"
+ },
+ {
+  "q": "Which defense blocks web traffic by category or URL?",
+  "opts": [
+   "Port security",
+   "Content filtering",
+   "NAC",
+   "STP"
+  ],
+  "correct": 1,
+  "obj": "4.3"
+ },
+ {
+  "q": "Which physical control prevents tailgating?",
+  "opts": [
+   "Cable lock",
+   "Privacy screen",
+   "Access control vestibule",
+   "Badge printer"
+  ],
+  "correct": 2,
+  "obj": "4.3"
+ }
+]

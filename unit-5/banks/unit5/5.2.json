@@ -1,0 +1,222 @@
+[
+ {
+  "q": "Which value states how long a service can be down?",
+  "opts": [
+   "RTO",
+   "RPO",
+   "MTBF",
+   "MTTR"
+  ],
+  "correct": 0,
+  "obj": "3.3"
+ },
+ {
+  "q": "Which site is running with current data and fails over in minutes?",
+  "opts": [
+   "Warm site",
+   "Hot site",
+   "Cold site",
+   "Cloud backup only"
+  ],
+  "correct": 1,
+  "obj": "3.3"
+ },
+ {
+  "q": "What is one rack unit?",
+  "opts": [
+   "1 inch",
+   "2 inches",
+   "1.75 inches",
+   "19 inches"
+  ],
+  "correct": 2,
+  "obj": "2.4"
+ },
+ {
+  "q": "Which device bridges a short power outage and conditions power?",
+  "opts": [
+   "Generator",
+   "PDU",
+   "Surge strip",
+   "UPS"
+  ],
+  "correct": 3,
+  "obj": "2.4"
+ },
+ {
+  "q": "Which cloud model gives you a complete application managed by the provider?",
+  "opts": [
+   "SaaS",
+   "PaaS",
+   "IaaS",
+   "On-premises"
+  ],
+  "correct": 0,
+  "obj": "1.3"
+ },
+ {
+  "q": "What is a VPC?",
+  "opts": [
+   "A VPN client",
+   "An isolated private network inside a public cloud",
+   "A virtual phone system",
+   "A physical colocation cage"
+  ],
+  "correct": 1,
+  "obj": "1.3"
+ },
+ {
+  "q": "Which separates the control plane from the data plane?",
+  "opts": [
+   "STP",
+   "NAT",
+   "SDN",
+   "VRRP"
+  ],
+  "correct": 2,
+  "obj": "1.8"
+ },
+ {
+  "q": "Which security model verifies every request regardless of network location?",
+  "opts": [
+   "Defense in depth",
+   "Implicit trust",
+   "Perimeter security",
+   "Zero trust"
+  ],
+  "correct": 3,
+  "obj": "1.8"
+ },
+ {
+  "q": "Which element of CIA does a DDoS attack primarily target?",
+  "opts": [
+   "Availability",
+   "Confidentiality",
+   "Integrity",
+   "Authentication"
+  ],
+  "correct": 0,
+  "obj": "4.1"
+ },
+ {
+  "q": "Which AAA component records what a user did?",
+  "opts": [
+   "Authorization",
+   "Accounting",
+   "Authentication",
+   "Auditing"
+  ],
+  "correct": 1,
+  "obj": "4.1"
+ },
+ {
+  "q": "Which decoy system attracts attackers to study them?",
+  "opts": [
+   "Jump box",
+   "Bastion host",
+   "Honeypot",
+   "Proxy"
+  ],
+  "correct": 2,
+  "obj": "4.1"
+ },
+ {
+  "q": "Which regulation governs payment card data?",
+  "opts": [
+   "GDPR",
+   "HIPAA",
+   "SOX",
+   "PCI DSS"
+  ],
+  "correct": 3,
+  "obj": "4.1"
+ },
+ {
+  "q": "Which attack floods a switch's MAC table so it forwards like a hub?",
+  "opts": [
+   "MAC flooding",
+   "ARP poisoning",
+   "VLAN hopping",
+   "DNS poisoning"
+  ],
+  "correct": 0,
+  "obj": "4.2"
+ },
+ {
+  "q": "Which attack follows an employee through a secure door?",
+  "opts": [
+   "Shoulder surfing",
+   "Tailgating",
+   "Phishing",
+   "Vishing"
+  ],
+  "correct": 1,
+  "obj": "4.2"
+ },
+ {
+  "q": "Which switch feature limits the number of MAC addresses per port?",
+  "opts": [
+   "Port mirroring",
+   "LACP",
+   "Port security",
+   "STP"
+  ],
+  "correct": 2,
+  "obj": "4.3"
+ },
+ {
+  "q": "Which feature validates ARP replies against known bindings?",
+  "opts": [
+   "STP",
+   "QoS",
+   "VRRP",
+   "Dynamic ARP inspection"
+  ],
+  "correct": 3,
+  "obj": "4.3"
+ },
+ {
+  "q": "Which framework authenticates devices at the switch port before granting access?",
+  "opts": [
+   "802.1X",
+   "802.1Q",
+   "802.3af",
+   "802.11ax"
+  ],
+  "correct": 0,
+  "obj": "4.3"
+ },
+ {
+  "q": "Which hardening step should be done first on every new device?",
+  "opts": [
+   "Enable Telnet",
+   "Change default credentials",
+   "Open all ports",
+   "Disable logging"
+  ],
+  "correct": 1,
+  "obj": "4.3"
+ },
+ {
+  "q": "Which defense blocks web traffic by category or URL?",
+  "opts": [
+   "Port security",
+   "NAC",
+   "Content filtering",
+   "STP"
+  ],
+  "correct": 2,
+  "obj": "4.3"
+ },
+ {
+  "q": "Which checks a device's patch level and antivirus before admission?",
+  "opts": [
+   "Port mirroring",
+   "DHCP relay",
+   "IPAM",
+   "NAC posture assessment"
+  ],
+  "correct": 3,
+  "obj": "4.3"
+ }
+]

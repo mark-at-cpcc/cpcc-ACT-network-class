@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Unit 5 &mdash; 5.3 Content Review | CompTIA Network+</title>
+    <link rel="stylesheet" href="_design/cpcc-course-design.css">
+    <link rel="stylesheet" href="_design/cpcc-engine.css">
+    <script src="_design/cpcc-course-design.js" defer></script>
+
+</head>
+<body>
+    <div class="course-container">
+<header class="module-header">
+    <div class="module-label">Unit 5 &middot; Resilience, Cloud, and Network Security &middot; Section 5.3</div>
+    <h1 class="module-title">Content Review</h1>
+    <p class="module-subtitle">CompTIA Network+ - Domains 1.0, 2.0, 3.0, 4.0</p>
+</header>
+        <nav class="toc" id="tocNav">
+            <div class="toc-header">Unit 5 Index</div>
+            <div class="toc-item"><a href="Unit5_5.1_Overview.html">5.1 &mdash; Unit Overview and Schedule</a></div>
+            <div class="toc-item"><a href="Unit5_5.2_Pre-Assessment.html">5.2 &mdash; Unit Pre-Assessment</a></div>
+            <div class="toc-item current" id="tocCurrent">5.3 &mdash; Content Review</div>
+            <div class="toc-item"><a href="Unit5_5.4_Reading-Assignment.html">5.4 &mdash; Reading Assignment</a></div>
+            <div class="toc-item"><a href="Unit5_5.5_Video-Assignment.html">5.5 &mdash; Video Assignment</a></div>
+            <div class="toc-item"><a href="Unit5_5.6_Labs.html">5.6 &mdash; Classroom/Home Labs</a></div>
+            <div class="toc-item"><a href="Unit5_5.7_Practice-Questions.html">5.7 &mdash; Practice Question Set</a></div>
+            <div class="toc-item"><a href="Unit5_5.8_NETLAB-Labs.html">5.8 &mdash; Online Labs: NETLAB</a></div>
+            <div class="toc-item"><a href="Unit5_5.9_Reflection.html">5.9 &mdash; Reflection Activity</a></div>
+            <div class="toc-item"><a href="Unit5_5.10_Unit-Test.html">5.10 &mdash; Unit Test</a></div>
+            <div class="toc-item"><a href="Unit5_5.11_Ticket-Exercises.html">5.11 &mdash; Unit 5 Ticket Exercises</a></div>
+            <div class="toc-item"><a href="Unit5_5.A_Practice-Exam.html">5.A &mdash; Practice Exam</a></div>
+            <div class="toc-item"><a href="../index.html" data-contents-link>Return to Index</a></div>
+        </nav>
+        <div class="content-area">
+            <p class="text-muted">The map for Chapters 16, 17, 20, and 21. Four chapters, seven objectives; this page is organized by question, not by chapter.</p>
+            <h2>Availability and Disaster Recovery</h2>
+            <div class="tech-box"><div class="callout-title">Technical Overview</div><div class="callout-content"><p><strong>RTO</strong> (recovery time objective) is how long a service may be down; <strong>RPO</strong> (recovery point objective) is how much data, measured in time, may be lost. <strong>MTBF</strong> measures reliability; <strong>MTTR</strong> measures repair speed. Sites: <strong>hot</strong> (running, current data, minutes), <strong>warm</strong> (equipment ready, data restored, hours), <strong>cold</strong> (space and power only, days), and <strong>cloud</strong> sites. Designs: <strong>active-active</strong> (all members carry load) and <strong>active-passive</strong> (a standby takes over). Techniques: <strong>load balancing</strong>, <strong>multipathing</strong>, <strong>NIC teaming</strong>, <strong>redundant power supplies</strong>, <strong>clustering</strong>, and FHRP for gateways. Backups: full, incremental (changes since the last backup), differential (changes since the last full), snapshots. Testing: <strong>tabletop exercises</strong> walk the plan on paper; <strong>validation tests</strong> fail over for real.</p></div></div>
+            <div class="key-concept"><h4>RTO and RPO choose the site</h4><p>An RTO of minutes needs a hot site or active-active; an RPO of minutes needs replication, not nightly backups. Exam scenarios state the two numbers and ask for the design that meets them at the lowest cost &mdash; read the numbers first, then the options.</p></div>
+            <h2>Physical Installations</h2>
+            <div class="tech-box"><div class="callout-title">Technical Overview</div><div class="callout-content"><p>Racks are measured in rack units (1U = 1.75 in); align equipment <strong>port-side intake or exhaust</strong> with the hot-aisle/cold-aisle layout. <strong>UPS</strong> bridges short outages and conditions power; <strong>generators</strong> carry long ones; <strong>PDUs</strong> distribute power in the rack. Plan <strong>capacity</strong> in watts and amps at the correct voltage. Environment: temperature, humidity (too low invites static, too high condensation), and <strong>fire suppression</strong> &mdash; clean-agent gas protects equipment where water would destroy it. Lockable racks and controlled access protect the hardware itself.</p></div></div>
+            <h2>The Cloud and Modern Networks</h2>
+            <div class="tech-box"><div class="callout-title">Technical Overview</div><div class="callout-content"><p>Service models: <strong>SaaS</strong> (the provider runs everything), <strong>PaaS</strong> (you bring the application), <strong>IaaS</strong> (you manage the OS and up). Deployment: <strong>public</strong>, <strong>private</strong>, <strong>hybrid</strong>, community. A <strong>VPC</strong> is your isolated network in a public cloud, filtered by <strong>network security groups</strong> (instance level) and <strong>network ACLs</strong> (subnet level), reaching the internet through an <strong>internet gateway</strong> and private networks through a <strong>NAT gateway</strong>. Connectivity: site-to-site <strong>VPN</strong> over the internet, or a <strong>direct connect</strong> private circuit. <strong>Elasticity</strong> grows and shrinks with demand; <strong>scalability</strong> handles more of it; <strong>multitenancy</strong> shares infrastructure among customers. <strong>NFV</strong> runs network functions as software. <strong>SDN</strong> separates the control plane from the data plane; <strong>SD-WAN</strong> steers traffic across links by policy; <strong>VXLAN</strong> carries Layer 2 over Layer 3 for data centers; <strong>zero trust</strong> verifies every request regardless of location; <strong>SASE</strong> (Secure Access Service Edge) delivers networking and security as a cloud service, and <strong>SSE</strong> is its security half; <strong>infrastructure as code</strong> defines networks in version-controlled files and automates them.</p></div></div>
+            <div class="callout callout-info"><div class="callout-title">Terminology Note</div><div class="callout-content"><p>The book&rsquo;s heading reads &ldquo;Secure Access Secure Edge&rdquo;; CompTIA&rsquo;s term is <strong>Secure Access Service Edge (SASE)</strong>. Use CompTIA&rsquo;s on the exam.</p></div></div>
+            <h2>Security Concepts</h2>
+            <div class="tech-box"><div class="callout-title">Technical Overview</div><div class="callout-content"><p>The <strong>CIA triad</strong>: confidentiality, integrity, availability. <strong>Threats</strong> exploit <strong>vulnerabilities</strong>; <strong>risk</strong> is likelihood times impact. Encryption protects data <strong>in transit</strong> and <strong>at rest</strong>. <strong>PKI</strong> binds identities to public keys with certificates issued by a certificate authority; self-signed certificates are trusted only locally. <strong>AAA</strong>: authentication (who you are &mdash; MFA combines something you know, have, are, or where you are), authorization (what you may do &mdash; least privilege, RBAC), accounting (what you did). Protocols: <strong>RADIUS</strong>, <strong>TACACS+</strong>, <strong>LDAP</strong>, <strong>SAML</strong>, <strong>Kerberos</strong>, SSO. Deception: honeypots and honeynets. Compliance: PCI DSS, GDPR, data locality. Segmentation: separate IoT, OT/ICS, guest, and BYOD traffic.</p></div></div>
+            <h2>Attacks and Their Defenses</h2>
+            <div class="table-container"><table><thead><tr><th>Attack</th><th>What you see</th><th>Defense</th></tr></thead><tbody><tr><td>DoS / DDoS</td><td>Service unreachable; traffic flood from one or many sources</td><td>Upstream filtering, rate limiting, scrubbing service</td></tr><tr><td>VLAN hopping</td><td>Frames reach a VLAN they should not (double tagging, switch spoofing)</td><td>Disable auto-trunking, change the native VLAN, tag it</td></tr><tr><td>MAC flooding</td><td>Switch floods all traffic like a hub; MAC table full</td><td>Port security limiting MACs per port</td></tr><tr><td>ARP poisoning</td><td>Gateway IP maps to the wrong MAC; on-path attack</td><td>Dynamic ARP inspection, segmentation</td></tr><tr><td>DNS poisoning / spoofing</td><td>Names resolve to attacker addresses</td><td>DNSSEC, trusted resolvers</td></tr><tr><td>Rogue DHCP server</td><td>Clients get the wrong gateway or DNS</td><td>DHCP snooping</td></tr><tr><td>Rogue access point / evil twin</td><td>Unknown SSID or a copy of yours</td><td>Wireless scans, 802.1X, NAC</td></tr><tr><td>Social engineering</td><td>Phishing, tailgating, shoulder surfing, dumpster diving</td><td>Training, physical controls, MFA</td></tr><tr><td>Malware</td><td>Unexpected processes, encryption (ransomware), beaconing</td><td>Endpoint protection, patching, segmentation</td></tr></tbody></table></div>
+            <div class="tech-box"><div class="callout-title">Defenses (objective 4.3)</div><div class="callout-content"><p><strong>Device hardening</strong>: change default credentials, disable unused ports and services, keep firmware current, use SSH instead of Telnet. <strong>ACLs</strong> permit or deny by address, port, and protocol, read top-down with an implicit deny. <strong>Content filtering</strong>, <strong>URL filtering</strong>. <strong>Port security</strong> and <strong>MAC filtering</strong>. <strong>802.1X</strong> and <strong>NAC</strong> admit devices only after authentication and posture checks. A <strong>screened subnet</strong> (DMZ) holds public-facing servers between two firewalls or interfaces. Physical: cameras, locks, badge readers, access-control vestibules.</p></div></div>
+            <div class="callout callout-info"><div class="callout-title">Book Typo</div><div class="callout-content"><p>The Chapter 21 table of contents lists &ldquo;Device Gardening&rdquo; (p. 832). It means <strong>device hardening</strong>.</p></div></div>
+            <h3>Unit 5 Content Recap</h3><div class="summary-box"><h3>In This Unit You Learned</h3><ul><li>RTO, RPO, MTBF, MTTR; hot, warm, cold sites; active-active and active-passive; backup types and DR testing</li><li>Racks, airflow, UPS, PDU, generators, environment, fire suppression</li><li>Cloud service and deployment models, VPC and its gateways, direct connect, and the modern use cases of 1.8</li><li>CIA, encryption, PKI, AAA and its protocols, segmentation, compliance</li><li>Each attack by its symptom, and the control that stops it</li></ul></div>
+            <div class="references-section"><h3>Go Further</h3><ul><li>Section 5.A Practice Exam &mdash; take it once this unit, untimed if you like, for a scaled score</li><li>CompTIA N10-009 objectives 1.3, 1.8, 2.4, 3.3, 4.1&ndash;4.3</li></ul></div>
+        </div>
+        <footer class="module-footer">
+            <p class="footer-text">CompTIA Network+ Training &nbsp;|&nbsp; &copy; 2026 Charlotte Academy of Technology Services &nbsp;|&nbsp; All Rights Reserved - Mark E Turner</p>
+        </footer>
+    </div>
+</body>
+</html>

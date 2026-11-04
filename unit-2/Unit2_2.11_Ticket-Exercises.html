@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Unit 2 &mdash; 2.11 Unit 2 Ticket Exercises | CompTIA Network+</title>
+    <link rel="stylesheet" href="_design/cpcc-course-design.css">
+    <link rel="stylesheet" href="_design/cpcc-engine.css">
+    <script src="_design/cpcc-course-design.js" defer></script>
+    <script src="_design/cpcc-tickets.js" defer></script>
+</head>
+<body>
+    <div class="course-container">
+<header class="module-header">
+    <div class="module-label">Unit 2 &middot; Devices, TCP/IP, and IP Addressing &middot; Section 2.11</div>
+    <h1 class="module-title">Unit 2 Ticket Exercises</h1>
+    <p class="module-subtitle">CompTIA Network+ - Domains 1.0, 3.0</p>
+</header>
+        <nav class="toc" id="tocNav">
+            <div class="toc-header">Unit 2 Index</div>
+            <div class="toc-item"><a href="Unit2_2.1_Overview.html">2.1 &mdash; Unit Overview and Schedule</a></div>
+            <div class="toc-item"><a href="Unit2_2.2_Pre-Assessment.html">2.2 &mdash; Unit Pre-Assessment</a></div>
+            <div class="toc-item"><a href="Unit2_2.3_Content-Review.html">2.3 &mdash; Content Review</a></div>
+            <div class="toc-item"><a href="Unit2_2.4_Reading-Assignment.html">2.4 &mdash; Reading Assignment</a></div>
+            <div class="toc-item"><a href="Unit2_2.5_Video-Assignment.html">2.5 &mdash; Video Assignment</a></div>
+            <div class="toc-item"><a href="Unit2_2.6_Labs.html">2.6 &mdash; Classroom/Home Labs</a></div>
+            <div class="toc-item"><a href="Unit2_2.7_Practice-Questions.html">2.7 &mdash; Practice Question Set</a></div>
+            <div class="toc-item"><a href="Unit2_2.8_NETLAB-Labs.html">2.8 &mdash; Online Labs: NETLAB</a></div>
+            <div class="toc-item"><a href="Unit2_2.9_Reflection.html">2.9 &mdash; Reflection Activity</a></div>
+            <div class="toc-item"><a href="Unit2_2.10_Unit-Test.html">2.10 &mdash; Unit Test</a></div>
+            <div class="toc-item current" id="tocCurrent">2.11 &mdash; Unit 2 Ticket Exercises</div>
+            <div class="toc-item"><a href="Unit2_2.A_Ports-and-Protocols-Practice-Test.html">2.A &mdash; Ports and Protocols Practice Test</a></div>
+            <div class="toc-item"><a href="../index.html" data-contents-link>Return to Index</a></div>
+        </nav>
+        <div class="content-area">
+            <div class="instructions-card"><div class="instructions-band">Instructions &mdash; Read Before You Begin</div><h3>What This Is</h3><p>Three trouble tickets, one for each class meeting this unit. <strong>Work each one on your own.</strong> Every ticket is a real kind of call, with real evidence, and three questions that ask what a technician would actually do next. Plan on about 20 minutes per ticket.</p><h3>How to Work a Ticket</h3><ol><li><strong>Read the call, then stop.</strong> Before you look at any evidence, write one sentence in your notes: <em>what do you think is wrong, and how sure are you?</em></li><li><strong>Study the exhibits</strong> as if you had just collected them yourself.</li><li><strong>Answer the three questions.</strong> Each one stands on its own. You get one attempt per question.</li><li><strong>Write your own progress note,</strong> then compare it with the Ticket Solution.</li><li><strong>Look back.</strong> The reflection prompts sit inside the Ticket Solution. Answer them in your notes.</li></ol><h3>What You Will See When You Answer</h3><ul class="checklist"><li>A flag that says <strong>Correct</strong> or <strong>Incorrect</strong> &mdash; nothing more. You will not be shown which answer was right.</li><li>Answer all three correctly and the <strong>Ticket Solution</strong> opens on its own. Otherwise, click <strong>Ticket Solution</strong> to open it yourself &mdash; after you have written your note.</li><li><strong>Reset These Questions</strong> clears a ticket so you can work it again.</li></ul><h3>About the Exhibits</h3><p>Each ticket includes exhibits labeled A, B, and C. <strong>Every exhibit is representative of output from the network being troubleshot</strong> &mdash; what you would see on a screen, read on a label, or hold in your hand. They are simplified to show what matters, the way a performance-based question on the N10-009 exam presents a tool&rsquo;s output. Read them the way a technician reads a screen: <strong>column headings first, then the values that stand out, then the details that do not fit.</strong></p><h3>The Method Behind Every Ticket</h3><p>Each question is tagged with the step of CompTIA&rsquo;s troubleshooting methodology it exercises. You will use this method for the rest of your career; these tickets are where it becomes a habit.</p><ol><li>Identify the problem</li><li>Establish a theory of probable cause</li><li>Test the theory to determine the cause</li><li>Establish a plan of action to resolve the problem and identify potential effects</li><li>Implement the solution or escalate as necessary</li><li>Verify full system functionality and implement preventive measures if applicable</li><li>Document findings, actions, outcomes, and lessons learned throughout the process</li></ol><h3>About the Times and Names</h3><p>Every person, company, and device in these tickets is fictional. Times shown inside a ticket are part of the scenario, not course deadlines &mdash; course due dates are always in the Course Schedule.</p></div>
+            <section class="ticket-card"><div class="ticket-band"><span class="ticket-count">Ticket 1 of 3</span><span class="ticket-title">Everyone Got 169.254</span><span class="ticket-meta">Tuesday &middot; Objectives 3.4, 1.7 &mdash; DHCP, APIPA &middot; About 20 minutes</span></div><div class="ticket-body"><div class="table-container"><table><thead><tr><th colspan="2">Ticket NET-2-0208</th></tr></thead><tbody><tr><td><strong>Requester</strong></td><td>Tomás Reyes, Branch Manager, Carolina Ridge Credit Union, Monroe branch (11 staff)</td></tr><tr><td><strong>Site / Device</strong></td><td>Monroe branch &middot; all workstations on VLAN 20, subnet 10.20.0.0/24</td></tr><tr><td><strong>Severity</strong></td><td>High &mdash; branch cannot serve members</td></tr><tr><td><strong>Category</strong></td><td>Connectivity &mdash; addressing</td></tr></tbody></table></div><h3>The Call</h3><p>&ldquo;Nobody at the branch can get on this morning. Every computer says something about limited connectivity. It was fine Friday. Headquarters says their network is up and the two other branches are fine. We did have the vendor in Saturday replacing the router.&rdquo;</p><div class="callout callout-warning"><div class="callout-title">Stop Here</div><div class="callout-content">Before you look at the exhibits, write one sentence in your notes: what do you think is wrong, and how sure are you?</div></div><h3>Exhibit A &mdash; <code>ipconfig /all</code> on a branch workstation</h3><pre><code>Ethernet adapter Ethernet:
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Autoconfiguration IPv4 Address. . : 169.254.117.42 (Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . :
+   DHCP Server . . . . . . . . . . . :
+   DNS Servers . . . . . . . . . . . :</code></pre><h3>Exhibit B &mdash; DHCP server at headquarters (10.1.0.10), scope status, 8:40 AM</h3><div class="table-container"><table><thead><tr><th>Scope</th><th>Range</th><th>In use</th><th>Available</th><th>Status</th></tr></thead><tbody><tr><td>HQ VLAN 10</td><td>10.1.0.100&ndash;10.1.0.250</td><td>112</td><td>39</td><td>Active</td></tr><tr><td>Monroe VLAN 20</td><td>10.20.0.100&ndash;10.20.0.200</td><td>0</td><td>101</td><td>Active</td></tr><tr><td>Gastonia VLAN 30</td><td>10.30.0.100&ndash;10.30.0.200</td><td>9</td><td>92</td><td>Active</td></tr></tbody></table></div><h3>Exhibit C &mdash; The new Monroe router, interface configuration excerpt, against Friday&rsquo;s backup</h3><pre><code>! RUNNING (new router, Saturday)        ! BACKUP (old router, Friday)
+interface GigabitEthernet0/1           interface GigabitEthernet0/1
+ description VLAN20-Workstations         description VLAN20-Workstations
+ ip address 10.20.0.1 255.255.255.0     ip address 10.20.0.1 255.255.255.0
+ no shutdown                            ip helper-address 10.1.0.10
+                                        no shutdown</code></pre><div class="ticket-questions" data-ticket="t1" data-solution="t1sol"></div><h3>Close the Ticket</h3><p>Write your own progress note and resolution first. Then open the Ticket Solution below to compare.</p><div class="solution-toggle" id="t1sol"><div class="solution-bar">Ticket Solution</div><div class="solution-body"><div class="callout callout-tip"><div class="callout-title">Resolution</div><div class="callout-content"><p><strong>Reported:</strong> every Monroe workstation has limited connectivity since the router replacement.</p><p><strong>Found:</strong> workstations hold APIPA addresses (169.254.x.x), so their DHCP Discover broadcasts are going unanswered. The DHCP server at headquarters is healthy and the Monroe scope is active with zero leases &mdash; it never received a request. Discover is a broadcast, and broadcasts do not cross a router unless the router relays them: the old router&rsquo;s <code>ip helper-address 10.1.0.10</code> on the VLAN 20 interface was not carried to the new one.</p><p><strong>Action:</strong> added <code>ip helper-address 10.1.0.10</code> to GigabitEthernet0/1 on the new router; ran <code>ipconfig /renew</code> on one workstation and received 10.20.0.100 with the correct gateway and DNS servers.</p><p><strong>Verified:</strong> scope shows leases climbing; three workstations tested to the core banking application; member service resumed by 9:05 AM.</p><p><strong>Follow-up:</strong> compared the full running configuration against Friday&rsquo;s backup and found no other omissions; asked the vendor for their migration checklist and added &ldquo;verify DHCP relay on every user VLAN&rdquo; to ours.</p></div></div><h3>Look Back</h3><div class="activity-section"><ol class="lab-steps"><li><strong>Your first theory probably involved the DHCP server. Exhibit B cleared it in one line. What in Exhibit A should have told you the server was never reached?</strong></li><li><strong>Explain to Tomás, in two sentences with no acronyms, why replacing a router can stop computers from getting addresses.</strong></li><li><strong>The vendor&rsquo;s router &ldquo;worked&rdquo; &mdash; it routed. What test would have caught this on Saturday before anyone left?</strong></li></ol></div></div></div></div></section>
+            <section class="ticket-card"><div class="ticket-band"><span class="ticket-count">Ticket 2 of 3</span><span class="ticket-title">The Internet Is Down, Except It Isn&rsquo;t</span><span class="ticket-meta">Wednesday &middot; Objectives 3.4, 1.4 &mdash; DNS, DHCP options &middot; About 20 minutes</span></div><div class="ticket-body"><div class="table-container"><table><thead><tr><th colspan="2">Ticket NET-2-0215</th></tr></thead><tbody><tr><td><strong>Requester</strong></td><td>Leah Sorensen, Office Manager, Hartwell &amp; Price Law (26 staff)</td></tr><tr><td><strong>Site / Device</strong></td><td>Main office &middot; workstations on 192.168.40.0/24</td></tr><tr><td><strong>Severity</strong></td><td>High &mdash; whole office</td></tr><tr><td><strong>Category</strong></td><td>Connectivity &mdash; name resolution</td></tr></tbody></table></div><h3>The Call</h3><p>&ldquo;The internet went down about twenty minutes ago for everybody. The strange part is that our video calls that were already running kept working, and one of the paralegals can still reach a website if she types in the numbers. The IT contractor changed something on the server last night.&rdquo;</p><div class="callout callout-warning"><div class="callout-title">Stop Here</div><div class="callout-content">Before you look at the exhibits, write one sentence in your notes: what do you think is wrong, and how sure are you?</div></div><h3>Exhibit A &mdash; From a workstation</h3><pre><code>C:\&gt; ping 8.8.8.8
+Reply from 8.8.8.8: bytes=32 time=14ms TTL=117
+
+C:\&gt; ping www.example.com
+Ping request could not find host www.example.com. Please check the name and try again.
+
+C:\&gt; ipconfig /all | findstr /i "DNS Servers"
+   DNS Servers . . . . . . . . . . . : 192.168.40.250</code></pre><h3>Exhibit B &mdash; <code>nslookup</code> against two resolvers</h3><pre><code>C:\&gt; nslookup www.example.com
+Server:  UnKnown
+Address:  192.168.40.250
+*** UnKnown can&#39;t find www.example.com: No response from server
+
+C:\&gt; nslookup www.example.com 1.1.1.1
+Server:  one.one.one.one
+Address:  1.1.1.1
+Non-authoritative answer:
+Name:    www.example.com
+Addresses:  2606:2800:21f:cb07:6820:80da:af6b:8b2c
+            93.184.215.14</code></pre><h3>Exhibit C &mdash; DHCP scope options on the office server, with the change log</h3><div class="table-container"><table><thead><tr><th>Option</th><th>Value today</th><th>Value yesterday</th><th>Changed by</th></tr></thead><tbody><tr><td>003 Router</td><td>192.168.40.1</td><td>192.168.40.1</td><td>&mdash;</td></tr><tr><td>006 DNS Servers</td><td>192.168.40.250</td><td>192.168.40.10</td><td>contractor, 9:48 PM</td></tr><tr><td>015 DNS Domain Name</td><td>hartwellprice.local</td><td>hartwellprice.local</td><td>&mdash;</td></tr><tr><td>051 Lease Time</td><td>8 hours</td><td>8 hours</td><td>&mdash;</td></tr></tbody></table></div><div class="ticket-questions" data-ticket="t2" data-solution="t2sol"></div><h3>Close the Ticket</h3><p>Write your own progress note and resolution first. Then open the Ticket Solution below to compare.</p><div class="solution-toggle" id="t2sol"><div class="solution-bar">Ticket Solution</div><div class="solution-body"><div class="callout callout-tip"><div class="callout-title">Resolution</div><div class="callout-content"><p><strong>Reported:</strong> &ldquo;internet down&rdquo; for the whole office; established sessions kept working; sites reachable by IP.</p><p><strong>Found:</strong> connectivity is fine (ping to 8.8.8.8 succeeds); name resolution fails. The workstations&rsquo; DNS server is 192.168.40.250, which does not respond; the same name resolves instantly against 1.1.1.1. The DHCP option 006 (DNS Servers) was changed last night from 192.168.40.10 &mdash; the working domain controller &mdash; to .250, an address with nothing listening on port 53. As eight-hour leases renewed through the morning, workstations picked up the bad option one by one.</p><p><strong>Action:</strong> restored option 006 to 192.168.40.10; ran <code>ipconfig /renew</code> and <code>ipconfig /flushdns</code> on the affected workstations.</p><p><strong>Verified:</strong> nslookup against the renewed address resolves; browsers load by name; confirmed with Leah.</p><p><strong>Follow-up:</strong> asked the contractor what .250 was meant to be (a planned new DNS server, not yet built); put a change-management note on the DHCP scope so option changes are announced before they are made.</p></div></div><h3>Look Back</h3><div class="activity-section"><ol class="lab-steps"><li><strong>Leah said &ldquo;the internet is down.&rdquo; Which two facts in her call told you it was not, before you ran a single command?</strong></li><li><strong>Why did the problem spread over twenty minutes instead of hitting everyone at once? Name the DHCP mechanism.</strong></li><li><strong>Write the one-line instruction you would give the contractor so this does not happen with the next change.</strong></li></ol></div></div></div></div></section>
+            <section class="ticket-card"><div class="ticket-band"><span class="ticket-count">Ticket 3 of 3</span><span class="ticket-title">The Scanner Stopped Emailing</span><span class="ticket-meta">Thursday &middot; Objectives 1.4, 1.2 &mdash; ports, firewall rules &middot; About 20 minutes</span></div><div class="ticket-body"><div class="table-container"><table><thead><tr><th colspan="2">Ticket NET-2-0224</th></tr></thead><tbody><tr><td><strong>Requester</strong></td><td>Devon Ashby, Practice Administrator, Lakeshore Pediatrics (two locations)</td></tr><tr><td><strong>Site / Device</strong></td><td>Front-office multifunction printer MFP-FRONT, 10.8.1.60, scan-to-email</td></tr><tr><td><strong>Severity</strong></td><td>Medium &mdash; one workflow</td></tr><tr><td><strong>Category</strong></td><td>Service &mdash; mail</td></tr></tbody></table></div><h3>The Call</h3><p>&ldquo;The copier used to email scans straight to us. Since the new firewall went in last week it just says &ldquo;send failed.&rdquo; Printing is fine, and our regular email on the computers works. The firewall company says their box is working perfectly.&rdquo;</p><div class="callout callout-warning"><div class="callout-title">Stop Here</div><div class="callout-content">Before you look at the exhibits, write one sentence in your notes: what do you think is wrong, and how sure are you?</div></div><h3>Exhibit A &mdash; The scanner&rsquo;s SMTP settings, from its admin page</h3><div class="table-container"><table><thead><tr><th>Setting</th><th>Value</th></tr></thead><tbody><tr><td>SMTP server</td><td>smtp.mailhost.example</td></tr><tr><td>Port</td><td>587</td></tr><tr><td>Encryption</td><td>STARTTLS</td></tr><tr><td>Authentication</td><td>scans@lakeshorepeds.example</td></tr><tr><td>Last result</td><td>Connection timed out</td></tr></tbody></table></div><h3>Exhibit B &mdash; Outbound firewall rules, in order</h3><div class="table-container"><table><thead><tr><th>#</th><th>Source</th><th>Destination</th><th>Service / Port</th><th>Action</th></tr></thead><tbody><tr><td>1</td><td>10.8.0.0/16</td><td>any</td><td>HTTP 80, HTTPS 443</td><td>Allow</td></tr><tr><td>2</td><td>10.8.0.0/16</td><td>any</td><td>DNS 53</td><td>Allow</td></tr><tr><td>3</td><td>10.8.0.0/16</td><td>any</td><td>IMAP 993</td><td>Allow</td></tr><tr><td>4</td><td>10.8.1.0/24</td><td>any</td><td>SMTP 25</td><td>Deny</td></tr><tr><td>5</td><td>any</td><td>any</td><td>any</td><td>Deny</td></tr></tbody></table></div><h3>Exhibit C &mdash; Test from a workstation on the same subnet</h3><pre><code>C:\&gt; Test-NetConnection smtp.mailhost.example -Port 587
+ComputerName     : smtp.mailhost.example
+RemoteAddress    : 203.0.113.25
+TcpTestSucceeded : False
+
+C:\&gt; Test-NetConnection smtp.mailhost.example -Port 443
+TcpTestSucceeded : True</code></pre><div class="ticket-questions" data-ticket="t3" data-solution="t3sol"></div><h3>Close the Ticket</h3><p>Write your own progress note and resolution first. Then open the Ticket Solution below to compare.</p><div class="solution-toggle" id="t3sol"><div class="solution-bar">Ticket Solution</div><div class="solution-body"><div class="callout callout-tip"><div class="callout-title">Resolution</div><div class="callout-content"><p><strong>Reported:</strong> scan-to-email fails since the firewall replacement; printing and desktop mail unaffected.</p><p><strong>Found:</strong> the scanner submits mail on TCP 587 (SMTP with STARTTLS). The new outbound rule set allows web, DNS, and IMAP 993 (which is why desktop mail still reads), explicitly denies SMTP 25 from the office subnet, and ends with a deny-all. Port 587 matches no allow rule and falls to rule 5. The desktop mail client sends through the provider&rsquo;s web service on 443, so users never noticed. A port test from a workstation confirms 587 is blocked and 443 is open.</p><p><strong>Action:</strong> added an outbound allow rule above the deny-all for 10.8.1.60 only to smtp.mailhost.example on TCP 587; left SMTP 25 denied.</p><p><strong>Verified:</strong> the port test succeeds; a test scan arrived in the inbox; confirmed with Devon.</p><p><strong>Follow-up:</strong> documented the scanner&rsquo;s dependency (587 STARTTLS to the mail host) in the firewall change record so the next rule review keeps it.</p></div></div><h3>Look Back</h3><div class="activity-section"><ol class="lab-steps"><li><strong>The firewall vendor said the box was &ldquo;working perfectly.&rdquo; It was. What is the difference between a device working and a device configured for your needs?</strong></li><li><strong>Why did users&rsquo; email keep working while the scanner&rsquo;s did not? Name the two ports.</strong></li><li><strong>The fix allowed 587 for one host only. Why not for the whole subnet?</strong></li></ol></div></div></div></div></section>
+            <script type="application/json" class="cpcc-ticket-bank">
+{
+ "t1": [
+  {
+   "step": "Step 1 &mdash; Identify the problem",
+   "exhibit": "Exhibit A",
+   "q": "What does the address 169.254.117.42 with no gateway and no DHCP server tell you?",
+   "opts": [
+    [
+     "The workstation sent DHCP requests and received no answer, so it assigned itself an APIPA address",
+     true
+    ],
+    [
+     "The workstation has a static address on the wrong subnet",
+     false
+    ],
+    [
+     "The DNS server is down",
+     false
+    ],
+    [
+     "The workstation is on the correct subnet and the switch port is blocked",
+     false
+    ],
+    [
+     "The lease expired and the server refused to renew it",
+     false
+    ],
+    [
+     "The NIC driver is corrupted",
+     false
+    ]
+   ]
+  },
+  {
+   "step": "Step 2 &mdash; Establish a theory of probable cause",
+   "exhibit": "Exhibit B",
+   "q": "The Monroe scope is active with zero leases while the other scopes are healthy. Which theory fits?",
+   "opts": [
+    [
+     "The Monroe clients&rsquo; DHCP broadcasts are not reaching the server across the router",
+     true
+    ],
+    [
+     "The Monroe scope is exhausted",
+     false
+    ],
+    [
+     "The DHCP service is stopped",
+     false
+    ],
+    [
+     "The server&rsquo;s own address changed",
+     false
+    ],
+    [
+     "The scope&rsquo;s lease time is too short",
+     false
+    ],
+    [
+     "The workstations have reservations on another scope",
+     false
+    ]
+   ]
+  },
+  {
+   "step": "Step 3 &mdash; Test the theory to determine the cause",
+   "exhibit": "Exhibit C",
+   "q": "Comparing the running configuration with Friday&rsquo;s backup, what is missing, and what does it do?",
+   "opts": [
+    [
+     "The ip helper-address, which forwards DHCP broadcasts from VLAN 20 to the server at 10.1.0.10",
+     true
+    ],
+    [
+     "The default gateway address on the interface",
+     false
+    ],
+    [
+     "The subnet mask, which was changed to /16",
+     false
+    ],
+    [
+     "A static route to headquarters",
+     false
+    ],
+    [
+     "The VLAN description, which the DHCP server matches on",
+     false
+    ],
+    [
+     "The shutdown command, which must be present",
+     false
+    ]
+   ]
+  }
+ ],
+ "t2": [
+  {
+   "step": "Step 1 &mdash; Identify the problem",
+   "exhibit": "Exhibit A",
+   "q": "Ping by address works; ping by name fails. What is the problem, and at which layer of the stack does it live?",
+   "opts": [
+    [
+     "Name resolution has failed; it is an application-layer service (DNS) problem, not a connectivity problem",
+     true
+    ],
+    [
+     "The default gateway is down; Layer 3",
+     false
+    ],
+    [
+     "The NIC has lost link; Layer 1",
+     false
+    ],
+    [
+     "The firewall is blocking all outbound traffic; Layer 4",
+     false
+    ],
+    [
+     "The switch port is in the wrong VLAN; Layer 2",
+     false
+    ],
+    [
+     "The internet provider is down",
+     false
+    ]
+   ]
+  },
+  {
+   "step": "Step 3 &mdash; Test the theory to determine the cause",
+   "exhibit": "Exhibit B",
+   "q": "The configured resolver does not respond; 1.1.1.1 answers at once. What has the test proved?",
+   "opts": [
+    [
+     "The name is resolvable and the path to the internet works; the fault is the resolver the workstations were given",
+     true
+    ],
+    [
+     "The name www.example.com no longer exists",
+     false
+    ],
+    [
+     "Port 53 is blocked outbound by the firewall",
+     false
+    ],
+    [
+     "The workstation&rsquo;s DNS cache is corrupt",
+     false
+    ],
+    [
+     "IPv6 is misconfigured, because an IPv6 answer appeared",
+     false
+    ],
+    [
+     "1.1.1.1 is the office&rsquo;s domain controller",
+     false
+    ]
+   ]
+  },
+  {
+   "step": "Step 4 &mdash; Establish a plan of action to resolve the problem and identify potential effects",
+   "exhibit": "Exhibit C",
+   "q": "Which plan fixes every workstation with the least disruption, and what side effect must be handled?",
+   "opts": [
+    [
+     "Restore DHCP option 006 to 192.168.40.10 and renew leases (and flush DNS caches) on affected workstations",
+     true
+    ],
+    [
+     "Set a static DNS server on each of the 26 workstations",
+     false
+    ],
+    [
+     "Reboot the domain controller",
+     false
+    ],
+    [
+     "Change option 003 to point at 1.1.1.1",
+     false
+    ],
+    [
+     "Shorten the lease to one hour and wait",
+     false
+    ],
+    [
+     "Replace the router",
+     false
+    ]
+   ]
+  }
+ ],
+ "t3": [
+  {
+   "step": "Step 2 &mdash; Establish a theory of probable cause",
+   "exhibit": "Exhibit A",
+   "q": "The scanner sends on port 587 with STARTTLS and times out. Which theory should be tested first?",
+   "opts": [
+    [
+     "Outbound TCP 587 is being blocked by the new firewall",
+     true
+    ],
+    [
+     "The scanner&rsquo;s password is wrong",
+     false
+    ],
+    [
+     "The mail host has stopped supporting STARTTLS",
+     false
+    ],
+    [
+     "DNS cannot resolve the mail host",
+     false
+    ],
+    [
+     "The scanner needs port 25 instead",
+     false
+    ],
+    [
+     "The scanner&rsquo;s network cable is faulty",
+     false
+    ]
+   ]
+  },
+  {
+   "step": "Step 3 &mdash; Test the theory to determine the cause",
+   "exhibit": "Exhibit B",
+   "q": "Reading the rules in order, what happens to a packet from 10.8.1.60 to the mail host on TCP 587?",
+   "opts": [
+    [
+     "It matches no allow rule and is dropped by the final deny-all",
+     true
+    ],
+    [
+     "It is allowed by rule 1 because mail is a web service",
+     false
+    ],
+    [
+     "It is allowed by rule 3 because 993 is also mail",
+     false
+    ],
+    [
+     "It is denied by rule 4, which blocks SMTP",
+     false
+    ],
+    [
+     "It is allowed because no rule names 587",
+     false
+    ],
+    [
+     "It is allowed by rule 2 after DNS resolves the name",
+     false
+    ]
+   ]
+  },
+  {
+   "step": "Step 4 &mdash; Establish a plan of action to resolve the problem and identify potential effects",
+   "exhibit": "Exhibit C",
+   "q": "The port test confirms 587 blocked and 443 open. Which change is correct, and narrowest?",
+   "opts": [
+    [
+     "Add an allow rule for 10.8.1.60 to the mail host on TCP 587, placed above the deny-all",
+     true
+    ],
+    [
+     "Change rule 5 to allow any",
+     false
+    ],
+    [
+     "Delete rule 4 so the scanner can use port 25",
+     false
+    ],
+    [
+     "Reconfigure the scanner to send on port 443",
+     false
+    ],
+    [
+     "Allow TCP 587 from the entire 10.8.0.0/16 network",
+     false
+    ],
+    [
+     "Move the scanner to the guest network",
+     false
+    ]
+   ]
+  }
+ ]
+}
+</script>
+        </div>
+        <footer class="module-footer">
+            <p class="footer-text">CompTIA Network+ Training &nbsp;|&nbsp; &copy; 2026 Charlotte Academy of Technology Services &nbsp;|&nbsp; All Rights Reserved - Mark E Turner</p>
+        </footer>
+    </div>
+</body>
+</html>

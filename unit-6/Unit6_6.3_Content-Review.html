@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Unit 6 &mdash; 6.3 Content Review | CompTIA Network+</title>
+    <link rel="stylesheet" href="_design/cpcc-course-design.css">
+    <link rel="stylesheet" href="_design/cpcc-engine.css">
+    <script src="_design/cpcc-course-design.js" defer></script>
+    <script src="_design/cpcc-order.js" defer></script>
+
+</head>
+<body>
+    <div class="course-container">
+<header class="module-header">
+    <div class="module-label">Unit 6 &middot; Network Troubleshooting and Exam Readiness &middot; Section 6.3</div>
+    <h1 class="module-title">Content Review</h1>
+    <p class="module-subtitle">CompTIA Network+ - Domains 5.0</p>
+</header>
+        <nav class="toc" id="tocNav">
+            <div class="toc-header">Unit 6 Index</div>
+            <div class="toc-item"><a href="Unit6_6.1_Overview.html">6.1 &mdash; Unit Overview and Schedule</a></div>
+            <div class="toc-item"><a href="Unit6_6.2_Pre-Assessment.html">6.2 &mdash; Unit Pre-Assessment</a></div>
+            <div class="toc-item current" id="tocCurrent">6.3 &mdash; Content Review</div>
+            <div class="toc-item"><a href="Unit6_6.4_Reading-Assignment.html">6.4 &mdash; Reading Assignment</a></div>
+            <div class="toc-item"><a href="Unit6_6.5_Video-Assignment.html">6.5 &mdash; Video Assignment</a></div>
+            <div class="toc-item"><a href="Unit6_6.6_Labs.html">6.6 &mdash; Classroom/Home Labs</a></div>
+            <div class="toc-item"><a href="Unit6_6.7_Practice-Questions.html">6.7 &mdash; Practice Question Set</a></div>
+            <div class="toc-item"><a href="Unit6_6.8_NETLAB-Labs.html">6.8 &mdash; Online Labs: NETLAB</a></div>
+            <div class="toc-item"><a href="Unit6_6.9_Reflection.html">6.9 &mdash; Reflection Activity</a></div>
+            <div class="toc-item"><a href="Unit6_6.10_Unit-Test.html">6.10 &mdash; Unit Test</a></div>
+            <div class="toc-item"><a href="Unit6_6.11_Ticket-Exercises.html">6.11 &mdash; Unit 6 Ticket Exercises</a></div>
+            <div class="toc-item"><a href="Unit6_6.A.0_Exam-Readiness.html">6.A.0 &mdash; Exam Readiness</a></div>
+            <div class="toc-item"><a href="Unit6_6.A.1_Final-Study-Exam.html">6.A.1 &mdash; Final Study Exam</a></div>
+            <div class="toc-item"><a href="../index.html" data-contents-link>Return to Index</a></div>
+        </nav>
+        <div class="content-area">
+            <p class="text-muted">The map for Chapters 18 and 19, organized as the method you will use on every ticket for the rest of your career.</p>
+            <h2>The Seven Steps</h2>
+            <ol class="lab-steps"><li><strong>Identify the problem</strong> &mdash; gather information, question users, identify symptoms, determine what changed, duplicate the problem, approach multiple problems one at a time.</li><li><strong>Establish a theory of probable cause</strong> &mdash; question the obvious; consider top-down or bottom-up OSI, divide and conquer.</li><li><strong>Test the theory to determine the cause</strong> &mdash; if confirmed, plan the next step; if not, establish a new theory or escalate.</li><li><strong>Establish a plan of action to resolve the problem and identify potential effects.</strong></li><li><strong>Implement the solution or escalate as necessary.</strong></li><li><strong>Verify full system functionality and implement preventive measures if applicable.</strong></li><li><strong>Document findings, actions, outcomes, and lessons learned throughout the process.</strong></li></ol>
+            <h3>Put the steps in order</h3><p>The exam presents these as a drag-and-drop. Click them in order until it is automatic.</p>
+            <div class="cpcc-order" data-title="Put CompTIA&rsquo;s troubleshooting steps in order" data-perfect="That is the methodology, in order."><script type="application/json" class="cpcc-order-bank">["Identify the problem", "Establish a theory of probable cause", "Test the theory to determine the cause", "Establish a plan of action and identify potential effects", "Implement the solution or escalate as necessary", "Verify full system functionality and implement preventive measures", "Document findings, actions, outcomes, and lessons learned"]</script></div>
+            <div class="callout callout-info"><div class="callout-title">Book versus Objective Wording</div><div class="callout-content"><p>The book&rsquo;s step 6 says &ldquo;Preventative&rdquo;; CompTIA&rsquo;s objective says <strong>preventive</strong>. Same step.</p></div></div>
+            <h2>Cabling and Physical Interfaces (5.2)</h2>
+            <div class="table-container"><table><thead><tr><th>Symptom</th><th>Likely cause</th><th>Tool</th></tr></thead><tbody><tr><td>No link light</td><td>Bad cable, wrong cable type, port disabled, bad transceiver</td><td>Cable tester, <code>show interface status</code></td></tr><tr><td>Link but CRC errors climbing</td><td>Damaged cable, EMI, bad termination, duplex mismatch</td><td>Interface counters, certifier</td></tr><tr><td>Late collisions</td><td>Duplex mismatch or cable too long</td><td><code>show interfaces</code></td></tr><tr><td>Runts / giants</td><td>Collisions or bad NIC (runts); MTU mismatch (giants)</td><td>Interface counters</td></tr><tr><td>Fiber link down after a move</td><td>TX/RX transposed, dirty connector, wrong transceiver type</td><td>Visual fault locator, light meter</td></tr><tr><td>Device powers off</td><td>PoE budget exceeded or wrong PoE class</td><td><code>show power inline</code></td></tr><tr><td>Intermittent drop near machinery</td><td>Interference on unshielded cable</td><td>Certifier, reroute or STP cable</td></tr></tbody></table></div>
+            <h2>Network Services (5.3)</h2>
+            <div class="table-container"><table><thead><tr><th>Symptom</th><th>Likely cause</th></tr></thead><tbody><tr><td>169.254.x.x address</td><td>DHCP unreachable, scope exhausted, no relay</td></tr><tr><td>Local works, remote fails</td><td>Wrong default gateway or missing route</td></tr><tr><td>Ping by IP works, by name fails</td><td>DNS server wrong or down</td></tr><tr><td>Some hosts on a switch unreachable</td><td>Wrong VLAN on the port, trunk not allowing the VLAN</td></tr><tr><td>Whole segment slow, LEDs solid</td><td>Switching loop / STP failure</td></tr><tr><td>Intermittent connectivity, ARP warnings</td><td>Duplicate IP address</td></tr><tr><td>One protocol blocked only</td><td>ACL or firewall rule order</td></tr></tbody></table></div>
+            <h2>Performance (5.4)</h2>
+            <div class="tech-box"><div class="callout-title">Technical Overview</div><div class="callout-content"><p><strong>Latency</strong> is delay; <strong>jitter</strong> is variation in delay (it breaks voice and video); <strong>packet loss</strong> forces retransmission. <strong>Congestion</strong> and <strong>bottlenecks</strong> appear where many links feed one. Wireless: interference, channel overlap, low <strong>RSSI</strong>, insufficient coverage, clients disassociating or failing to roam, and band-steering problems. QoS prioritizes sensitive traffic; baselines from Unit 4 tell you what normal is.</p></div></div>
+            <h2>Tools and Commands (5.5)</h2>
+            <div class="table-container"><table><thead><tr><th>Tool</th><th>Use it to</th></tr></thead><tbody><tr><td><code>ping</code></td><td>Test reachability and round-trip time</td></tr><tr><td><code>tracert</code> / <code>traceroute</code></td><td>Find where along the path packets stop</td></tr><tr><td><code>pathping</code> / <code>mtr</code></td><td>Combine path and per-hop loss</td></tr><tr><td><code>ipconfig</code> / <code>ip</code> / <code>ifconfig</code></td><td>Read the host&rsquo;s address, mask, gateway, DNS</td></tr><tr><td><code>nslookup</code> / <code>dig</code></td><td>Test name resolution against a chosen server</td></tr><tr><td><code>arp -a</code></td><td>See IP-to-MAC mappings</td></tr><tr><td><code>netstat</code></td><td>See open connections and listening ports</td></tr><tr><td><code>tcpdump</code> / Wireshark</td><td>Capture and read packets</td></tr><tr><td>Nmap / port scanner</td><td>Find open ports and hosts (authorized networks only)</td></tr><tr><td><code>show interface</code>, <code>show vlan</code>, <code>show mac-address-table</code>, <code>show ip route</code>, <code>show arp</code>, <code>show power inline</code></td><td>Read a switch or router&rsquo;s state</td></tr><tr><td>Cable tester / certifier</td><td>Wire map versus rated performance</td></tr><tr><td>Toner and probe</td><td>Trace an unlabeled cable</td></tr><tr><td>TDR / OTDR</td><td>Find the distance to a copper or fiber fault</td></tr><tr><td>Visual fault locator</td><td>Find breaks and bends in fiber with visible light</td></tr><tr><td>Wi-Fi analyzer</td><td>See channels, signal, and neighbors</td></tr></tbody></table></div>
+            <div class="callout callout-warning"><div class="callout-title">Where Students Trip</div><div class="callout-content"><p>The exam asks for the <em>first</em> or <em>best</em> tool, not any tool that would work. &ldquo;Which cable in the bundle goes to office 214?&rdquo; is a toner. &ldquo;Will this run support 10 Gbps?&rdquo; is a certifier, not a tester.</p></div></div>
+            <h3>Unit 6 Content Recap</h3><div class="summary-box"><h3>In This Unit You Learned</h3><ul><li>The seven steps, in order and in CompTIA&rsquo;s words</li><li>Physical, service, and performance faults by symptom</li><li>Which tool or command answers which question, and how to read its output</li></ul></div>
+            <div class="references-section"><h3>Go Further</h3><ul><li>Section 6.A.0 Exam Readiness and 6.A.1 Final Study Exam</li><li>Second pass: Exam Essentials and Review Questions for Chapters 7, 8, 11, and 12</li></ul></div>
+        </div>
+        <footer class="module-footer">
+            <p class="footer-text">CompTIA Network+ Training &nbsp;|&nbsp; &copy; 2026 Charlotte Academy of Technology Services &nbsp;|&nbsp; All Rights Reserved - Mark E Turner</p>
+        </footer>
+    </div>
+</body>
+</html>

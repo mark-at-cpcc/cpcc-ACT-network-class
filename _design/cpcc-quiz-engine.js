@@ -17,6 +17,16 @@
           data-proof="true"                      adds the "screenshot your score" line
           data-perfect="You are ready to move on."   message shown on a perfect set
           data-title="Unit 1 Pre-Assessment">    heading on the results panel (optional)
+
+     Full-length exams add three attributes:
+          data-mode="blueprint"
+          data-blueprint='{"1":21,"2":18,"3":17,"4":12,"5":22}'
+                                                 items per exam domain, drawn by the
+                                                 first digit of each item's "obj"
+          data-scaled="720,800"                  report a 100-900 scaled score with the
+                                                 passing score and the course gate
+          data-timer="90"                        minutes; a countdown shows, and the
+                                                 exam is graded when time runs out
        <script type="application/json" class="cpcc-bank">[ ... ]<\/script>   (inline bank)
      </div>
 
@@ -101,6 +111,9 @@
         this.proof = box.getAttribute('data-proof') === 'true';
         this.perfectMsg = box.getAttribute('data-perfect') || 'Perfect set.';
         this.title = box.getAttribute('data-title') || '';
+        this.blueprint = box.getAttribute('data-blueprint') ? JSON.parse(box.getAttribute('data-blueprint')) : null;
+        this.scaled = box.getAttribute('data-scaled') ? box.getAttribute('data-scaled').split(',').map(Number) : null;
+        this.timer = parseInt(box.getAttribute('data-timer') || '0', 10);
         this.build();
         this.newSet();
     }
@@ -129,6 +142,14 @@
     Quiz.prototype.newSet = function () {
         var items = this.bank.slice();
         if (this.mode === 'pool') items = shuffle(items).slice(0, Math.min(this.draw, items.length));
+        if (this.mode === 'blueprint' && this.blueprint) {
+            var bp = this.blueprint, picked = [];
+            Object.keys(bp).forEach(function (d) {
+                var pool = shuffle(items.filter(function (it) { return String(it.obj || '').charAt(0) === d; }));
+                picked = picked.concat(pool.slice(0, bp[d]));
+            });
+            items = shuffle(picked);
+        }
         var self = this;
         this.set = items.map(function (item) {
             var order = shuffle(item.opts.map(function (_, i) { return i; }));
@@ -141,8 +162,23 @@
         });
         this.results.style.display = 'none';
         this.render();
+        this.startTimer();
         if (this.box.dataset.cpccRendered) this.box.scrollIntoView({ behavior: 'smooth', block: 'start' });
         this.box.dataset.cpccRendered = '1';
+    };
+
+    Quiz.prototype.startTimer = function () {
+        if (!this.timer) return;
+        var self = this;
+        if (!this.clock) { this.clock = el('div', 'callout callout-info'); this.box.insertBefore(this.clock, this.area); }
+        if (this.tick) clearInterval(this.tick);
+        var end = Date.now() + this.timer * 60000;
+        var show = function () {
+            var left = Math.max(0, end - Date.now()), m = Math.floor(left / 60000), s = Math.floor((left % 60000) / 1000);
+            self.clock.innerHTML = '<div class="callout-content"><p><strong>Time remaining: ' + m + ':' + (s < 10 ? '0' : '') + s + '</strong> &mdash; the exam is graded automatically when time runs out; unanswered questions count as wrong.</p></div>';
+            if (left === 0) { clearInterval(self.tick); self.grade(true); }
+        };
+        show(); this.tick = setInterval(show, 1000);
     };
 
     Quiz.prototype.render = function () {
@@ -189,7 +225,7 @@
         });
     };
 
-    Quiz.prototype.grade = function () {
+    Quiz.prototype.grade = function (timeUp) {
         var blocks = $all('.question-block', this.area);
         var missing = 0, right = 0, confWrong = 0, semiWrong = 0, luckyRight = 0, confUsed = 0;
         var self = this;
@@ -197,7 +233,7 @@
             var block = blocks[qi];
             if (item.answer === null) { missing++; block.classList.add('unanswered-flag'); }
         });
-        if (missing) {
+        if (missing && !timeUp) {
             this.message.textContent = 'Answer every question before grading — ' + missing + (missing === 1 ? ' is' : ' are') + ' still blank (flagged above).';
             this.score.textContent = '—';
             this.conf.textContent = '';
@@ -227,7 +263,20 @@
             }
             if (item.explain) block.querySelector('.quiz-explain').innerHTML = '<div class="callout callout-info"><div class="callout-content"><p>' + item.explain + '</p></div></div>';
         });
+        if (this.tick) clearInterval(this.tick);
         this.score.textContent = right + ' / ' + this.set.length;
+        if (this.scaled) {
+            var sc = Math.round(100 + 800 * right / this.set.length);
+            this.score.textContent = 'Scaled ' + sc + '  (' + right + ' / ' + this.set.length + ')';
+            this.perfectMsg = this.perfectMsg;
+            var verdict = sc >= this.scaled[1] ? 'At or above the course gate of ' + this.scaled[1] + '.' : (sc >= this.scaled[0] ? 'Passing (' + this.scaled[0] + '), but below the course gate of ' + this.scaled[1] + '.' : 'Below the passing score of ' + this.scaled[0] + '.');
+            this.message.textContent = verdict + ' This is the course model of CompTIA\u2019s scale (100 + 800 \u00d7 fraction correct), not CompTIA\u2019s own scoring.';
+            var byDom = {};
+            this.set.forEach(function (it) { var d = String(it.obj || '?').charAt(0); byDom[d] = byDom[d] || [0, 0]; byDom[d][1]++; if (it.answer === it.correct) byDom[d][0]++; });
+            this.conf.innerHTML = '<strong>By domain:</strong> ' + Object.keys(byDom).sort().map(function (d) { return 'Domain ' + d + '.0 &mdash; ' + byDom[d][0] + '/' + byDom[d][1]; }).join(' &middot; ');
+            this.results.style.display = 'block'; this.results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            return;
+        }
         if (right === this.set.length) this.message.textContent = this.perfectMsg;
         else this.message.textContent = 'Not a perfect set yet. Review every question you missed, then ' + (this.mode === 'pool' ? 'click Reset for a new random set.' : 'click Reset to try again.');
         if (this.confidence && confUsed) {

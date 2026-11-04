@@ -1,0 +1,376 @@
+[
+ {
+  "q": "Which step comes immediately after testing the theory and confirming it?",
+  "opts": [
+   "Establish a plan of action and identify potential effects",
+   "Identify the problem",
+   "Document findings",
+   "Verify full system functionality"
+  ],
+  "correct": 0,
+  "obj": "5.1"
+ },
+ {
+  "q": "What should a technician do if a theory is disproved?",
+  "opts": [
+   "Implement the fix anyway",
+   "Establish a new theory or escalate",
+   "Document and close the ticket",
+   "Reboot every device"
+  ],
+  "correct": 1,
+  "obj": "5.1"
+ },
+ {
+  "q": "When should findings, actions, and outcomes be documented?",
+  "opts": [
+   "Only if the fix fails",
+   "Only at the end of the week",
+   "Throughout the process",
+   "Never for minor issues"
+  ],
+  "correct": 2,
+  "obj": "5.1"
+ },
+ {
+  "q": "A user reports three unrelated problems at once. What does the methodology advise?",
+  "opts": [
+   "Fix the easiest first and close the ticket",
+   "Escalate all three",
+   "Reimage the computer",
+   "Approach multiple problems individually"
+  ],
+  "correct": 3,
+  "obj": "5.1"
+ },
+ {
+  "q": "Which step includes implementing preventive measures?",
+  "opts": [
+   "Verify full system functionality",
+   "Identify the problem",
+   "Test the theory",
+   "Establish a plan of action"
+  ],
+  "correct": 0,
+  "obj": "5.1"
+ },
+ {
+  "q": "A link shows climbing CRC errors. What is the most likely cause?",
+  "opts": [
+   "A DNS failure",
+   "A damaged cable or interference",
+   "A wrong default gateway",
+   "DHCP exhaustion"
+  ],
+  "correct": 1,
+  "obj": "5.2"
+ },
+ {
+  "q": "Which interface counter indicates frames larger than the MTU?",
+  "opts": [
+   "Runts",
+   "Collisions",
+   "Giants",
+   "Discards"
+  ],
+  "correct": 2,
+  "obj": "5.2"
+ },
+ {
+  "q": "Late collisions on a switch port usually indicate what?",
+  "opts": [
+   "A VLAN mismatch",
+   "An ACL error",
+   "DNS misconfiguration",
+   "A duplex mismatch"
+  ],
+  "correct": 3,
+  "obj": "5.2"
+ },
+ {
+  "q": "A new access point powers on and off repeatedly. What should be checked?",
+  "opts": [
+   "The switch's PoE budget and the AP's power class",
+   "The SSID",
+   "The DNS records",
+   "The routing table"
+  ],
+  "correct": 0,
+  "obj": "5.2"
+ },
+ {
+  "q": "Which describes signal loss over the length of a cable?",
+  "opts": [
+   "Crosstalk",
+   "Attenuation",
+   "Jitter",
+   "Latency"
+  ],
+  "correct": 1,
+  "obj": "5.2"
+ },
+ {
+  "q": "A 10GBASE-SR module is installed in a switch, and the cable is single-mode. What is wrong?",
+  "opts": [
+   "A duplex mismatch",
+   "A bad VLAN",
+   "Transceiver and fiber type mismatch",
+   "An exhausted DHCP pool"
+  ],
+  "correct": 2,
+  "obj": "5.2"
+ },
+ {
+  "q": "Which port status shows a port disabled by a security violation?",
+  "opts": [
+   "Up/up",
+   "Administratively down only",
+   "Trunking",
+   "Err-disabled"
+  ],
+  "correct": 3,
+  "obj": "5.2"
+ },
+ {
+  "q": "Users can ping servers by IP but not by name. What is the problem?",
+  "opts": [
+   "DNS",
+   "DHCP",
+   "Routing",
+   "STP"
+  ],
+  "correct": 0,
+  "obj": "5.3"
+ },
+ {
+  "q": "A host can reach other hosts on its subnet but nothing remote. What is the most likely cause?",
+  "opts": [
+   "An incorrect DNS server",
+   "An incorrect default gateway",
+   "A bad cable",
+   "Duplex mismatch"
+  ],
+  "correct": 1,
+  "obj": "5.3"
+ },
+ {
+  "q": "Users report intermittent connectivity and an address-conflict warning. What is the cause?",
+  "opts": [
+   "A wrong subnet mask",
+   "A missing route",
+   "A duplicate IP address",
+   "STP blocking"
+  ],
+  "correct": 2,
+  "obj": "5.3"
+ },
+ {
+  "q": "A whole floor slows to a crawl and switch LEDs are solid. What is likely?",
+  "opts": [
+   "DHCP exhaustion",
+   "A DNS failure",
+   "Wrong NTP server",
+   "A switching loop"
+  ],
+  "correct": 3,
+  "obj": "5.3"
+ },
+ {
+  "q": "Only SSH to one server fails; everything else works. What is the likely cause?",
+  "opts": [
+   "An ACL or firewall rule",
+   "A bad cable",
+   "A DHCP problem",
+   "A duplex mismatch"
+  ],
+  "correct": 0,
+  "obj": "5.3"
+ },
+ {
+  "q": "A router has no route for a destination and no default route. What happens?",
+  "opts": [
+   "The packet is broadcast",
+   "The packet is dropped",
+   "The packet loops forever",
+   "The packet returns to DHCP"
+  ],
+  "correct": 1,
+  "obj": "5.3"
+ },
+ {
+  "q": "Which describes variation in packet delay that degrades voice calls?",
+  "opts": [
+   "Latency",
+   "Attenuation",
+   "Jitter",
+   "Bandwidth"
+  ],
+  "correct": 2,
+  "obj": "5.4"
+ },
+ {
+  "q": "Many 10 Gbps access links feed one 1 Gbps uplink. What is this?",
+  "opts": [
+   "Jitter",
+   "Attenuation",
+   "A broadcast storm",
+   "A bottleneck"
+  ],
+  "correct": 3,
+  "obj": "5.4"
+ },
+ {
+  "q": "Users in one area drop Wi-Fi when walking between rooms. What is the likely issue?",
+  "opts": [
+   "Roaming / coverage gaps between APs",
+   "DNS failure",
+   "DHCP exhaustion",
+   "Duplex mismatch"
+  ],
+  "correct": 0,
+  "obj": "5.4"
+ },
+ {
+  "q": "A Wi-Fi client shows -88 dBm. What does that indicate?",
+  "opts": [
+   "Excellent signal",
+   "Very weak signal",
+   "Channel overlap",
+   "Full duplex"
+  ],
+  "correct": 1,
+  "obj": "5.4"
+ },
+ {
+  "q": "Which metric is the time for a packet to travel to its destination?",
+  "opts": [
+   "Jitter",
+   "Throughput",
+   "Latency",
+   "Loss"
+  ],
+  "correct": 2,
+  "obj": "5.4"
+ },
+ {
+  "q": "Retransmissions spike and file transfers slow. Which issue is indicated?",
+  "opts": [
+   "Low latency",
+   "Too much bandwidth",
+   "Correct duplex",
+   "Packet loss"
+  ],
+  "correct": 3,
+  "obj": "5.4"
+ },
+ {
+  "q": "Which command shows a Windows host's IP, mask, gateway, and DNS?",
+  "opts": [
+   "ipconfig /all",
+   "netstat -an",
+   "arp -a",
+   "tracert"
+  ],
+  "correct": 0,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which command queries a specific DNS server for a record?",
+  "opts": [
+   "ping",
+   "nslookup or dig",
+   "netstat",
+   "route print"
+  ],
+  "correct": 1,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which command shows IP-to-MAC mappings on a host?",
+  "opts": [
+   "netstat -r",
+   "ipconfig /renew",
+   "arp -a",
+   "ping -t"
+  ],
+  "correct": 2,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which tool traces an unlabeled cable to its patch-panel port?",
+  "opts": [
+   "Cable certifier",
+   "OTDR",
+   "Wi-Fi analyzer",
+   "Toner and probe"
+  ],
+  "correct": 3,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which tool finds the distance to a break in a fiber run?",
+  "opts": [
+   "OTDR",
+   "Toner",
+   "Wire-map tester",
+   "Spectrum analyzer"
+  ],
+  "correct": 0,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which tool shows visible red light at a fiber break or tight bend?",
+  "opts": [
+   "OTDR",
+   "Visual fault locator",
+   "Toner",
+   "Light meter only"
+  ],
+  "correct": 1,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which tool discovers open ports on a host?",
+  "opts": [
+   "Toner",
+   "tracert",
+   "Port scanner such as Nmap",
+   "ipconfig"
+  ],
+  "correct": 2,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which command shows which MAC address is on which switch port?",
+  "opts": [
+   "show ip route",
+   "show vlan only",
+   "show version",
+   "show mac-address-table"
+  ],
+  "correct": 3,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which command shows the PoE draw on each switch port?",
+  "opts": [
+   "show power inline",
+   "show vlan",
+   "show arp",
+   "show running-config"
+  ],
+  "correct": 0,
+  "obj": "5.5"
+ },
+ {
+  "q": "Which device passes a copy of traffic from a link to a monitoring tool without a switch?",
+  "opts": [
+   "Toner",
+   "Network tap",
+   "OTDR",
+   "Media converter"
+  ],
+  "correct": 1,
+  "obj": "5.5"
+ }
+]
