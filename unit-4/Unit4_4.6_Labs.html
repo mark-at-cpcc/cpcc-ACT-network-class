@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Unit 4 &mdash; 4.6 Classroom/Home Labs | CompTIA Network+</title>
+    <link rel="stylesheet" href="_design/cpcc-course-design.css">
+    <link rel="stylesheet" href="_design/cpcc-engine.css">
+    <script src="_design/cpcc-course-design.js" defer></script>
+
+</head>
+<body>
+    <div class="course-container">
+<header class="module-header">
+    <div class="module-label">Unit 4 &middot; Wireless, Remote Access, and Network Operations &middot; Section 4.6</div>
+    <h1 class="module-title">Classroom/Home Labs</h1>
+    <p class="module-subtitle">CompTIA Network+ - Domains 2.0, 3.0</p>
+</header>
+        <nav class="toc" id="tocNav">
+            <div class="toc-header">Unit 4 Index</div>
+            <div class="toc-item"><a href="Unit4_4.1_Overview.html">4.1 &mdash; Unit Overview and Schedule</a></div>
+            <div class="toc-item"><a href="Unit4_4.2_Pre-Assessment.html">4.2 &mdash; Unit Pre-Assessment</a></div>
+            <div class="toc-item"><a href="Unit4_4.3_Content-Review.html">4.3 &mdash; Content Review</a></div>
+            <div class="toc-item"><a href="Unit4_4.4_Reading-Assignment.html">4.4 &mdash; Reading Assignment</a></div>
+            <div class="toc-item"><a href="Unit4_4.5_Video-Assignment.html">4.5 &mdash; Video Assignment</a></div>
+            <div class="toc-item current" id="tocCurrent">4.6 &mdash; Classroom/Home Labs</div>
+            <div class="toc-item"><a href="Unit4_4.7_Practice-Questions.html">4.7 &mdash; Practice Question Set</a></div>
+            <div class="toc-item"><a href="Unit4_4.8_NETLAB-Labs.html">4.8 &mdash; Online Labs: NETLAB</a></div>
+            <div class="toc-item"><a href="Unit4_4.9_Reflection.html">4.9 &mdash; Reflection Activity</a></div>
+            <div class="toc-item"><a href="Unit4_4.10_Unit-Test.html">4.10 &mdash; Unit Test</a></div>
+            <div class="toc-item"><a href="Unit4_4.11_Ticket-Exercises.html">4.11 &mdash; Unit 4 Ticket Exercises</a></div>
+            <div class="toc-item"><a href="../index.html" data-contents-link>Return to Index</a></div>
+        </nav>
+        <div class="content-area">
+            <p class="text-muted">Two class meetings this unit. Labs 4.6.1 and 4.6.2 run in class; <strong>4.6.3 is on your own this unit</strong> (Thanksgiving), along with the take-home lab. None are graded.</p>
+            <h3>Subnet Warm-Ups (Design Idea P1)</h3><p>Every class meeting opens with one five-minute subnetting problem, worked on paper before the ticket. We check answers together in class. The method is on the 3.A Subnetting Reference Card.</p><div class="question-block"><div class="question-number">Subnet Warm-Up 4 &middot; Tuesday</div><p class="question-text">Host <code>172.22.96.140/19</code>. Give the network address, broadcast address, first and last usable host, and the number of usable hosts.</p></div></div></div><div class="question-block"><div class="question-number">Subnet Warm-Up 5 &middot; Wednesday</div><p class="question-text">Host <code>10.9.9.200/27</code>. Give the network address, broadcast address, first and last usable host, and the number of usable hosts.</p></div></div></div>
+            <div class="lab-section"><div class="lab-header"><div class="lab-icon">1</div><div><h3 class="lab-title">Lab 4.6.1 &mdash; Walk the Floor</h3><p class="lab-time">Estimated Time: 45 minutes &middot; Classroom &middot; Objective 2.3</p></div></div><p>Survey the floor with a free Wi-Fi analyzer app on your phone: channels, overlap, and signal strength at five marked points.</p><h4>Steps</h4><ol class="lab-steps"><li><strong>At each point,</strong> record every SSID you see with its channel, band, and signal in dBm.</li><li><strong>Mark co-channel neighbors</strong> &mdash; two APs on the same channel both above &minus;70 dBm.</li><li><strong>Sketch the floor</strong> with a rough heat map: green above &minus;67, yellow to &minus;75, red below.</li><li><strong>Recommend</strong> one channel or power change and predict its effect.</li></ol></div>
+            <div class="lab-section"><div class="lab-header"><div class="lab-icon">2</div><div><h3 class="lab-title">Lab 4.6.2 &mdash; Three Ways In</h3><p class="lab-time">Estimated Time: 40 minutes &middot; Classroom &middot; Objective 3.5</p></div></div><p>Connect to the same lab switch by console, SSH, and web GUI, and compare what each can and cannot do.</p><h4>Steps</h4><ol class="lab-steps"><li><strong>Console</strong> with the rollover or USB cable; note that it works with the network unplugged.</li><li><strong>SSH</strong> to the management address; run <code>show running-config</code>.</li><li><strong>Web GUI</strong> over HTTPS; find the same setting you viewed by CLI.</li><li><strong>Fill a table:</strong> needs network? encrypted? scriptable? works when production is down?</li></ol></div>
+            <div class="lab-section"><div class="lab-header"><div class="lab-icon">3</div><div><h3 class="lab-title">Lab 4.6.3 &mdash; Read the Logs (on your own this unit)</h3><p class="lab-time">Estimated Time: 40 minutes &middot; Independent &middot; Objectives 3.2, 3.1</p></div></div><p>Given a syslog excerpt and an SNMP trap list (below), find the outage, its start time, and its cause, and draft the incident note.</p><pre><code>&lt;189&gt;14:02:11 SW-CORE %LINK-5-CHANGED: Interface Gi1/0/48, changed state to down
+&lt;187&gt;14:02:11 SW-CORE %LINEPROTO-3-UPDOWN: Line protocol on Gi1/0/48 down
+&lt;190&gt;13:58:40 SW-CORE %SYS-6-CONFIG_I: Configured from console by jdoe on vty0
+TRAP 14:02:12 linkDown ifIndex=48 SW-CORE
+TRAP 14:09:30 linkUp   ifIndex=48 SW-CORE</code></pre><h4>What to Record</h4><p>The severity of each line by number and name, the sequence of events, and one sentence on what change management would have required before 13:58.</p></div>
+            <div class="lab-section"><div class="lab-header"><div class="lab-icon">H</div><div><h3 class="lab-title">Lab 4.6.4 &mdash; Take-Home: Survey Your Own Wi-Fi</h3><p class="lab-time">Estimated Time: 1 hour &middot; At home &middot; Objective 2.3</p></div></div><p>Survey your own home Wi-Fi at four spots, make one change, and measure it.</p><div class="callout callout-danger"><div class="callout-title">Your Own Equipment Only</div><div class="callout-content"><p>Run this lab only on the network you own or are explicitly authorized to use. Never run scanning, capture, or configuration changes against anything else.</p></div></div><h4>Steps</h4><ol class="lab-steps"><li><strong>Record</strong> band, channel, and signal (dBm) at four spots, and your neighbors&rsquo; networks on the same channel.</li><li><strong>Check your router&rsquo;s security</strong>: WPA2 or WPA3? WPS on or off? Default admin password changed?</li><li><strong>Make one change</strong> on your own router (channel, band steering, or AP placement) and re-measure the four spots.</li><li><strong>Write a one-page memo</strong>: before, change, after, and what you would do next.</li></ol></div>
+            <div class="activity-section"><div class="activity-header"><div class="activity-icon">T</div><div><h3 class="activity-title">Ticket of the Day</h3><p class="activity-subtitle">One ticket per class meeting, worked on your own</p></div></div><p>This unit&rsquo;s three tickets live in <strong>Section 4.11 Ticket Exercises</strong>: <strong>The Conference Room Dead Zone</strong> (Tuesday), <strong>Everyone Is Slow on the VPN</strong> (Wednesday), and <strong>Who Changed the Core Switch? (on your own)</strong> (Thursday). Each takes about twenty minutes.</p></div>
+            <h3>What These Labs Give You</h3><p>Wireless questions on the exam are site surveys in disguise, and operations questions are log excerpts in disguise. Reading both, by hand, is the preparation.</p>
+        </div>
+        <footer class="module-footer">
+            <p class="footer-text">CompTIA Network+ Training &nbsp;|&nbsp; &copy; 2026 Charlotte Academy of Technology Services &nbsp;|&nbsp; All Rights Reserved - Mark E Turner</p>
+        </footer>
+    </div>
+</body>
+</html>

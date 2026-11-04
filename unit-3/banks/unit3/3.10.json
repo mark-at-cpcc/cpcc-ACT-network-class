@@ -1,0 +1,1102 @@
+[
+ {
+  "q": "What is the first usable host address in the subnet containing <code>192.168.147.222/23</code>?",
+  "opts": [
+   "192.168.146.1",
+   "192.168.146.0",
+   "192.168.146.2",
+   "192.168.144.0"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>10.100.27.115/29</code>. What is its network address?",
+  "opts": [
+   "10.100.27.104",
+   "10.100.27.112",
+   "10.100.27.120",
+   "10.100.27.119"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>192.168.89.228/20</code>. What is its network address?",
+  "opts": [
+   "192.168.64.0",
+   "192.168.96.0",
+   "192.168.80.0",
+   "192.168.95.255"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the first usable host address in the subnet containing <code>10.255.145.98/29</code>?",
+  "opts": [
+   "10.255.145.96",
+   "10.255.145.98",
+   "10.255.145.88",
+   "10.255.145.97"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>192.168.7.99/28</code>. What is its network address?",
+  "opts": [
+   "192.168.7.96",
+   "192.168.7.80",
+   "192.168.7.112",
+   "192.168.7.111"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "A subnet must support 20 hosts and waste as few addresses as possible. Which prefix should be used?",
+  "opts": [
+   "/26",
+   "/27",
+   "/28",
+   "/29"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the first usable host address in the subnet containing <code>10.36.61.172/23</code>?",
+  "opts": [
+   "10.36.60.0",
+   "10.36.60.2",
+   "10.36.60.1",
+   "10.36.58.0"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>172.19.225.122/23</code>. What is its network address?",
+  "opts": [
+   "172.19.222.0",
+   "172.19.226.0",
+   "172.19.225.255",
+   "172.19.224.0"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>10.20.30.200/27</code>?",
+  "opts": [
+   "10.20.30.223",
+   "10.20.30.222",
+   "10.20.30.224",
+   "10.20.30.192"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>10.84.35.253/26</code>?",
+  "opts": [
+   "10.84.35.254",
+   "10.84.35.255",
+   "10.84.36.0",
+   "10.84.35.192"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which subnet mask is equivalent to <code>/25</code>?",
+  "opts": [
+   "255.255.255.0",
+   "255.255.255.192",
+   "255.255.255.128",
+   "255.255.255.224"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>192.168.217.188/25</code>. What is its network address?",
+  "opts": [
+   "192.168.217.0",
+   "192.168.218.0",
+   "192.168.217.255",
+   "192.168.217.128"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which subnet mask is equivalent to <code>/26</code>?",
+  "opts": [
+   "255.255.255.192",
+   "255.255.255.128",
+   "255.255.255.224",
+   "255.255.255.240"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>10.0.6.66/29</code>?",
+  "opts": [
+   "10.0.6.70",
+   "10.0.6.71",
+   "10.0.6.72",
+   "10.0.6.64"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>192.168.30.14/29</code>?",
+  "opts": [
+   "192.168.30.14",
+   "192.168.30.16",
+   "192.168.30.15",
+   "192.168.30.8"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>192.168.73.161/22</code>?",
+  "opts": [
+   "192.168.75.254",
+   "192.168.76.0",
+   "192.168.72.0",
+   "192.168.75.255"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which subnet mask is equivalent to <code>/24</code>?",
+  "opts": [
+   "255.255.255.0",
+   "255.255.254.0",
+   "255.255.255.128",
+   "255.255.255.192"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "How many usable host addresses does a /30 subnet provide?",
+  "opts": [
+   "4",
+   "2",
+   "6",
+   "1"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>192.168.73.161/22</code>?",
+  "opts": [
+   "192.168.75.255",
+   "192.168.75.253",
+   "192.168.75.254",
+   "192.168.76.0"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>10.66.209.22/22</code>?",
+  "opts": [
+   "10.66.211.255",
+   "10.66.211.253",
+   "10.66.212.0",
+   "10.66.211.254"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>10.88.8.8/21</code>?",
+  "opts": [
+   "10.88.15.255",
+   "10.88.15.254",
+   "10.88.16.0",
+   "10.88.8.0"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>10.66.209.22/22</code>?",
+  "opts": [
+   "10.66.211.254",
+   "10.66.211.255",
+   "10.66.212.0",
+   "10.66.208.0"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>10.100.27.115/29</code>?",
+  "opts": [
+   "10.100.27.119",
+   "10.100.27.117",
+   "10.100.27.118",
+   "10.100.27.120"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "How many usable host addresses does a /23 subnet provide?",
+  "opts": [
+   "512",
+   "1022",
+   "255",
+   "510"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>172.29.150.75/20</code>. What is its network address?",
+  "opts": [
+   "172.29.144.0",
+   "172.29.128.0",
+   "172.29.160.0",
+   "172.29.159.255"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which subnet mask is equivalent to <code>/22</code>?",
+  "opts": [
+   "255.255.248.0",
+   "255.255.252.0",
+   "255.255.254.0",
+   "255.255.255.0"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>192.168.184.157/20</code>?",
+  "opts": [
+   "192.168.191.255",
+   "192.168.191.253",
+   "192.168.191.254",
+   "192.168.192.0"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>172.18.124.250/30</code>. What is its network address?",
+  "opts": [
+   "172.18.124.244",
+   "172.18.124.252",
+   "172.18.124.251",
+   "172.18.124.248"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>10.12.7.250/30</code>. What is its network address?",
+  "opts": [
+   "10.12.7.248",
+   "10.12.7.244",
+   "10.12.7.252",
+   "10.12.7.251"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>172.29.150.75/20</code>?",
+  "opts": [
+   "172.29.159.254",
+   "172.29.159.255",
+   "172.29.160.0",
+   "172.29.144.0"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>192.168.90.58/25</code>?",
+  "opts": [
+   "192.168.90.127",
+   "192.168.90.125",
+   "192.168.90.126",
+   "192.168.90.128"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>192.168.184.157/20</code>. What is its network address?",
+  "opts": [
+   "192.168.160.0",
+   "192.168.192.0",
+   "192.168.191.255",
+   "192.168.176.0"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>192.168.13.86/23</code>?",
+  "opts": [
+   "192.168.13.254",
+   "192.168.13.255",
+   "192.168.13.253",
+   "192.168.14.0"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which subnet mask is equivalent to <code>/20</code>?",
+  "opts": [
+   "255.255.224.0",
+   "255.255.240.0",
+   "255.255.248.0",
+   "255.255.252.0"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>10.253.232.156/23</code>?",
+  "opts": [
+   "10.253.233.255",
+   "10.253.233.253",
+   "10.253.233.254",
+   "10.253.234.0"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>10.62.238.118/26</code>?",
+  "opts": [
+   "10.62.238.127",
+   "10.62.238.125",
+   "10.62.238.128",
+   "10.62.238.126"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>172.18.124.250/30</code>?",
+  "opts": [
+   "172.18.124.250",
+   "172.18.124.251",
+   "172.18.124.249",
+   "172.18.124.252"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>10.138.123.244/28</code>. What is its network address?",
+  "opts": [
+   "10.138.123.224",
+   "10.138.123.240",
+   "10.138.124.0",
+   "10.138.123.255"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>192.168.7.241/25</code>. What is its network address?",
+  "opts": [
+   "192.168.7.0",
+   "192.168.8.0",
+   "192.168.7.128",
+   "192.168.7.255"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>192.168.134.14/21</code>. What is its network address?",
+  "opts": [
+   "192.168.120.0",
+   "192.168.136.0",
+   "192.168.135.255",
+   "192.168.128.0"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>10.253.232.156/23</code>. What is its network address?",
+  "opts": [
+   "10.253.232.0",
+   "10.253.230.0",
+   "10.253.234.0",
+   "10.253.233.255"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>10.5.104.146/28</code>?",
+  "opts": [
+   "10.5.104.158",
+   "10.5.104.159",
+   "10.5.104.160",
+   "10.5.104.144"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the first usable host address in the subnet containing <code>172.22.58.61/22</code>?",
+  "opts": [
+   "172.22.56.0",
+   "172.22.56.2",
+   "172.22.56.1",
+   "172.22.52.0"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "A subnet must support 2 hosts and waste as few addresses as possible. Which prefix should be used?",
+  "opts": [
+   "/29",
+   "/28",
+   "/31",
+   "/30"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>192.168.30.14/29</code>?",
+  "opts": [
+   "192.168.30.14",
+   "192.168.30.15",
+   "192.168.30.13",
+   "192.168.30.16"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>172.16.45.19/28</code>?",
+  "opts": [
+   "172.16.45.31",
+   "172.16.45.30",
+   "172.16.45.29",
+   "172.16.45.32"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>10.12.7.250/30</code>?",
+  "opts": [
+   "10.12.7.251",
+   "10.12.7.249",
+   "10.12.7.250",
+   "10.12.7.252"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>172.31.200.45/22</code>?",
+  "opts": [
+   "172.31.203.254",
+   "172.31.204.0",
+   "172.31.200.0",
+   "172.31.203.255"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>172.26.191.2/21</code>. What is its network address?",
+  "opts": [
+   "172.26.184.0",
+   "172.26.176.0",
+   "172.26.192.0",
+   "172.26.191.255"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>192.168.252.70/20</code>?",
+  "opts": [
+   "192.168.255.254",
+   "192.168.255.255",
+   "192.169.0.0",
+   "192.168.240.0"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "How many usable host addresses does a /28 subnet provide?",
+  "opts": [
+   "16",
+   "30",
+   "14",
+   "7"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "A subnet must support 100 hosts and waste as few addresses as possible. Which prefix should be used?",
+  "opts": [
+   "/24",
+   "/26",
+   "/27",
+   "/25"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which subnet mask is equivalent to <code>/28</code>?",
+  "opts": [
+   "255.255.255.240",
+   "255.255.255.224",
+   "255.255.255.248",
+   "255.255.255.252"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>192.168.7.241/25</code>?",
+  "opts": [
+   "192.168.7.255",
+   "192.168.7.254",
+   "192.168.7.253",
+   "192.168.8.0"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>172.19.225.122/23</code>?",
+  "opts": [
+   "172.19.225.255",
+   "172.19.225.253",
+   "172.19.225.254",
+   "172.19.226.0"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "How many usable host addresses does a /29 subnet provide?",
+  "opts": [
+   "8",
+   "14",
+   "3",
+   "6"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the broadcast address of the subnet containing <code>192.168.90.58/25</code>?",
+  "opts": [
+   "192.168.90.127",
+   "192.168.90.126",
+   "192.168.90.128",
+   "192.168.90.0"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "A subnet must support 1000 hosts and waste as few addresses as possible. Which prefix should be used?",
+  "opts": [
+   "/21",
+   "/22",
+   "/23",
+   "/24"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>172.16.45.19/28</code>. What is its network address?",
+  "opts": [
+   "172.16.45.0",
+   "172.16.45.32",
+   "172.16.45.16",
+   "172.16.45.31"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>10.145.11.200/22</code>?",
+  "opts": [
+   "10.145.11.255",
+   "10.145.11.253",
+   "10.145.12.0",
+   "10.145.11.254"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which routing protocol exchanges routes between autonomous systems on the internet?",
+  "opts": [
+   "BGP",
+   "OSPF",
+   "RIP",
+   "EIGRP"
+  ],
+  "correct": 0,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which routing protocol is described as an advanced distance-vector, or hybrid, protocol?",
+  "opts": [
+   "OSPF",
+   "EIGRP",
+   "RIPv2",
+   "BGP"
+  ],
+  "correct": 1,
+  "obj": "2.1"
+ },
+ {
+  "q": "When two routes to the same prefix come from different protocols, what decides which is installed?",
+  "opts": [
+   "Hop count",
+   "Interface speed",
+   "Administrative distance",
+   "Prefix length"
+  ],
+  "correct": 2,
+  "obj": "2.1"
+ },
+ {
+  "q": "When two routes to the same prefix come from the same protocol, what decides which is installed?",
+  "opts": [
+   "Administrative distance",
+   "The router's uptime",
+   "Alphabetical order",
+   "The protocol's metric"
+  ],
+  "correct": 3,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which technology lets two routers share one virtual default gateway address?",
+  "opts": [
+   "FHRP",
+   "NAT",
+   "STP",
+   "LACP"
+  ],
+  "correct": 0,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which is an open-standard first hop redundancy protocol?",
+  "opts": [
+   "HSRP",
+   "VRRP",
+   "OSPF",
+   "CDP"
+  ],
+  "correct": 1,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which NAT type maps many private hosts to one public address using port numbers?",
+  "opts": [
+   "Static NAT",
+   "Dynamic NAT",
+   "PAT",
+   "NAT64"
+  ],
+  "correct": 2,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which NAT type is used to publish one internal web server at a fixed public address?",
+  "opts": [
+   "PAT",
+   "Dynamic NAT",
+   "Port mirroring",
+   "Static NAT"
+  ],
+  "correct": 3,
+  "obj": "2.1"
+ },
+ {
+  "q": "In NAT terminology, what is the inside global address?",
+  "opts": [
+   "The public address representing an internal host",
+   "The private address of an internal host",
+   "The address of the ISP's router",
+   "The loopback address"
+  ],
+  "correct": 0,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which configuration lets one router interface route between several VLANs?",
+  "opts": [
+   "Port mirroring",
+   "Subinterfaces on an 802.1Q trunk",
+   "A crossover cable",
+   "A second routing protocol"
+  ],
+  "correct": 1,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which code in a Cisco routing table marks a directly connected network?",
+  "opts": [
+   "S",
+   "O",
+   "C",
+   "R"
+  ],
+  "correct": 2,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which code in a Cisco routing table marks a route learned from OSPF?",
+  "opts": [
+   "C",
+   "S",
+   "B",
+   "O"
+  ],
+  "correct": 3,
+  "obj": "2.1"
+ },
+ {
+  "q": "A router has no route for a destination and no default route. What happens to the packet?",
+  "opts": [
+   "It is dropped and an ICMP unreachable may be returned",
+   "It is flooded out every interface",
+   "It is sent back to the source",
+   "It is held until a route appears"
+  ],
+  "correct": 0,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which statement about static routes is true?",
+  "opts": [
+   "They are learned from neighbors",
+   "They do not adapt automatically when a link fails",
+   "They have an AD of 120",
+   "They require OSPF"
+  ],
+  "correct": 1,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which OSPF concept divides a large network to limit the scope of route updates?",
+  "opts": [
+   "Hop counts",
+   "Autonomous systems",
+   "Areas",
+   "Native VLANs"
+  ],
+  "correct": 2,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which is a benefit of dynamic routing over static routing?",
+  "opts": [
+   "No CPU or bandwidth overhead",
+   "Greater security by default",
+   "No configuration required",
+   "Automatic convergence when the topology changes"
+  ],
+  "correct": 3,
+  "obj": "2.1"
+ },
+ {
+  "q": "What does a router use to decide between a /16 route and a /24 route that both match a destination?",
+  "opts": [
+   "It chooses the /24, the longer prefix",
+   "It chooses the /16, the shorter prefix",
+   "It chooses the lower administrative distance",
+   "It load-balances"
+  ],
+  "correct": 0,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which address type does PAT translate on the inside of a home network?",
+  "opts": [
+   "Public addresses",
+   "Private RFC 1918 addresses",
+   "Multicast addresses",
+   "Link-local IPv6 addresses"
+  ],
+  "correct": 1,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which BGP distance applies to routes learned from inside the same autonomous system?",
+  "opts": [
+   "20",
+   "110",
+   "200",
+   "90"
+  ],
+  "correct": 2,
+  "obj": "2.1"
+ },
+ {
+  "q": "What is convergence in routing?",
+  "opts": [
+   "Two routing protocols merging",
+   "NAT translating addresses",
+   "A switch learning MAC addresses",
+   "All routers agreeing on the current topology after a change"
+  ],
+  "correct": 3,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which PoE standard provides up to 30 W per port?",
+  "opts": [
+   "802.3at",
+   "802.3af",
+   "802.3bt",
+   "802.3ab"
+  ],
+  "correct": 0,
+  "obj": "2.2"
+ },
+ {
+  "q": "Which PoE standard provides up to 15.4 W per port?",
+  "opts": [
+   "802.3at",
+   "802.3af",
+   "802.3bt",
+   "802.3u"
+  ],
+  "correct": 1,
+  "obj": "2.2"
+ },
+ {
+  "q": "What is the typical MTU size for jumbo frames?",
+  "opts": [
+   "1500 bytes",
+   "64 bytes",
+   "9000 bytes",
+   "65535 bytes"
+  ],
+  "correct": 2,
+  "obj": "2.2"
+ },
+ {
+  "q": "What is the default Ethernet MTU?",
+  "opts": [
+   "9000 bytes",
+   "1518 bytes",
+   "576 bytes",
+   "1500 bytes"
+  ],
+  "correct": 3,
+  "obj": "2.2"
+ },
+ {
+  "q": "A port shows late collisions and CRC errors, and one side is set to half duplex. What is the cause?",
+  "opts": [
+   "A duplex mismatch",
+   "A native VLAN mismatch",
+   "A routing loop",
+   "A DHCP failure"
+  ],
+  "correct": 0,
+  "obj": "2.2"
+ },
+ {
+  "q": "Which feature lets a VoIP phone and the PC plugged into it use different VLANs on one switch port?",
+  "opts": [
+   "Native VLAN",
+   "Voice VLAN",
+   "Port mirroring",
+   "Link aggregation"
+  ],
+  "correct": 1,
+  "obj": "2.2"
+ },
+ {
+  "q": "Which feature copies traffic from one port to another for analysis?",
+  "opts": [
+   "Port security",
+   "LACP",
+   "Port mirroring (SPAN)",
+   "STP"
+  ],
+  "correct": 2,
+  "obj": "2.2"
+ },
+ {
+  "q": "What does a switch do with a frame for an unknown destination MAC address?",
+  "opts": [
+   "Drops it",
+   "Sends it to the router",
+   "Returns it to the sender",
+   "Floods it out all ports in the VLAN except the source"
+  ],
+  "correct": 3,
+  "obj": "2.2"
+ },
+ {
+  "q": "What does a switch record in its MAC address table?",
+  "opts": [
+   "Source MAC addresses and the port each was seen on",
+   "Destination IP addresses",
+   "Routes to remote networks",
+   "DNS names"
+  ],
+  "correct": 0,
+  "obj": "2.2"
+ },
+ {
+  "q": "A trunk does not pass VLAN 30 although VLANs 10 and 20 work. What is the most likely cause?",
+  "opts": [
+   "STP is disabled",
+   "VLAN 30 is not in the trunk's allowed list",
+   "The native VLAN is 1",
+   "PoE is off"
+  ],
+  "correct": 1,
+  "obj": "2.2"
+ },
+ {
+  "q": "Two switches have different native VLANs on the trunk between them. What is the result?",
+  "opts": [
+   "The trunk shuts down",
+   "All VLANs stop forwarding",
+   "Untagged traffic leaks into the wrong VLAN and mismatch warnings are logged",
+   "Nothing; native VLANs need not match"
+  ],
+  "correct": 2,
+  "obj": "2.2"
+ },
+ {
+  "q": "Which setting must match end to end for jumbo frames to work?",
+  "opts": [
+   "Native VLAN",
+   "STP priority",
+   "PoE class",
+   "MTU"
+  ],
+  "correct": 3,
+  "obj": "2.2"
+ },
+ {
+  "q": "Which device feature should be disabled on ports facing end users to speed up connection and protect STP?",
+  "opts": [
+   "Nothing; enable PortFast and BPDU guard on those ports",
+   "LACP",
+   "802.1Q",
+   "Port mirroring"
+  ],
+  "correct": 0,
+  "obj": "2.2"
+ },
+ {
+  "q": "Each VLAN on a switch is a separate what?",
+  "opts": [
+   "Collision domain",
+   "Broadcast domain",
+   "Autonomous system",
+   "Routing protocol"
+  ],
+  "correct": 1,
+  "obj": "2.2"
+ },
+ {
+  "q": "Which command style shows which VLANs a trunk carries on a Cisco switch?",
+  "opts": [
+   "show ip route",
+   "show arp",
+   "show interfaces trunk",
+   "show version"
+  ],
+  "correct": 2,
+  "obj": "2.2"
+ },
+ {
+  "q": "Which type of port connects two switches and carries many VLANs?",
+  "opts": [
+   "Access port",
+   "Console port",
+   "Mirror port",
+   "Trunk port"
+  ],
+  "correct": 3,
+  "obj": "2.2"
+ },
+ {
+  "q": "What happens when speed is set manually on one side and auto on the other?",
+  "opts": [
+   "Duplex may negotiate incorrectly, causing errors",
+   "The link always fails",
+   "The VLAN changes",
+   "PoE stops"
+  ],
+  "correct": 0,
+  "obj": "2.2"
+ },
+ {
+  "q": "Which PoE standard can deliver 60 W or more?",
+  "opts": [
+   "802.3at",
+   "802.3bt",
+   "802.3af",
+   "802.1X"
+  ],
+  "correct": 1,
+  "obj": "2.2"
+ },
+ {
+  "q": "Which switching feature puts redundant links into a blocking state?",
+  "opts": [
+   "Link aggregation",
+   "VLAN trunking",
+   "Spanning Tree Protocol",
+   "NAT"
+  ],
+  "correct": 2,
+  "obj": "2.2"
+ },
+ {
+  "q": "What does link aggregation provide?",
+  "opts": [
+   "Separate broadcast domains",
+   "Address translation",
+   "Wireless roaming",
+   "More bandwidth and redundancy across bundled ports"
+  ],
+  "correct": 3,
+  "obj": "2.2"
+ }
+]

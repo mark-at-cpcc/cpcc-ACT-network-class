@@ -1,0 +1,596 @@
+[
+ {
+  "q": "Which 802.11 standard is Wi-Fi 6?",
+  "opts": [
+   "802.11ax",
+   "802.11ac",
+   "802.11n",
+   "802.11g"
+  ],
+  "correct": 0,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which 802.11 standard is Wi-Fi 5?",
+  "opts": [
+   "802.11ax",
+   "802.11ac",
+   "802.11n",
+   "802.11a"
+  ],
+  "correct": 1,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which band offers longer range but fewer non-overlapping channels?",
+  "opts": [
+   "5 GHz",
+   "6 GHz",
+   "2.4 GHz",
+   "60 GHz"
+  ],
+  "correct": 2,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which standard first operated in both 2.4 and 5 GHz?",
+  "opts": [
+   "802.11g",
+   "802.11b",
+   "802.11a",
+   "802.11n"
+  ],
+  "correct": 3,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which feature avoids interfering with radar on some 5 GHz channels?",
+  "opts": [
+   "DFS",
+   "WPS",
+   "SAE",
+   "MIMO"
+  ],
+  "correct": 0,
+  "obj": "2.3"
+ },
+ {
+  "q": "What does combining adjacent channels into a 40, 80, or 160 MHz channel do?",
+  "opts": [
+   "Extends range",
+   "Increases throughput by channel bonding",
+   "Encrypts traffic",
+   "Reduces latency to zero"
+  ],
+  "correct": 1,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which term describes one SSID served by many APs so clients can roam?",
+  "opts": [
+   "BSSID",
+   "IBSS",
+   "ESSID",
+   "WLC"
+  ],
+  "correct": 2,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which antenna radiates in all horizontal directions?",
+  "opts": [
+   "Yagi",
+   "Parabolic",
+   "Patch",
+   "Omnidirectional"
+  ],
+  "correct": 3,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which device centrally manages many lightweight access points?",
+  "opts": [
+   "Wireless LAN controller",
+   "Autonomous AP",
+   "Range extender",
+   "Media converter"
+  ],
+  "correct": 0,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which wireless mode connects clients directly without an access point?",
+  "opts": [
+   "Infrastructure",
+   "Ad hoc (IBSS)",
+   "Mesh",
+   "Bridge"
+  ],
+  "correct": 1,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which WPA3 mechanism replaces the pre-shared key handshake?",
+  "opts": [
+   "TKIP",
+   "PSK",
+   "SAE",
+   "EAP-TLS"
+  ],
+  "correct": 2,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which mode authenticates each wireless user individually against RADIUS?",
+  "opts": [
+   "WPA2-Personal",
+   "Open",
+   "WEP",
+   "WPA2/WPA3-Enterprise"
+  ],
+  "correct": 3,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which problem results from neighboring APs using the same channel?",
+  "opts": [
+   "Co-channel interference",
+   "Attenuation",
+   "Jitter",
+   "Crosstalk"
+  ],
+  "correct": 0,
+  "obj": "2.3"
+ },
+ {
+  "q": "A user's laptop stays connected to a distant AP with weak signal instead of a nearby one. What is this called?",
+  "opts": [
+   "Roaming",
+   "Sticky client",
+   "Band steering",
+   "Channel bonding"
+  ],
+  "correct": 1,
+  "obj": "2.3"
+ },
+ {
+  "q": "What should be done when adding APs makes the network slower?",
+  "opts": [
+   "Add more APs on the same channel",
+   "Raise every AP to full power",
+   "Adjust channel plan and transmit power",
+   "Disable WPA3"
+  ],
+  "correct": 2,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which signal reading in dBm is strongest?",
+  "opts": [
+   "-67 dBm",
+   "-75 dBm",
+   "-90 dBm",
+   "-55 dBm"
+  ],
+  "correct": 3,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which VPN type joins two office networks through their gateways?",
+  "opts": [
+   "Site-to-site",
+   "Client-to-site",
+   "Clientless",
+   "Split tunnel"
+  ],
+  "correct": 0,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which VPN type runs in a browser with no installed client?",
+  "opts": [
+   "Site-to-site",
+   "Clientless",
+   "Full tunnel",
+   "IPsec transport mode"
+  ],
+  "correct": 1,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which tunnel mode sends all of a remote user's traffic through the VPN?",
+  "opts": [
+   "Split tunnel",
+   "Clientless",
+   "Full tunnel",
+   "Out-of-band"
+  ],
+  "correct": 2,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which management method is encrypted and command-line based?",
+  "opts": [
+   "Telnet",
+   "Console",
+   "HTTP",
+   "SSH"
+  ],
+  "correct": 3,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which management method is best suited to automating changes across hundreds of devices?",
+  "opts": [
+   "API",
+   "Console",
+   "GUI",
+   "Telnet"
+  ],
+  "correct": 0,
+  "obj": "3.5"
+ },
+ {
+  "q": "What is a jump box?",
+  "opts": [
+   "A switch that bridges VLANs",
+   "A hardened host administrators connect through to reach management interfaces",
+   "A VPN concentrator",
+   "A spare router"
+  ],
+  "correct": 1,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which describes in-band management?",
+  "opts": [
+   "Managing devices over a console server",
+   "Managing devices by cellular modem",
+   "Managing devices over the production network",
+   "Managing devices only on site"
+  ],
+  "correct": 2,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which cable connects a laptop serial or USB port to a switch console port?",
+  "opts": [
+   "Crossover cable",
+   "Straight-through Cat 6",
+   "Twinax",
+   "Rollover or USB console cable"
+  ],
+  "correct": 3,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which risk does split tunneling introduce?",
+  "opts": [
+   "The remote device reaches the internet without corporate inspection",
+   "All traffic slows down",
+   "VPN encryption is disabled",
+   "The VPN cannot reach internal servers"
+  ],
+  "correct": 0,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which gateway lets users reach internal desktops over HTTPS without a full VPN?",
+  "opts": [
+   "Jump box",
+   "RDP gateway",
+   "Console server",
+   "DHCP relay"
+  ],
+  "correct": 1,
+  "obj": "3.5"
+ },
+ {
+  "q": "Where does an SNMP agent send traps?",
+  "opts": [
+   "UDP 161 on the manager",
+   "TCP 443",
+   "UDP 162 on the manager",
+   "UDP 514"
+  ],
+  "correct": 2,
+  "obj": "3.2"
+ },
+ {
+  "q": "What organizes the objects an SNMP agent exposes?",
+  "opts": [
+   "OID",
+   "NMS",
+   "SIEM",
+   "MIB"
+  ],
+  "correct": 3,
+  "obj": "3.2"
+ },
+ {
+  "q": "What authenticates SNMPv1 and v2c requests?",
+  "opts": [
+   "A plaintext community string",
+   "A certificate",
+   "A Kerberos ticket",
+   "An API key"
+  ],
+  "correct": 0,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which data shows who talked to whom, how much, and on which ports, without full packet contents?",
+  "opts": [
+   "Packet capture",
+   "Flow data",
+   "Syslog",
+   "SNMP traps"
+  ],
+  "correct": 1,
+  "obj": "3.2"
+ },
+ {
+  "q": "What is a baseline?",
+  "opts": [
+   "The first configuration of a device",
+   "The minimum bandwidth allowed",
+   "A record of normal performance used to detect changes",
+   "A backup schedule"
+  ],
+  "correct": 2,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which port does syslog use by default?",
+  "opts": [
+   "UDP 161",
+   "TCP 22",
+   "UDP 123",
+   "UDP 514"
+  ],
+  "correct": 3,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which syslog severity level is Debug?",
+  "opts": [
+   "7",
+   "0",
+   "4",
+   "6"
+  ],
+  "correct": 0,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which syslog severity level is Warning?",
+  "opts": [
+   "2",
+   "4",
+   "5",
+   "6"
+  ],
+  "correct": 1,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which switch feature copies traffic to a port for a capture tool?",
+  "opts": [
+   "Port security",
+   "LACP",
+   "Port mirroring",
+   "STP"
+  ],
+  "correct": 2,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which metric measures variation in packet delay?",
+  "opts": [
+   "Latency",
+   "Bandwidth",
+   "Throughput",
+   "Jitter"
+  ],
+  "correct": 3,
+  "obj": "3.2"
+ },
+ {
+  "q": "Interface counters show rising input errors and CRCs. Which kind of problem is likely?",
+  "opts": [
+   "Physical layer, such as cabling",
+   "DNS",
+   "DHCP",
+   "Routing protocol"
+  ],
+  "correct": 0,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which integration lets a monitoring tool query a cloud platform directly?",
+  "opts": [
+   "SNMP traps",
+   "API integration",
+   "Port mirroring",
+   "Syslog"
+  ],
+  "correct": 1,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which diagram shows where devices are located and how they are cabled?",
+  "opts": [
+   "Logical diagram",
+   "Data flow diagram",
+   "Physical diagram",
+   "Layer 3 diagram"
+  ],
+  "correct": 2,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which tool tracks IP address allocation across the organization?",
+  "opts": [
+   "SIEM",
+   "NMS",
+   "MDM",
+   "IPAM"
+  ],
+  "correct": 3,
+  "obj": "3.1"
+ },
+ {
+  "q": "What is a baseline configuration?",
+  "opts": [
+   "The approved standard configuration a device should match",
+   "The factory default configuration",
+   "The newest firmware",
+   "A temporary configuration"
+  ],
+  "correct": 0,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which life-cycle stage means the vendor no longer releases patches?",
+  "opts": [
+   "Procurement",
+   "End of support",
+   "Deployment",
+   "Maintenance"
+  ],
+  "correct": 1,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which document standardizes the steps for a routine task?",
+  "opts": [
+   "SLA",
+   "NDA",
+   "SOP",
+   "MOU"
+  ],
+  "correct": 2,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which agreement defines guaranteed uptime and response times?",
+  "opts": [
+   "NDA",
+   "MOU",
+   "AUP",
+   "SLA"
+  ],
+  "correct": 3,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which document is a less formal agreement of intent between parties?",
+  "opts": [
+   "MOU",
+   "SLA",
+   "NDA",
+   "SOW"
+  ],
+  "correct": 0,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which policy defines what users may and may not do on the network?",
+  "opts": [
+   "Password policy",
+   "Acceptable use policy",
+   "Remote access policy",
+   "Data loss prevention policy"
+  ],
+  "correct": 1,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which process removes a departing employee's access?",
+  "opts": [
+   "Onboarding",
+   "Change management",
+   "Offboarding",
+   "Asset inventory"
+  ],
+  "correct": 2,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which technology prevents sensitive data from leaving the organization?",
+  "opts": [
+   "IPAM",
+   "SIEM",
+   "NAC",
+   "DLP"
+  ],
+  "correct": 3,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which document shows equipment positions in a rack?",
+  "opts": [
+   "Rack diagram",
+   "Logical diagram",
+   "Cable map",
+   "Site survey"
+  ],
+  "correct": 0,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which record lists every network device, its owner, location, and warranty?",
+  "opts": [
+   "Change log",
+   "Asset inventory",
+   "IPAM",
+   "Syslog"
+  ],
+  "correct": 1,
+  "obj": "3.1"
+ },
+ {
+  "q": "Clients on 2.4 GHz get poor throughput near a break room. What is the likely source?",
+  "opts": [
+   "DFS radar events",
+   "A duplex mismatch",
+   "Microwave oven interference",
+   "A DNS failure"
+  ],
+  "correct": 2,
+  "obj": "2.3"
+ },
+ {
+  "q": "A remote worker's video calls are slow only when the VPN is connected, and the VPN is full tunnel. What change helps?",
+  "opts": [
+   "Switch to Telnet",
+   "Disable encryption",
+   "Use a crossover cable",
+   "Split tunnel the video service, per policy"
+  ],
+  "correct": 3,
+  "obj": "3.5"
+ },
+ {
+  "q": "A change at 1 AM caused an outage. Which artifact lets the team restore service fastest?",
+  "opts": [
+   "The pre-change configuration backup",
+   "The asset inventory",
+   "The SLA",
+   "The AUP"
+  ],
+  "correct": 0,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which document would a new technician read to learn how VLANs map to subnets?",
+  "opts": [
+   "Physical diagram",
+   "Logical network diagram",
+   "Rack diagram",
+   "NDA"
+  ],
+  "correct": 1,
+  "obj": "3.1"
+ }
+]

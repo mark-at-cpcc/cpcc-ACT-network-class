@@ -1,0 +1,112 @@
+[
+ {
+  "q": "What is the broadcast address of the subnet containing <code>172.22.153.185/23</code>?",
+  "opts": [
+   "172.22.153.255",
+   "172.22.153.254",
+   "172.22.154.0",
+   "172.22.152.0"
+  ],
+  "correct": 0,
+  "obj": "1.7"
+ },
+ {
+  "q": "What is the last usable host address in the subnet containing <code>192.168.7.99/28</code>?",
+  "opts": [
+   "192.168.7.111",
+   "192.168.7.110",
+   "192.168.7.109",
+   "192.168.7.112"
+  ],
+  "correct": 1,
+  "obj": "1.7"
+ },
+ {
+  "q": "A host is configured as <code>10.0.6.66/29</code>. What is its network address?",
+  "opts": [
+   "10.0.6.56",
+   "10.0.6.72",
+   "10.0.6.64",
+   "10.0.6.71"
+  ],
+  "correct": 2,
+  "obj": "1.7"
+ },
+ {
+  "q": "Which notation is equivalent to the mask 255.255.255.0?",
+  "opts": [
+   "/16",
+   "/8",
+   "/32",
+   "/24"
+  ],
+  "correct": 3,
+  "obj": "1.7"
+ },
+ {
+  "q": "A router has routes to 10.0.0.0/8 learned by OSPF and to 10.1.5.0/24 configured statically. Which route is used for a packet to 10.1.5.9?",
+  "opts": [
+   "The /24, because the longest prefix match wins",
+   "The /8, because OSPF is dynamic",
+   "Both, load-balanced",
+   "Neither; the packet uses the default route"
+  ],
+  "correct": 0,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which route matches any destination not more specifically listed?",
+  "opts": [
+   "255.255.255.255/32",
+   "0.0.0.0/0",
+   "127.0.0.0/8",
+   "169.254.0.0/16"
+  ],
+  "correct": 1,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which NAT type maps many private hosts to one public address using port numbers?",
+  "opts": [
+   "Static NAT",
+   "Dynamic NAT",
+   "PAT",
+   "NAT64"
+  ],
+  "correct": 2,
+  "obj": "2.1"
+ },
+ {
+  "q": "Which IEEE standard tags frames on a trunk link?",
+  "opts": [
+   "802.1X",
+   "802.3af",
+   "802.11ac",
+   "802.1Q"
+  ],
+  "correct": 3,
+  "obj": "2.2"
+ },
+ {
+  "q": "What problem does Spanning Tree Protocol prevent?",
+  "opts": [
+   "Switching loops and broadcast storms",
+   "IP address conflicts",
+   "DNS failures",
+   "Duplex mismatches"
+  ],
+  "correct": 0,
+  "obj": "2.2"
+ },
+ {
+  "q": "What is required for hosts in VLAN 10 to communicate with hosts in VLAN 20?",
+  "opts": [
+   "A crossover cable",
+   "A Layer 3 device routing between the VLANs",
+   "Spanning tree",
+   "A hub"
+  ],
+  "correct": 1,
+  "obj": "2.2"
+ }
+]

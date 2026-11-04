@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Unit 4 &mdash; 4.3 Content Review | CompTIA Network+</title>
+    <link rel="stylesheet" href="_design/cpcc-course-design.css">
+    <link rel="stylesheet" href="_design/cpcc-engine.css">
+    <script src="_design/cpcc-course-design.js" defer></script>
+
+</head>
+<body>
+    <div class="course-container">
+<header class="module-header">
+    <div class="module-label">Unit 4 &middot; Wireless, Remote Access, and Network Operations &middot; Section 4.3</div>
+    <h1 class="module-title">Content Review</h1>
+    <p class="module-subtitle">CompTIA Network+ - Domains 2.0, 3.0</p>
+</header>
+        <nav class="toc" id="tocNav">
+            <div class="toc-header">Unit 4 Index</div>
+            <div class="toc-item"><a href="Unit4_4.1_Overview.html">4.1 &mdash; Unit Overview and Schedule</a></div>
+            <div class="toc-item"><a href="Unit4_4.2_Pre-Assessment.html">4.2 &mdash; Unit Pre-Assessment</a></div>
+            <div class="toc-item current" id="tocCurrent">4.3 &mdash; Content Review</div>
+            <div class="toc-item"><a href="Unit4_4.4_Reading-Assignment.html">4.4 &mdash; Reading Assignment</a></div>
+            <div class="toc-item"><a href="Unit4_4.5_Video-Assignment.html">4.5 &mdash; Video Assignment</a></div>
+            <div class="toc-item"><a href="Unit4_4.6_Labs.html">4.6 &mdash; Classroom/Home Labs</a></div>
+            <div class="toc-item"><a href="Unit4_4.7_Practice-Questions.html">4.7 &mdash; Practice Question Set</a></div>
+            <div class="toc-item"><a href="Unit4_4.8_NETLAB-Labs.html">4.8 &mdash; Online Labs: NETLAB</a></div>
+            <div class="toc-item"><a href="Unit4_4.9_Reflection.html">4.9 &mdash; Reflection Activity</a></div>
+            <div class="toc-item"><a href="Unit4_4.10_Unit-Test.html">4.10 &mdash; Unit Test</a></div>
+            <div class="toc-item"><a href="Unit4_4.11_Ticket-Exercises.html">4.11 &mdash; Unit 4 Ticket Exercises</a></div>
+            <div class="toc-item"><a href="../index.html" data-contents-link>Return to Index</a></div>
+        </nav>
+        <div class="content-area">
+            <p class="text-muted">The map for Chapters 12&ndash;15. Wireless is the largest of the four; operations and documentation are the most underestimated on the exam.</p>
+            <h2>Wireless Standards, Bands, and Channels</h2>
+            <div class="table-container"><table><thead><tr><th>Standard</th><th>Wi-Fi name</th><th>Band(s)</th><th>Max theoretical rate</th></tr></thead><tbody><tr><td>802.11a</td><td>&mdash;</td><td>5 GHz</td><td>54 Mbps</td></tr><tr><td>802.11b</td><td>&mdash;</td><td>2.4 GHz</td><td>11 Mbps</td></tr><tr><td>802.11g</td><td>&mdash;</td><td>2.4 GHz</td><td>54 Mbps</td></tr><tr><td>802.11n</td><td>Wi-Fi 4</td><td>2.4 / 5 GHz</td><td>600 Mbps</td></tr><tr><td>802.11ac</td><td>Wi-Fi 5</td><td>5 GHz</td><td>about 6.9 Gbps</td></tr><tr><td>802.11ax</td><td>Wi-Fi 6 / 6E</td><td>2.4 / 5 / 6 GHz (6E adds 6)</td><td>about 9.6 Gbps</td></tr></tbody></table></div>
+            <div class="tech-box"><div class="callout-title">Technical Overview</div><div class="callout-content"><p>The <strong>2.4 GHz</strong> band reaches farther and penetrates walls better but has only three non-overlapping 20 MHz channels in the US (<strong>1, 6, 11</strong>) and more interference (microwaves, Bluetooth). <strong>5 GHz</strong> has many more channels and supports wider <strong>channel bonding</strong> (40, 80, or 160 MHz) at shorter range; some channels require <strong>DFS</strong> to avoid radar. <strong>6 GHz</strong> (Wi-Fi 6E) adds clean spectrum. <strong>Co-channel interference</strong> is APs on the same channel competing for airtime; <strong>adjacent-channel interference</strong> is overlap between nearby channels. Antennas are <strong>omnidirectional</strong> (all around) or <strong>directional</strong> (Yagi, patch, parabolic &mdash; focused). The <strong>SSID</strong> is the network name; the <strong>BSSID</strong> is an AP radio&rsquo;s MAC; an <strong>ESSID</strong> is one SSID across many APs for roaming. APs are <strong>autonomous</strong> (configured one by one) or <strong>lightweight</strong> under a <strong>wireless LAN controller</strong>. Modes: <strong>infrastructure</strong>, <strong>ad hoc</strong> (IBSS), and <strong>mesh</strong>.</p></div></div>
+            <div class="tech-box"><div class="callout-title">Wireless Security</div><div class="callout-content"><p><strong>WPA3</strong> is current (SAE replaces the pre-shared-key handshake); <strong>WPA2</strong> with AES/CCMP is acceptable; WEP and WPA/TKIP are obsolete. <strong>Personal</strong> (PSK) uses one shared passphrase; <strong>Enterprise</strong> uses 802.1X with a RADIUS server so each user authenticates individually. <strong>Captive portals</strong> present a web page before granting access; <strong>guest networks</strong> isolate visitors from internal resources; <strong>geofencing</strong> limits access by location.</p></div></div>
+            <div class="key-concept"><h4>Plan channels like a checkerboard</h4><p>In 2.4 GHz, neighboring APs alternate 1, 6, 11 so no two adjacent APs share a channel. More APs on the same channel is not more Wi-Fi &mdash; it is more contention. When a scenario says &ldquo;we added access points and it got slower,&rdquo; the answer is almost always channel planning or transmit power, not another AP.</p></div>
+            <div class="callout callout-warning"><div class="callout-title">Where Students Trip</div><div class="callout-content"><p>A stronger signal is not always better: an AP turned up too loud makes distant clients cling to it instead of roaming to a closer one (the &ldquo;sticky client&rdquo;). Site-survey questions reward lowering power and adding cells over raising power.</p></div></div>
+            <h2>Remote Access and Management</h2>
+            <div class="tech-box"><div class="callout-title">Technical Overview</div><div class="callout-content"><p>A <strong>site-to-site VPN</strong> joins two networks through gateways; a <strong>client-to-site</strong> (remote-access) VPN joins one user&rsquo;s device to the network; a <strong>clientless</strong> VPN runs in the browser over TLS. <strong>Full tunnel</strong> sends all of the client&rsquo;s traffic through the VPN; <strong>split tunnel</strong> sends only corporate traffic through it and the rest directly to the internet. Management methods: <strong>SSH</strong> (encrypted command line), <strong>GUI</strong> (web interface over HTTPS), <strong>API</strong> (programmatic, for automation), and the <strong>console</strong> port (rollover or USB cable, works with no network at all). A <strong>jump box</strong> is a hardened host administrators connect through to reach management interfaces. <strong>In-band</strong> management travels over the production network; <strong>out-of-band</strong> uses a separate path (a console server, cellular modem, or management network) that still works when production is down.</p></div></div>
+            <h2>Monitoring</h2>
+            <div class="tech-box"><div class="callout-title">Technical Overview</div><div class="callout-content"><p><strong>SNMP</strong>: a manager (NMS) polls <strong>agents</strong> on UDP 161 and receives <strong>traps</strong> on UDP 162; data is organized in the <strong>MIB</strong> and addressed by <strong>OIDs</strong>; SNMPv1/v2c authenticate with plaintext <strong>community strings</strong>, SNMPv3 adds authentication and encryption. <strong>Flow data</strong> (NetFlow, sFlow, IPFIX) records who talked to whom, how much, and on which ports. <strong>Packet capture</strong> records the packets themselves, usually through a <strong>port mirror</strong> or tap. A <strong>baseline</strong> is normal performance measured over time, so you can tell what changed. <strong>Syslog</strong> (UDP 514) sends device logs to a collector with severity levels 0 (emergency) through 7 (debug); a <strong>SIEM</strong> aggregates and correlates logs from many sources. Metrics to know: temperature, CPU and memory, bandwidth, latency, jitter, interface errors and discards.</p></div></div>
+            <div class="table-container"><table><thead><tr><th>Syslog level</th><th>Name</th><th>Example</th></tr></thead><tbody><tr><td>0</td><td>Emergency</td><td>System unusable</td></tr><tr><td>1</td><td>Alert</td><td>Immediate action needed</td></tr><tr><td>2</td><td>Critical</td><td>Hardware failure</td></tr><tr><td>3</td><td>Error</td><td>Interface error</td></tr><tr><td>4</td><td>Warning</td><td>Native VLAN mismatch</td></tr><tr><td>5</td><td>Notice</td><td>Interface up/down</td></tr><tr><td>6</td><td>Informational</td><td>Configuration change</td></tr><tr><td>7</td><td>Debug</td><td>Detailed troubleshooting output</td></tr></tbody></table></div>
+            <h2>Documentation, Processes, and Policy</h2>
+            <div class="tech-box"><div class="callout-title">Technical Overview</div><div class="callout-content"><p>Diagrams: <strong>physical</strong> (where things are and how they are cabled), <strong>logical</strong> (subnets, VLANs, routing), <strong>rack</strong>, <strong>cable maps</strong>, and Layer 1/2/3 views. <strong>IPAM</strong> tracks address allocation. <strong>Asset inventory</strong> and the <strong>life cycle</strong> (procure, deploy, maintain, end-of-life, end-of-support, decommission and sanitize). <strong>Change management</strong> requests, reviews, schedules, documents, and can roll back every change; <strong>configuration management</strong> keeps <strong>baseline configurations</strong> and backups. <strong>SOPs</strong> standardize routine tasks. Policies: acceptable use, password, BYOD, remote access, onboarding and offboarding, data loss prevention. Agreements: <strong>SLA</strong> (service levels), <strong>NDA</strong>, <strong>MOU</strong>.</p></div></div>
+            <div class="callout callout-tip"><div class="callout-title">On the Job</div><div class="callout-content"><p>A switch outage at 2 AM is resolved in ten minutes when the on-call technician has a current diagram, the last config backup, and a change log showing what was altered yesterday. Without them, it is resolved at 10 AM. Objective 3.1 is the difference.</p></div></div>
+            <h3>Unit 4 Content Recap</h3><div class="summary-box"><h3>In This Unit You Learned</h3><ul><li>802.11 standards, bands, non-overlapping channels, bonding, DFS, antennas, AP and controller models</li><li>WPA2 and WPA3, Personal and Enterprise, captive portals, guest isolation</li><li>VPN types and tunnel modes; SSH, GUI, API, console, jump box, in-band and out-of-band</li><li>SNMP, flow data, packet capture, baselines, syslog levels, SIEM</li><li>Diagrams, IPAM, life cycle, change and configuration management, SOPs, policies, agreements</li></ul></div>
+            <div class="references-section"><h3>Go Further</h3><ul><li>CompTIA N10-009 objectives 2.3, 3.1, 3.2, 3.5</li><li>Professor Messer, <em>Wireless Technologies</em> and <em>Logs and Monitoring</em></li></ul></div>
+        </div>
+        <footer class="module-footer">
+            <p class="footer-text">CompTIA Network+ Training &nbsp;|&nbsp; &copy; 2026 Charlotte Academy of Technology Services &nbsp;|&nbsp; All Rights Reserved - Mark E Turner</p>
+        </footer>
+    </div>
+</body>
+</html>

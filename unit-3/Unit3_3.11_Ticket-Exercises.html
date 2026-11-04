@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Unit 3 &mdash; 3.11 Unit 3 Ticket Exercises | CompTIA Network+</title>
+    <link rel="stylesheet" href="_design/cpcc-course-design.css">
+    <link rel="stylesheet" href="_design/cpcc-engine.css">
+    <script src="_design/cpcc-course-design.js" defer></script>
+    <script src="_design/cpcc-tickets.js" defer></script>
+</head>
+<body>
+    <div class="course-container">
+<header class="module-header">
+    <div class="module-label">Unit 3 &middot; Subnetting, Routing, and Switching &middot; Section 3.11</div>
+    <h1 class="module-title">Unit 3 Ticket Exercises</h1>
+    <p class="module-subtitle">CompTIA Network+ - Domains 1.0, 2.0</p>
+</header>
+        <nav class="toc" id="tocNav">
+            <div class="toc-header">Unit 3 Index</div>
+            <div class="toc-item"><a href="Unit3_3.1_Overview.html">3.1 &mdash; Unit Overview and Schedule</a></div>
+            <div class="toc-item"><a href="Unit3_3.2_Pre-Assessment.html">3.2 &mdash; Unit Pre-Assessment</a></div>
+            <div class="toc-item"><a href="Unit3_3.3_Content-Review.html">3.3 &mdash; Content Review</a></div>
+            <div class="toc-item"><a href="Unit3_3.4_Reading-Assignment.html">3.4 &mdash; Reading Assignment</a></div>
+            <div class="toc-item"><a href="Unit3_3.5_Video-Assignment.html">3.5 &mdash; Video Assignment</a></div>
+            <div class="toc-item"><a href="Unit3_3.6_Labs.html">3.6 &mdash; Classroom/Home Labs</a></div>
+            <div class="toc-item"><a href="Unit3_3.7_Practice-Questions.html">3.7 &mdash; Practice Question Set</a></div>
+            <div class="toc-item"><a href="Unit3_3.8_NETLAB-Labs.html">3.8 &mdash; Online Labs: NETLAB</a></div>
+            <div class="toc-item"><a href="Unit3_3.9_Reflection.html">3.9 &mdash; Reflection Activity</a></div>
+            <div class="toc-item"><a href="Unit3_3.10_Unit-Test.html">3.10 &mdash; Unit Test</a></div>
+            <div class="toc-item current" id="tocCurrent">3.11 &mdash; Unit 3 Ticket Exercises</div>
+            <div class="toc-item"><a href="Unit3_3.A_Subnetting-Reference.html">3.A &mdash; Subnetting Reference Card</a></div>
+            <div class="toc-item"><a href="../index.html" data-contents-link>Return to Index</a></div>
+        </nav>
+        <div class="content-area">
+            <div class="instructions-card"><div class="instructions-band">Instructions &mdash; Read Before You Begin</div><h3>What This Is</h3><p>Three trouble tickets, one for each class meeting this unit. <strong>Work each one on your own.</strong> Every ticket is a real kind of call, with real evidence, and three questions that ask what a technician would actually do next. Plan on about 20 minutes per ticket.</p><h3>How to Work a Ticket</h3><ol><li><strong>Read the call, then stop.</strong> Before you look at any evidence, write one sentence in your notes: <em>what do you think is wrong, and how sure are you?</em></li><li><strong>Study the exhibits</strong> as if you had just collected them yourself.</li><li><strong>Answer the three questions.</strong> Each one stands on its own. You get one attempt per question.</li><li><strong>Write your own progress note,</strong> then compare it with the Ticket Solution.</li><li><strong>Look back.</strong> The reflection prompts sit inside the Ticket Solution. Answer them in your notes.</li></ol><h3>What You Will See When You Answer</h3><ul class="checklist"><li>A flag that says <strong>Correct</strong> or <strong>Incorrect</strong> &mdash; nothing more. You will not be shown which answer was right.</li><li>Answer all three correctly and the <strong>Ticket Solution</strong> opens on its own. Otherwise, click <strong>Ticket Solution</strong> to open it yourself &mdash; after you have written your note.</li><li><strong>Reset These Questions</strong> clears a ticket so you can work it again.</li></ul><h3>About the Exhibits</h3><p>Each ticket includes exhibits labeled A, B, and C. <strong>Every exhibit is representative of output from the network being troubleshot</strong> &mdash; what you would see on a screen, read on a label, or hold in your hand. They are simplified to show what matters, the way a performance-based question on the N10-009 exam presents a tool&rsquo;s output. Read them the way a technician reads a screen: <strong>column headings first, then the values that stand out, then the details that do not fit.</strong></p><h3>The Method Behind Every Ticket</h3><p>Each question is tagged with the step of CompTIA&rsquo;s troubleshooting methodology it exercises. You will use this method for the rest of your career; these tickets are where it becomes a habit.</p><ol><li>Identify the problem</li><li>Establish a theory of probable cause</li><li>Test the theory to determine the cause</li><li>Establish a plan of action to resolve the problem and identify potential effects</li><li>Implement the solution or escalate as necessary</li><li>Verify full system functionality and implement preventive measures if applicable</li><li>Document findings, actions, outcomes, and lessons learned throughout the process</li></ol><h3>About the Times and Names</h3><p>Every person, company, and device in these tickets is fictional. Times shown inside a ticket are part of the scenario, not course deadlines &mdash; course due dates are always in the Course Schedule.</p></div>
+            <section class="ticket-card"><div class="ticket-band"><span class="ticket-count">Ticket 1 of 3</span><span class="ticket-title">The Printer Nobody Can Reach</span><span class="ticket-meta">Tuesday &middot; Objective 1.7 &mdash; subnet masks &middot; About 20 minutes</span></div><div class="ticket-body"><div class="table-container"><table><thead><tr><th colspan="2">Ticket NET-3-0302</th></tr></thead><tbody><tr><td><strong>Requester</strong></td><td>Carla Nguyen, Office Lead, Brightway Realty (18 staff)</td></tr><tr><td><strong>Site / Device</strong></td><td>Main office &middot; printer PRN-01 and workstations on 192.168.20.0/24</td></tr><tr><td><strong>Severity</strong></td><td>Medium</td></tr><tr><td><strong>Category</strong></td><td>Connectivity &mdash; addressing</td></tr></tbody></table></div><h3>The Call</h3><p>&ldquo;Our new printer only works for two people. Everyone else gets &ldquo;printer offline.&rdquo; The installer set it up with a static address and said it was all done.&rdquo;</p><div class="callout callout-warning"><div class="callout-title">Stop Here</div><div class="callout-content">Before you look at the exhibits, write one sentence in your notes: what do you think is wrong, and how sure are you?</div></div><h3>Exhibit A &mdash; Printer network settings and a workstation&rsquo;s ipconfig</h3><div class="table-container"><table><thead><tr><th>Setting</th><th>Printer PRN-01</th><th>Workstation WS-07</th></tr></thead><tbody><tr><td>IPv4 address</td><td>192.168.20.9</td><td>192.168.20.40</td></tr><tr><td>Subnet mask</td><td>255.255.255.240</td><td>255.255.255.0</td></tr><tr><td>Default gateway</td><td>192.168.20.1</td><td>192.168.20.1</td></tr></tbody></table></div><h3>Exhibit B &mdash; Ping from the printer&rsquo;s diagnostic page</h3><pre><code>ping 192.168.20.5   ... reply
+ping 192.168.20.12  ... reply
+ping 192.168.20.40  ... request timed out
+ping 192.168.20.1   ... reply</code></pre><h3>Exhibit C &mdash; The printer&rsquo;s subnet, worked</h3><pre><code>192.168.20.9 /28  -> mask 255.255.255.240, block size 16
+network 192.168.20.0   broadcast 192.168.20.15
+usable  192.168.20.1 - 192.168.20.14</code></pre><div class="ticket-questions" data-ticket="t1" data-solution="t1sol"></div><h3>Close the Ticket</h3><p>Write your own progress note and resolution first. Then open the Ticket Solution below to compare.</p><div class="solution-toggle" id="t1sol"><div class="solution-bar">Ticket Solution</div><div class="solution-body"><div class="callout callout-tip"><div class="callout-title">Resolution</div><div class="callout-content"><p><strong>Found:</strong> the installer gave the printer a /28 mask. To the printer, only .1&ndash;.14 are local; every other workstation is &ldquo;remote,&rdquo; so its replies go to the gateway, which does not hairpin them back onto the same segment. The two working users are at .5 and .12.</p><p><strong>Action:</strong> set the printer mask to 255.255.255.0. <strong>Verified:</strong> test page from WS-07 and three others. <strong>Follow-up:</strong> documented the printer&rsquo;s address in the IP plan and reserved it in DHCP.</p></div></div><h3>Look Back</h3><div class="activity-section"><ol class="lab-steps"><li><strong>How did the two working users&rsquo; addresses point straight at the cause?</strong></li><li><strong>Explain to Carla, without the word &ldquo;mask,&rdquo; why the printer could hear some people and not others.</strong></li></ol></div></div></div></div></section>
+            <section class="ticket-card"><div class="ticket-band"><span class="ticket-count">Ticket 2 of 3</span><span class="ticket-title">Half the Building Went Dark</span><span class="ticket-meta">Wednesday &middot; Objective 2.2 &mdash; spanning tree &middot; About 20 minutes</span></div><div class="ticket-body"><div class="table-container"><table><thead><tr><th colspan="2">Ticket NET-3-0311</th></tr></thead><tbody><tr><td><strong>Requester</strong></td><td>Isaac Brennan, Facilities, Harmon Logistics</td></tr><tr><td><strong>Site / Device</strong></td><td>Floors 2&ndash;3 &middot; new access switch SW-3B and its two uplinks</td></tr><tr><td><strong>Severity</strong></td><td>Critical</td></tr><tr><td><strong>Category</strong></td><td>Outage &mdash; switching</td></tr></tbody></table></div><h3>The Call</h3><p>&ldquo;Right after the contractor plugged in the second cable for &ldquo;redundancy,&rdquo; everything on floors 2 and 3 stopped. The lights on the switches are blinking like crazy.&rdquo;</p><div class="callout callout-warning"><div class="callout-title">Stop Here</div><div class="callout-content">Before you look at the exhibits, write one sentence in your notes: what do you think is wrong, and how sure are you?</div></div><h3>Exhibit A &mdash; <code>show interfaces</code> on the distribution switch, both uplinks to SW-3B</h3><pre><code>Gi1/0/23  input rate 912,440 pkts/sec   broadcasts 905,118/sec
+Gi1/0/24  input rate 914,002 pkts/sec   broadcasts 906,730/sec
+CPU utilization 99%</code></pre><h3>Exhibit B &mdash; <code>show spanning-tree</code> on SW-3B</h3><pre><code>Spanning tree instance(s) for vlan 1 do not exist.
+%SPANTREE: spanning-tree is disabled</code></pre><h3>Exhibit C &mdash; Port states after the fix, for comparison</h3><div class="table-container"><table><thead><tr><th>Port</th><th>Role</th><th>State</th></tr></thead><tbody><tr><td>Gi1/0/23</td><td>Root</td><td>Forwarding</td></tr><tr><td>Gi1/0/24</td><td>Alternate</td><td>Blocking</td></tr></tbody></table></div><div class="ticket-questions" data-ticket="t2" data-solution="t2sol"></div><h3>Close the Ticket</h3><p>Write your own progress note and resolution first. Then open the Ticket Solution below to compare.</p><div class="solution-toggle" id="t2sol"><div class="solution-bar">Ticket Solution</div><div class="solution-body"><div class="callout callout-tip"><div class="callout-title">Resolution</div><div class="callout-content"><p><strong>Found:</strong> a broadcast storm. SW-3B arrived with spanning tree disabled; the second uplink created a loop and broadcasts multiplied until the links and switch CPUs saturated.</p><p><strong>Action:</strong> pulled the second uplink; enabled RSTP; reconnected and confirmed one port in Blocking. <strong>Verified:</strong> broadcast rate normal; floors restored. <strong>Follow-up:</strong> added &ldquo;STP enabled&rdquo; to the switch build checklist.</p></div></div><h3>Look Back</h3><div class="activity-section"><ol class="lab-steps"><li><strong>What in Exhibit A told you this was a loop and not a single failure?</strong></li><li><strong>Why is &ldquo;blocking&rdquo; the state that makes redundancy safe?</strong></li></ol></div></div></div></div></section>
+            <section class="ticket-card"><div class="ticket-band"><span class="ticket-count">Ticket 3 of 3</span><span class="ticket-title">Calls Work, the Laptop Doesn&rsquo;t</span><span class="ticket-meta">Thursday &middot; Objective 2.2 &mdash; access and voice VLANs &middot; About 20 minutes</span></div><div class="ticket-body"><div class="table-container"><table><thead><tr><th colspan="2">Ticket NET-3-0318</th></tr></thead><tbody><tr><td><strong>Requester</strong></td><td>Renée Okafor, Accounts Manager, Pinehurst Dental</td></tr><tr><td><strong>Site / Device</strong></td><td>Office 2B &middot; IP phone with laptop plugged into its PC port</td></tr><tr><td><strong>Severity</strong></td><td>Medium</td></tr><tr><td><strong>Category</strong></td><td>Connectivity &mdash; switching</td></tr></tbody></table></div><h3>The Call</h3><p>&ldquo;My desk phone works fine, but my laptop says no internet when it&rsquo;s plugged into the phone. It worked in my old office down the hall.&rdquo;</p><div class="callout callout-warning"><div class="callout-title">Stop Here</div><div class="callout-content">Before you look at the exhibits, write one sentence in your notes: what do you think is wrong, and how sure are you?</div></div><h3>Exhibit A &mdash; Laptop <code>ipconfig</code></h3><pre><code>IPv4 Address. . . . . . : 169.254.88.12
+Subnet Mask . . . . . . : 255.255.0.0
+Default Gateway . . . . :</code></pre><h3>Exhibit B &mdash; Switch port configuration for office 2B</h3><pre><code>interface Gi1/0/14
+ description Office-2B
+ switchport mode access
+ switchport access vlan 99
+ switchport voice vlan 20
+ power inline auto</code></pre><h3>Exhibit C &mdash; The site&rsquo;s VLAN plan</h3><div class="table-container"><table><thead><tr><th>VLAN</th><th>Name</th><th>Subnet</th><th>DHCP</th></tr></thead><tbody><tr><td>10</td><td>Data</td><td>10.50.10.0/24</td><td>Yes</td></tr><tr><td>20</td><td>Voice</td><td>10.50.20.0/24</td><td>Yes</td></tr><tr><td>99</td><td>Unused-Parking</td><td>&mdash;</td><td>No</td></tr></tbody></table></div><div class="ticket-questions" data-ticket="t3" data-solution="t3sol"></div><h3>Close the Ticket</h3><p>Write your own progress note and resolution first. Then open the Ticket Solution below to compare.</p><div class="solution-toggle" id="t3sol"><div class="solution-bar">Ticket Solution</div><div class="solution-body"><div class="callout callout-tip"><div class="callout-title">Resolution</div><div class="callout-content"><p><strong>Found:</strong> office 2B&rsquo;s port was left in VLAN 99, the &ldquo;parking&rdquo; VLAN for unused ports, so the laptop&rsquo;s DHCP request reached no server. The phone uses voice VLAN 20, which was set correctly.</p><p><strong>Action:</strong> <code>switchport access vlan 10</code>. <strong>Verified:</strong> laptop received 10.50.10.x; phone unaffected. <strong>Follow-up:</strong> audited the floor&rsquo;s ports for other VLAN 99 assignments.</p></div></div><h3>Look Back</h3><div class="activity-section"><ol class="lab-steps"><li><strong>Why was &ldquo;the phone works&rdquo; such useful evidence?</strong></li><li><strong>Parking unused ports in a dead VLAN is good practice. What step in the move process would have caught this?</strong></li></ol></div></div></div></div></section>
+            <script type="application/json" class="cpcc-ticket-bank">
+{
+ "t1": [
+  {
+   "step": "Step 1 &mdash; Identify the problem",
+   "exhibit": "Exhibit A",
+   "q": "Compare the printer&rsquo;s configuration with the workstation&rsquo;s. What is the problem?",
+   "opts": [
+    [
+     "The printer&rsquo;s /28 mask puts the workstations outside its subnet, so it sends replies to its gateway instead of directly",
+     true
+    ],
+    [
+     "The printer has no default gateway",
+     false
+    ],
+    [
+     "The printer and workstations are in different VLANs",
+     false
+    ],
+    [
+     "The workstation&rsquo;s mask is wrong",
+     false
+    ],
+    [
+     "The printer&rsquo;s address is a broadcast address",
+     false
+    ],
+    [
+     "The switch port is shut down",
+     false
+    ]
+   ]
+  },
+  {
+   "step": "Step 3 &mdash; Test the theory to determine the cause",
+   "exhibit": "Exhibit B",
+   "q": "The printer can reach 192.168.20.5 but not 192.168.20.40. What does that prove?",
+   "opts": [
+    [
+     "Hosts inside the printer&rsquo;s /28 (.0&ndash;.15) are reached directly; hosts beyond it are treated as remote",
+     true
+    ],
+    [
+     "The cable to the printer is faulty",
+     false
+    ],
+    [
+     "The workstation at .40 has a firewall",
+     false
+    ],
+    [
+     "ARP is broken on the switch",
+     false
+    ],
+    [
+     "DNS cannot resolve the printer",
+     false
+    ],
+    [
+     "The printer&rsquo;s NIC is half duplex",
+     false
+    ]
+   ]
+  },
+  {
+   "step": "Step 4 &mdash; Establish a plan of action to resolve the problem and identify potential effects",
+   "exhibit": "Exhibit C",
+   "q": "What is the correct fix?",
+   "opts": [
+    [
+     "Set the printer&rsquo;s mask to 255.255.255.0 (/24) to match the office subnet",
+     true
+    ],
+    [
+     "Change every workstation&rsquo;s mask to /28",
+     false
+    ],
+    [
+     "Give the printer a second gateway",
+     false
+    ],
+    [
+     "Move the printer to 192.168.20.200",
+     false
+    ],
+    [
+     "Add a static route on the router",
+     false
+    ],
+    [
+     "Replace the printer&rsquo;s network card",
+     false
+    ]
+   ]
+  }
+ ],
+ "t2": [
+  {
+   "step": "Step 1 &mdash; Identify the problem",
+   "exhibit": "Exhibit A",
+   "q": "Floors 2 and 3 lost connectivity when the second uplink was cabled. What does Exhibit A show?",
+   "opts": [
+    [
+     "A switching loop: both uplinks forward, so broadcasts circulate and multiply",
+     true
+    ],
+    [
+     "A routing loop between two routers",
+     false
+    ],
+    [
+     "A DHCP scope exhaustion",
+     false
+    ],
+    [
+     "A native VLAN mismatch",
+     false
+    ],
+    [
+     "A failed power supply",
+     false
+    ],
+    [
+     "An IP address conflict",
+     false
+    ]
+   ]
+  },
+  {
+   "step": "Step 2 &mdash; Establish a theory of probable cause",
+   "exhibit": "Exhibit B",
+   "q": "Why did adding a redundant cable cause an outage instead of resilience?",
+   "opts": [
+    [
+     "Spanning tree is disabled on the new switch, so nothing blocked one of the two paths",
+     true
+    ],
+    [
+     "The new cable is a crossover cable",
+     false
+    ],
+    [
+     "Link aggregation was configured on both ports",
+     false
+    ],
+    [
+     "The second uplink is faster than the first",
+     false
+    ],
+    [
+     "PoE overloaded the switch",
+     false
+    ],
+    [
+     "The new switch has no IP address",
+     false
+    ]
+   ]
+  },
+  {
+   "step": "Step 4 &mdash; Establish a plan of action to resolve the problem and identify potential effects",
+   "exhibit": "Exhibit C",
+   "q": "Which plan restores service and keeps the redundancy?",
+   "opts": [
+    [
+     "Disconnect the second uplink now, enable RSTP on the new switch, confirm one port goes to blocking, then reconnect",
+     true
+    ],
+    [
+     "Leave both uplinks and reboot the switches",
+     false
+    ],
+    [
+     "Permanently remove the second uplink",
+     false
+    ],
+    [
+     "Assign each floor to a different native VLAN",
+     false
+    ],
+    [
+     "Set both uplinks to half duplex",
+     false
+    ],
+    [
+     "Disable broadcasts on all switches",
+     false
+    ]
+   ]
+  }
+ ],
+ "t3": [
+  {
+   "step": "Step 1 &mdash; Identify the problem",
+   "exhibit": "Exhibit A",
+   "q": "The phone works; the laptop behind it gets 169.254. What does that narrow the problem to?",
+   "opts": [
+    [
+     "The data VLAN on that port, not the cable or the switch port itself",
+     true
+    ],
+    [
+     "The cable between the wall and the phone",
+     false
+    ],
+    [
+     "The DHCP server for the whole site",
+     false
+    ],
+    [
+     "The laptop&rsquo;s wireless card",
+     false
+    ],
+    [
+     "The voice VLAN",
+     false
+    ],
+    [
+     "The PoE budget",
+     false
+    ]
+   ]
+  },
+  {
+   "step": "Step 3 &mdash; Test the theory to determine the cause",
+   "exhibit": "Exhibit B",
+   "q": "What does the port configuration reveal?",
+   "opts": [
+    [
+     "The access VLAN is 99, which has no DHCP scope or gateway; it should be the data VLAN 10",
+     true
+    ],
+    [
+     "The voice VLAN is wrong",
+     false
+    ],
+    [
+     "The port is a trunk instead of an access port",
+     false
+    ],
+    [
+     "PoE is disabled",
+     false
+    ],
+    [
+     "Port security is blocking the phone",
+     false
+    ],
+    [
+     "The port is shut down",
+     false
+    ]
+   ]
+  },
+  {
+   "step": "Step 5 &mdash; Implement the solution or escalate as necessary",
+   "exhibit": "Exhibit C",
+   "q": "Which change fixes the laptop without affecting the phone?",
+   "opts": [
+    [
+     "Set the port&rsquo;s access VLAN to 10, leaving the voice VLAN 20 unchanged",
+     true
+    ],
+    [
+     "Set the voice VLAN to 10",
+     false
+    ],
+    [
+     "Make the port a trunk allowing all VLANs",
+     false
+    ],
+    [
+     "Give the laptop a static address in VLAN 99",
+     false
+    ],
+    [
+     "Move the phone to another port",
+     false
+    ],
+    [
+     "Disable PoE on the port",
+     false
+    ]
+   ]
+  }
+ ]
+}
+</script>
+        </div>
+        <footer class="module-footer">
+            <p class="footer-text">CompTIA Network+ Training &nbsp;|&nbsp; &copy; 2026 Charlotte Academy of Technology Services &nbsp;|&nbsp; All Rights Reserved - Mark E Turner</p>
+        </footer>
+    </div>
+</body>
+</html>

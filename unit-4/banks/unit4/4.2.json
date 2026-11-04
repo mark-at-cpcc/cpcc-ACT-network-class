@@ -1,0 +1,134 @@
+[
+ {
+  "q": "Which non-overlapping channels are used in the 2.4 GHz band in the US?",
+  "opts": [
+   "1, 6, 11",
+   "1, 5, 9",
+   "2, 7, 12",
+   "1, 4, 8, 11"
+  ],
+  "correct": 0,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which is the current wireless security standard?",
+  "opts": [
+   "WPA2-TKIP",
+   "WPA3",
+   "WEP",
+   "WPA"
+  ],
+  "correct": 1,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which band does Wi-Fi 6E add?",
+  "opts": [
+   "60 GHz",
+   "900 MHz",
+   "6 GHz",
+   "3.6 GHz"
+  ],
+  "correct": 2,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which VPN type joins two office networks through their gateways?",
+  "opts": [
+   "Client-to-site",
+   "Clientless",
+   "Split tunnel",
+   "Site-to-site"
+  ],
+  "correct": 3,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which tunnel mode sends only corporate traffic through the VPN?",
+  "opts": [
+   "Split tunnel",
+   "Full tunnel",
+   "Clientless",
+   "Site-to-site"
+  ],
+  "correct": 0,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which management method works even when the device has no network configuration?",
+  "opts": [
+   "SSH",
+   "Console port",
+   "Web GUI",
+   "API"
+  ],
+  "correct": 1,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which port does an SNMP agent listen on?",
+  "opts": [
+   "UDP 162",
+   "TCP 161",
+   "UDP 161",
+   "UDP 514"
+  ],
+  "correct": 2,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which port does syslog use by default?",
+  "opts": [
+   "UDP 161",
+   "TCP 22",
+   "UDP 123",
+   "UDP 514"
+  ],
+  "correct": 3,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which tool records full packet contents for analysis?",
+  "opts": [
+   "Protocol analyzer / packet capture",
+   "NetFlow collector",
+   "SNMP manager",
+   "Syslog server"
+  ],
+  "correct": 0,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which diagram shows subnets, VLANs, and routing rather than cable runs?",
+  "opts": [
+   "Physical diagram",
+   "Logical diagram",
+   "Rack diagram",
+   "Floor plan"
+  ],
+  "correct": 1,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which process requests, reviews, schedules, and documents changes, with a rollback plan?",
+  "opts": [
+   "Asset inventory",
+   "Onboarding",
+   "Change management",
+   "Patch management"
+  ],
+  "correct": 2,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which agreement defines guaranteed uptime and response times?",
+  "opts": [
+   "NDA",
+   "MOU",
+   "AUP",
+   "SLA"
+  ],
+  "correct": 3,
+  "obj": "3.1"
+ }
+]

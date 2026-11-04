@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Unit 3 &mdash; 3.3 Content Review | CompTIA Network+</title>
+    <link rel="stylesheet" href="_design/cpcc-course-design.css">
+    <link rel="stylesheet" href="_design/cpcc-engine.css">
+    <script src="_design/cpcc-course-design.js" defer></script>
+
+</head>
+<body>
+    <div class="course-container">
+<header class="module-header">
+    <div class="module-label">Unit 3 &middot; Subnetting, Routing, and Switching &middot; Section 3.3</div>
+    <h1 class="module-title">Content Review</h1>
+    <p class="module-subtitle">CompTIA Network+ - Domains 1.0, 2.0</p>
+</header>
+        <nav class="toc" id="tocNav">
+            <div class="toc-header">Unit 3 Index</div>
+            <div class="toc-item"><a href="Unit3_3.1_Overview.html">3.1 &mdash; Unit Overview and Schedule</a></div>
+            <div class="toc-item"><a href="Unit3_3.2_Pre-Assessment.html">3.2 &mdash; Unit Pre-Assessment</a></div>
+            <div class="toc-item current" id="tocCurrent">3.3 &mdash; Content Review</div>
+            <div class="toc-item"><a href="Unit3_3.4_Reading-Assignment.html">3.4 &mdash; Reading Assignment</a></div>
+            <div class="toc-item"><a href="Unit3_3.5_Video-Assignment.html">3.5 &mdash; Video Assignment</a></div>
+            <div class="toc-item"><a href="Unit3_3.6_Labs.html">3.6 &mdash; Classroom/Home Labs</a></div>
+            <div class="toc-item"><a href="Unit3_3.7_Practice-Questions.html">3.7 &mdash; Practice Question Set</a></div>
+            <div class="toc-item"><a href="Unit3_3.8_NETLAB-Labs.html">3.8 &mdash; Online Labs: NETLAB</a></div>
+            <div class="toc-item"><a href="Unit3_3.9_Reflection.html">3.9 &mdash; Reflection Activity</a></div>
+            <div class="toc-item"><a href="Unit3_3.10_Unit-Test.html">3.10 &mdash; Unit Test</a></div>
+            <div class="toc-item"><a href="Unit3_3.11_Ticket-Exercises.html">3.11 &mdash; Unit 3 Ticket Exercises</a></div>
+            <div class="toc-item"><a href="Unit3_3.A_Subnetting-Reference.html">3.A &mdash; Subnetting Reference Card</a></div>
+            <div class="toc-item"><a href="../index.html" data-contents-link>Return to Index</a></div>
+        </nav>
+        <div class="content-area">
+            <p class="text-muted">The map for Chapters 8&ndash;11. Work the examples with a pencil; subnetting is learned by hand, not by reading.</p>
+            <h2>Subnetting: CIDR, Masks, and Block Sizes</h2>
+            <div class="tech-box"><div class="callout-title">Technical Overview</div><div class="callout-content"><p>A subnet mask divides an address into network bits and host bits. <strong>CIDR notation</strong> writes the mask as the count of network bits: <code>/26</code> means 26 ones, which is <code>255.255.255.192</code>. Borrowing host bits creates subnets: each borrowed bit doubles the number of subnets and halves their size. For a prefix <em>p</em> there are 2<sup>(32&minus;p)</sup> addresses per subnet and 2<sup>(32&minus;p)</sup> &minus; 2 usable hosts (the network and broadcast addresses are reserved; a /31 point-to-point link and a /32 host route are the exceptions). The <strong>block size</strong> &mdash; 256 minus the mask value in the interesting octet &mdash; gives the subnet boundaries directly. <strong>VLSM</strong> (variable-length subnet masking) gives each subnet only the size it needs, largest first.</p></div></div>
+            <div class="plain-box"><div class="callout-title">In Plain Terms &mdash; the Magic Number</div><div class="callout-content"><p>Find the octet where the mask is not 255 or 0. Subtract that mask value from 256: that is the block size, the &ldquo;magic number.&rdquo; Subnets start at every multiple of it. For <code>192.168.10.77/26</code>: the mask is 255.255.255.<strong>192</strong>, 256 &minus; 192 = <strong>64</strong>, so subnets start at .0, .64, .128, .192. Seventy-seven falls in the .64 block: network .64, broadcast .127, usable .65&ndash;.126, 62 hosts. Four steps, no binary required once you trust it.</p></div></div>
+            <div class="table-container"><table><thead><tr><th>Prefix</th><th>Mask (last octet)</th><th>Block size</th><th>Usable hosts</th></tr></thead><tbody><tr><td>/24</td><td>0</td><td>256</td><td>254</td></tr><tr><td>/25</td><td>128</td><td>128</td><td>126</td></tr><tr><td>/26</td><td>192</td><td>64</td><td>62</td></tr><tr><td>/27</td><td>224</td><td>32</td><td>30</td></tr><tr><td>/28</td><td>240</td><td>16</td><td>14</td></tr><tr><td>/29</td><td>248</td><td>8</td><td>6</td></tr><tr><td>/30</td><td>252</td><td>4</td><td>2</td></tr></tbody></table></div>
+            <div class="key-concept"><h4>Worked VLSM, once</h4><p>Allocate 192.168.50.0/24 to a sales LAN of 100 hosts, an office LAN of 50, a server LAN of 20, and two router links. Largest first: sales needs 102 addresses &rarr; /25 = <code>.0&ndash;.127</code>; office needs 52 &rarr; /26 = <code>.128&ndash;.191</code>; servers need 22 &rarr; /27 = <code>.192&ndash;.223</code>; each link needs 2 &rarr; /30 = <code>.224&ndash;.227</code> and <code>.228&ndash;.231</code>. Nothing overlaps, and <code>.232&ndash;.255</code> is left for growth.</p></div>
+            <div class="callout callout-warning"><div class="callout-title">Where Students Trip</div><div class="callout-content"><p>Off-by-one at the boundaries. The network address is the first in the block and the broadcast is the last; neither is a host. A host address of <code>.64</code> in a /26 is the network address and cannot be assigned. The exam builds distractors from exactly these mistakes.</p></div></div>
+            <h2>Troubleshooting IP Addressing</h2>
+            <div class="tech-box"><div class="callout-title">Technical Overview</div><div class="callout-content"><p>Chapter 8&rsquo;s method: from the host out, ping the loopback (127.0.0.1, the stack), the host&rsquo;s own address (the NIC), the default gateway (the local network), and a remote host (routing). The four classic faults are a <strong>wrong mask</strong> (the host misjudges what is local), a <strong>wrong gateway</strong> (local works, remote does not), a <strong>duplicate address</strong> (intermittent, with an ARP conflict warning), and an address on the <strong>wrong subnet</strong> for its VLAN.</p></div></div>
+            <h2>NAT and PAT</h2>
+            <div class="tech-box"><div class="callout-title">Technical Overview</div><div class="callout-content"><p>Network Address Translation rewrites addresses at the boundary. <strong>Static NAT</strong> maps one private address to one public address (a published server). <strong>Dynamic NAT</strong> maps private hosts to a pool. <strong>PAT</strong> (NAT overload) maps many private hosts to one public address by tracking source ports &mdash; what every home router does. Terms: <em>inside local</em> (private address as seen inside), <em>inside global</em> (its public address).</p></div></div>
+            <h2>Routing</h2>
+            <div class="tech-box"><div class="callout-title">Technical Overview</div><div class="callout-content"><p>A router forwards each packet by the <strong>longest matching prefix</strong> in its routing table, then by <strong>administrative distance</strong> (trust in the source: connected 0, static 1, eBGP 20, EIGRP 90, OSPF 110, RIP 120, iBGP 200), then by the protocol&rsquo;s <strong>metric</strong>. A <strong>default route</strong> (0.0.0.0/0) catches everything not more specific. <strong>Static routes</strong> are typed by hand; <strong>dynamic protocols</strong> learn: <strong>RIP</strong> is distance-vector with a hop-count metric (max 15); <strong>OSPF</strong> is link-state with a cost metric and areas; <strong>EIGRP</strong> is an advanced distance-vector (hybrid) protocol; <strong>BGP</strong> is the path-vector protocol between autonomous systems on the internet. <strong>FHRP</strong> (VRRP, HSRP) lets two routers share a virtual gateway IP. A <strong>subinterface</strong> lets one physical router port carry several VLANs (router-on-a-stick).</p></div></div>
+            <div class="table-container"><table><thead><tr><th>Protocol</th><th>Type</th><th>Metric</th><th>AD</th><th>Where</th></tr></thead><tbody><tr><td>RIPv2</td><td>Distance-vector</td><td>Hop count (15 max)</td><td>120</td><td>Small legacy networks</td></tr><tr><td>OSPF</td><td>Link-state</td><td>Cost (bandwidth)</td><td>110</td><td>Enterprise interior</td></tr><tr><td>EIGRP</td><td>Advanced distance-vector</td><td>Composite (bandwidth, delay)</td><td>90</td><td>Cisco-centric interior</td></tr><tr><td>BGP</td><td>Path-vector</td><td>Path attributes</td><td>20 / 200</td><td>Between organizations and ISPs</td></tr></tbody></table></div>
+            <div class="key-concept"><h4>Longest match first, then trust, then cost</h4><p>A packet for 10.1.5.9 with routes to 10.0.0.0/8 (OSPF) and 10.1.5.0/24 (static) takes the /24 &mdash; more specific always wins before administrative distance is even considered. AD only breaks ties between routes to the <em>same</em> prefix. Most routing exam questions are this sentence in disguise.</p></div>
+            <div class="callout callout-tip"><div class="callout-title">Beyond the Exam</div><div class="callout-content"><p>Chapter 10&rsquo;s EIGRP internals, IS-IS, RIPng, EIGRPv6, and OSPFv3 detail go past N10-009. Know what each is; do not drill the internals.</p></div></div>
+            <h2>Switching and VLANs</h2>
+            <div class="tech-box"><div class="callout-title">Technical Overview</div><div class="callout-content"><p>A switch learns source MAC addresses per port and forwards by destination MAC, flooding unknowns. A <strong>VLAN</strong> divides one switch into separate broadcast domains; an <strong>access port</strong> carries one VLAN; a <strong>trunk</strong> carries many, tagging frames with <strong>802.1Q</strong> &mdash; except the <strong>native VLAN</strong>, which crosses untagged and must match on both ends. A <strong>voice VLAN</strong> lets a phone and the PC behind it share a port. Traffic between VLANs needs a router, a router-on-a-stick, or a Layer 3 switch with <strong>SVIs</strong>. <strong>Spanning Tree</strong> (802.1D; RSTP 802.1w) elects a root bridge and blocks redundant paths so frames cannot loop; ports move through blocking, listening, learning, forwarding. Interface settings: <strong>speed and duplex</strong> (mismatch causes collisions and errors), <strong>link aggregation</strong> (LACP bundles ports), <strong>PoE</strong> (802.3af 15.4 W, 802.3at 30 W, 802.3bt 60&ndash;100 W), <strong>MTU</strong> and <strong>jumbo frames</strong> (9000 bytes, which must match end to end), and <strong>port mirroring</strong> for capture.</p></div></div>
+            <div class="callout callout-warning"><div class="callout-title">Where Students Trip</div><div class="callout-content"><p>A native-VLAN mismatch does not break the trunk; it quietly leaks untagged traffic into the wrong VLAN and logs warnings. A trunk that is not allowing a VLAN looks fine and passes everything except that VLAN. Unit 6 tickets live on these two faults.</p></div></div>
+            <div class="callout callout-tip"><div class="callout-title">Beyond the Exam</div><div class="callout-content"><p>VTP and its modes (Chapter 11, pp. 409&ndash;411) are Cisco-specific and not named in the N10-009 objectives. Read for context.</p></div></div>
+            <h3>Unit 3 Content Recap</h3><div class="summary-box"><h3>In This Unit You Learned</h3><ul><li>CIDR, masks, block sizes, host counts, and the magic-number method; VLSM, largest first</li><li>The four addressing faults and the loopback-to-remote ping method</li><li>Static NAT, dynamic NAT, and PAT</li><li>Longest match, administrative distance, metric; static, default, RIP, OSPF, EIGRP, BGP; FHRP and subinterfaces</li><li>VLANs, 802.1Q trunks, native and voice VLANs, inter-VLAN routing, STP and RSTP, speed/duplex, LACP, PoE, MTU and jumbo frames</li></ul></div>
+            <div class="references-section"><h3>Go Further</h3><ul><li>Section 3.A Subnetting Reference Card &mdash; print it</li><li>Sybex Appendix C, Subnetting Class A, and Written Labs for Chapters 8&ndash;11</li><li>Professor Messer, <em>Magic Number Subnetting</em> (21:09) and <em>Seven Second Subnetting</em> (17:03)</li></ul></div>
+        </div>
+        <footer class="module-footer">
+            <p class="footer-text">CompTIA Network+ Training &nbsp;|&nbsp; &copy; 2026 Charlotte Academy of Technology Services &nbsp;|&nbsp; All Rights Reserved - Mark E Turner</p>
+        </footer>
+    </div>
+</body>
+</html>

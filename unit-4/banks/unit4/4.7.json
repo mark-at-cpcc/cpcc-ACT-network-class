@@ -1,0 +1,299 @@
+[
+ {
+  "q": "Which non-overlapping channels are used in the 2.4 GHz band in the US?",
+  "opts": [
+   "1, 6, 11",
+   "1, 5, 9",
+   "2, 7, 12",
+   "1, 4, 8, 11"
+  ],
+  "correct": 0,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which band does Wi-Fi 6E add?",
+  "opts": [
+   "60 GHz",
+   "6 GHz",
+   "900 MHz",
+   "3.6 GHz"
+  ],
+  "correct": 1,
+  "obj": "2.3"
+ },
+ {
+  "q": "What is the maximum theoretical rate of 802.11g?",
+  "opts": [
+   "11 Mbps",
+   "600 Mbps",
+   "54 Mbps",
+   "1.3 Gbps"
+  ],
+  "correct": 2,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which identifies a specific access point radio?",
+  "opts": [
+   "SSID",
+   "ESSID",
+   "VLAN ID",
+   "BSSID"
+  ],
+  "correct": 3,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which antenna is best for a long point-to-point link between buildings?",
+  "opts": [
+   "Directional (Yagi or parabolic)",
+   "Omnidirectional",
+   "Dipole",
+   "Internal laptop antenna"
+  ],
+  "correct": 0,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which is the current wireless security standard?",
+  "opts": [
+   "WPA2-TKIP",
+   "WPA3",
+   "WEP",
+   "WPA"
+  ],
+  "correct": 1,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which feature presents a web page that guests must accept before getting access?",
+  "opts": [
+   "MAC filtering",
+   "Geofencing",
+   "Captive portal",
+   "Band steering"
+  ],
+  "correct": 2,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which feature restricts wireless access based on device location?",
+  "opts": [
+   "Captive portal",
+   "SSID hiding",
+   "DFS",
+   "Geofencing"
+  ],
+  "correct": 3,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which wireless topology lets APs relay traffic to each other without cabling each one?",
+  "opts": [
+   "Mesh",
+   "Ad hoc",
+   "Point-to-point",
+   "Bus"
+  ],
+  "correct": 0,
+  "obj": "2.3"
+ },
+ {
+  "q": "Which tunnel mode sends only corporate traffic through the VPN?",
+  "opts": [
+   "Full tunnel",
+   "Split tunnel",
+   "Clientless",
+   "Site-to-site"
+  ],
+  "correct": 1,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which management method works even when the device has no network configuration?",
+  "opts": [
+   "SSH",
+   "Web GUI",
+   "Console port",
+   "API"
+  ],
+  "correct": 2,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which describes out-of-band management?",
+  "opts": [
+   "Management over the production network",
+   "Management through a web browser",
+   "Management through SNMP traps",
+   "A separate management path that works when the production network is down"
+  ],
+  "correct": 3,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which remote access protocol presents a full graphical desktop on TCP 3389?",
+  "opts": [
+   "RDP",
+   "SSH",
+   "VNC",
+   "SFTP"
+  ],
+  "correct": 0,
+  "obj": "3.5"
+ },
+ {
+  "q": "Which port does an SNMP agent listen on?",
+  "opts": [
+   "UDP 162",
+   "UDP 161",
+   "TCP 161",
+   "UDP 514"
+  ],
+  "correct": 1,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which SNMP version adds authentication and encryption?",
+  "opts": [
+   "SNMPv1",
+   "SNMPv2c",
+   "SNMPv3",
+   "SNMPv2"
+  ],
+  "correct": 2,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which tool records full packet contents for analysis?",
+  "opts": [
+   "NetFlow collector",
+   "SNMP manager",
+   "Syslog server",
+   "Protocol analyzer / packet capture"
+  ],
+  "correct": 3,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which syslog severity level is Emergency?",
+  "opts": [
+   "0",
+   "7",
+   "3",
+   "5"
+  ],
+  "correct": 0,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which system aggregates and correlates logs from many sources to detect incidents?",
+  "opts": [
+   "NMS",
+   "SIEM",
+   "IPAM",
+   "DHCP"
+  ],
+  "correct": 1,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which metric measures the time a packet takes to reach its destination?",
+  "opts": [
+   "Jitter",
+   "Packet loss",
+   "Latency",
+   "Utilization"
+  ],
+  "correct": 2,
+  "obj": "3.2"
+ },
+ {
+  "q": "Which diagram shows subnets, VLANs, and routing rather than cable runs?",
+  "opts": [
+   "Physical diagram",
+   "Rack diagram",
+   "Floor plan",
+   "Logical diagram"
+  ],
+  "correct": 3,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which process requests, reviews, schedules, and documents changes, with a rollback plan?",
+  "opts": [
+   "Change management",
+   "Asset inventory",
+   "Onboarding",
+   "Patch management"
+  ],
+  "correct": 0,
+  "obj": "3.1"
+ },
+ {
+  "q": "What should happen to storage before a device is decommissioned?",
+  "opts": [
+   "It should be labeled",
+   "It should be sanitized",
+   "It should be cloned to the new device",
+   "Nothing"
+  ],
+  "correct": 1,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which agreement prevents a contractor from disclosing confidential information?",
+  "opts": [
+   "SLA",
+   "MOU",
+   "NDA",
+   "BYOD policy"
+  ],
+  "correct": 2,
+  "obj": "3.1"
+ },
+ {
+  "q": "Which policy governs personal devices on the corporate network?",
+  "opts": [
+   "AUP",
+   "SLA",
+   "Onboarding policy",
+   "BYOD policy"
+  ],
+  "correct": 3,
+  "obj": "3.1"
+ },
+ {
+  "q": "Why are configuration backups taken before a change?",
+  "opts": [
+   "To restore the device if the change fails",
+   "To speed up the change",
+   "To satisfy SNMP",
+   "To update the MIB"
+  ],
+  "correct": 0,
+  "obj": "3.1"
+ },
+ {
+  "q": "A conference room has weak Wi-Fi though an AP is mounted in the hallway outside. What is the best fix?",
+  "opts": [
+   "Raise the hallway AP to maximum power",
+   "Add or relocate an AP inside the room and plan its channel",
+   "Switch to WEP",
+   "Hide the SSID"
+  ],
+  "correct": 1,
+  "obj": "2.3"
+ },
+ {
+  "q": "An NMS shows a switch's CPU at 95% only during nightly backups. What does comparison to the baseline tell you?",
+  "opts": [
+   "The switch is failing",
+   "SNMP is misconfigured",
+   "The spike is a known pattern tied to the backup window",
+   "The MIB is corrupt"
+  ],
+  "correct": 2,
+  "obj": "3.2"
+ }
+]

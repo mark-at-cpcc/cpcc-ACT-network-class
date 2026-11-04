@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Unit 4 &mdash; 4.1 Unit Overview and Schedule | CompTIA Network+</title>
+    <link rel="stylesheet" href="_design/cpcc-course-design.css">
+    <link rel="stylesheet" href="_design/cpcc-engine.css">
+    <script src="_design/cpcc-course-design.js" defer></script>
+
+</head>
+<body>
+    <div class="course-container">
+<header class="module-header">
+    <div class="module-label">Unit 4 &middot; Wireless, Remote Access, and Network Operations &middot; Section 4.1</div>
+    <h1 class="module-title">Unit Overview and Schedule</h1>
+    <p class="module-subtitle">CompTIA Network+ - Domains 2.0, 3.0</p>
+</header>
+        <nav class="toc" id="tocNav">
+            <div class="toc-header">Unit 4 Index</div>
+            <div class="toc-item current" id="tocCurrent">4.1 &mdash; Unit Overview and Schedule</div>
+            <div class="toc-item"><a href="Unit4_4.2_Pre-Assessment.html">4.2 &mdash; Unit Pre-Assessment</a></div>
+            <div class="toc-item"><a href="Unit4_4.3_Content-Review.html">4.3 &mdash; Content Review</a></div>
+            <div class="toc-item"><a href="Unit4_4.4_Reading-Assignment.html">4.4 &mdash; Reading Assignment</a></div>
+            <div class="toc-item"><a href="Unit4_4.5_Video-Assignment.html">4.5 &mdash; Video Assignment</a></div>
+            <div class="toc-item"><a href="Unit4_4.6_Labs.html">4.6 &mdash; Classroom/Home Labs</a></div>
+            <div class="toc-item"><a href="Unit4_4.7_Practice-Questions.html">4.7 &mdash; Practice Question Set</a></div>
+            <div class="toc-item"><a href="Unit4_4.8_NETLAB-Labs.html">4.8 &mdash; Online Labs: NETLAB</a></div>
+            <div class="toc-item"><a href="Unit4_4.9_Reflection.html">4.9 &mdash; Reflection Activity</a></div>
+            <div class="toc-item"><a href="Unit4_4.10_Unit-Test.html">4.10 &mdash; Unit Test</a></div>
+            <div class="toc-item"><a href="Unit4_4.11_Ticket-Exercises.html">4.11 &mdash; Unit 4 Ticket Exercises</a></div>
+            <div class="toc-item"><a href="../index.html" data-contents-link>Return to Index</a></div>
+        </nav>
+        <div class="content-area">
+            <p class="text-muted"><p class="text-muted">Two class meetings this unit &mdash; Thursday is Thanksgiving, and that day&rsquo;s ticket and lab are yours to do on your own. The material is the part of networking you cannot see in a cable: radio, remote access, monitoring, and the paperwork that keeps a network running when the person who built it is on vacation.</p></p>
+            <div class="objectives-box">
+                <h3>Learning Objectives</h3>
+                <p>After completing this unit, you will be able to:</p>
+                <ol>
+                    <li><strong>Compare</strong> the 802.11 standards, bands, channels, and encryption methods, and select antennas, AP placement, and controller options for a site</li>
+                    <li><strong>Read</strong> a site survey and explain signal degradation, channel overlap, captive portals, and guest and IoT network design</li>
+                    <li><strong>Compare</strong> network access and management methods &mdash; site-to-site and client VPN, SSH, GUI, API, console, jump box, in-band and out-of-band</li>
+                    <li><strong>Use</strong> SNMP, syslog, flow data, packet capture, and baseline metrics to assess network health and locate a problem</li>
+                    <li><strong>Explain</strong> the purpose of organizational documentation and processes &mdash; diagrams, IPAM, change management, life cycle, SOPs, policies, and agreements</li>
+                </ol>
+            </div>
+            <div class="tech-box">
+                <div class="callout-title">Technical Overview</div>
+                <div class="callout-content"><p>Unit 4 addresses objectives 2.3 (wireless devices and technologies: 802.11 standards, 2.4/5/6 GHz bands, channels and channel width, antennas, SSID and BSSID, autonomous versus controller-based APs, mesh, guest and captive-portal networks, WPA2/WPA3, PSK and Enterprise authentication), 3.5 (network access and management: site-to-site and client-to-site VPN, clientless VPN, split and full tunnel, SSH, GUI, API, console, jump box, in-band and out-of-band management), 3.2 (monitoring: SNMP agents, traps, MIBs and community strings, flow data, packet capture, baselines, log aggregation, syslog, SIEM, API integration, port mirroring), and 3.1 (organizational processes: documentation, IPAM, life cycle, change and configuration management, SOPs, policies, and agreements).</p></div>
+            </div>
+            <div class="plain-box">
+                <div class="callout-title">In Plain Terms</div>
+                <div class="callout-content"><p>Wi-Fi is radio, and radio obeys physics: walls absorb it, neighbors interfere with it, and two access points on the same channel shout over each other. Remote access is how a technician reaches equipment that is somewhere else. Monitoring is how you know something broke before the user calls. Documentation is how the next person fixes it without you. A help desk that has all four closes tickets in minutes; one that has none of them spends the day guessing.</p></div>
+            </div>
+            <h2>Why We Start Here</h2>
+            <p>You now have a wired, routed, switched network from Units 1&ndash;3. This unit adds the radio edge of it and then steps back to how professionals run the whole thing. It sits before security (Unit 5) and troubleshooting (Unit 6) because both of those depend on reading logs, monitoring data, and network diagrams &mdash; the tools this unit introduces.</p>
+            <h2>Your Week at a Glance</h2>
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>Day</th><th>Time</th><th>Focus</th><th>What You'll Do</th></tr></thead>
+                    <tbody>
+                        <tr><td><strong>Tuesday</strong></td><td>10:00 AM &ndash; 1:00 PM</td><td>Experience</td><td>Subnet Warm-Up, then Ticket of the Day. Wireless: 802.11 standards, bands and channels, antennas, AP and controller design, site surveys, wireless security. Optional lab, time permitting: Walk the Floor.</td></tr>
+                        <tr><td><strong>Wednesday</strong></td><td>11:00 AM &ndash; 2:00 PM</td><td>Experience &rarr; Concepts</td><td>Subnet Warm-Up, then Ticket of the Day. Remote access and management (VPNs, SSH, console, jump box, out-of-band), monitoring (SNMP, syslog, flow data, baselines, SIEM), and documentation and policy. Optional labs, time permitting: Three Ways In, Read the Logs. Unit exit check moved here from Thursday.</td></tr>
+                        <tr><td><strong>Thursday</strong></td><td>&mdash;</td><td>Independent work</td><td>Thanksgiving. The Thursday ticket and lab are done on your own; the exit check moves to Wednesday.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="key-concept">
+                <h4>Every Class Starts With a Ticket</h4>
+                <p>Each class opens with a short trouble ticket &mdash; the kind a technician works every day. You spend about fifteen minutes working it. It is ungraded, and it is the most job-like thing we do. The three tickets for this unit are in Section 4.11.</p>
+            </div>
+            <h2>Work Outside of Class</h2>
+            <p>Budget <strong>19 – 20 hours</strong> this unit outside our meetings.</p>
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>Component</th><th>Time</th><th>Section</th></tr></thead>
+                    <tbody>
+                        <tr><td>Sybex Study Guide reading</td><td>10.5 hrs</td><td>4.4</td></tr>
+                        <tr><td>Professor Messer videos (1 hr 36 min runtime)</td><td>1.6 – 2 hrs</td><td>4.5</td></tr>
+                        <tr><td>Take-home lab (ungraded)</td><td>1.0 &ndash; 1.5 hrs</td><td>4.6</td></tr>
+                        <tr><td>NETLAB online labs (3 labs)</td><td>2.25 &ndash; 3.75 hrs</td><td>4.8</td></tr>
+                        <tr><td>Practice questions, acronym drill, and unit test</td><td>2.5 hrs</td><td>4.7, 4.10, 1.A</td></tr>
+                        <tr><td>Reflection journal</td><td>1 hr</td><td>4.9</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="callout callout-warning">
+                <div class="callout-title">Be Honest With Yourself Now</div>
+                <div class="callout-content"><p>Adding our nine hours of class time, this unit runs about 28&ndash;29 hours. If something in your life makes that unworkable this week, come talk to me at the end of Tuesday&rsquo;s class rather than later.</p></div>
+            </div>
+            <div class="callout callout-info">
+                <div class="callout-title">Where to Find Due Dates</div>
+                <div class="callout-content"><p>Every date and deadline for this course lives in one place: the <strong>Course Schedule</strong> in the Start Here module. Unit pages tell you what to do; the Course Schedule tells you when it is due.</p></div>
+            </div>
+            <div class="callout callout-info">
+                <div class="callout-title">When Assessments Open</div>
+                <div class="callout-content"><p>This unit&rsquo;s pre-assessment, practice set, unit test, and lab quizzes open <strong>Tuesday at 8:00 AM</strong> and stay available through the unit&rsquo;s due date on the Course Schedule. Do the pre-assessment first, on your own, before the reading and videos.</p></div>
+            </div>
+            <h2>Exam Objectives Covered</h2>
+            <div class="table-container">
+                <table>
+                    <thead><tr><th>Objective</th><th>Title</th><th>Exam Weight of Parent Domain</th></tr></thead>
+                    <tbody>
+                        <tr><td><strong>2.3</strong></td><td>Given a scenario, select and configure wireless devices and technologies.</td><td>Domain 2.0 Network Implementation &mdash; 20%</td></tr>
+                        <tr><td><strong>3.1</strong></td><td>Explain the purpose of organizational processes and procedures.</td><td>Domain 3.0 Network Operations &mdash; 19%</td></tr>
+                        <tr><td><strong>3.2</strong></td><td>Given a scenario, use network monitoring technologies.</td><td>Domain 3.0 Network Operations &mdash; 19%</td></tr>
+                        <tr><td><strong>3.5</strong></td><td>Compare and contrast network access and management methods.</td><td>Domain 3.0 Network Operations &mdash; 19%</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="key-concept">
+                <h4>CompTIA Network+ Passes at 720</h4>
+                <p>The exam is scored on a 100&ndash;900 scale and passes at <strong>720</strong>. Because the scale starts at 100 rather than zero, 720 works out to about <strong>78% of raw points</strong>. That is a high bar: a student who treats 70% on a practice set as &ldquo;good enough&rdquo; fails the real exam. This course&rsquo;s mastery gate of 800 exists so that your exam day has a cushion.</p>
+            </div>
+            <div class="summary-box">
+                <h3>Unit 4 Checklist</h3>
+                <ul>
+                    <li>Complete the Section 4.2 Pre-Assessment on your own, before the reading</li>
+                    <li>Read the assigned Sybex Study Guide chapters listed in Section 4.4</li>
+                    <li>Watch the 12 videos in Section 4.5</li>
+                    <li>Complete the take-home lab in Section 4.6</li>
+                    <li>Work the Section 4.7 practice set until you score a perfect set</li>
+                    <li>Complete Lab 10, Lab 11, Lab 12 in NETLAB &mdash; reserve your time early in the week</li>
+                    <li>Submit your Section 4.9 reflection</li>
+                    <li>Take the Section 4.10 Unit Test</li>
+                    <li>Work the three tickets in Section 4.11, one per class day</li>
+                </ul>
+            </div>
+        </div>
+        <footer class="module-footer">
+            <p class="footer-text">CompTIA Network+ Training &nbsp;|&nbsp; &copy; 2026 Charlotte Academy of Technology Services &nbsp;|&nbsp; All Rights Reserved - Mark E Turner</p>
+        </footer>
+    </div>
+</body>
+</html>
